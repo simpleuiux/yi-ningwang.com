@@ -17,7 +17,7 @@ const ContactPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h1 id="want-to-chat-hit-me-up-on-linkedin-messenger-or-drop-me-an-email">
+          <h1 id="want-to-chat-hit-me-up-on-linkedin-messenger-or-drop-me-an-email"><br />
             Want to chat? Hit me up on {" "}
             <a href="https://www.linkedin.com/in/annieyiningwang/">
               Linkedin
