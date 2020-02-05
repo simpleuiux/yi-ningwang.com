@@ -30,20 +30,20 @@ const AboutPage = ({ data }, location) => {
             I'm passionate about travel, collaboration and shaping new designs
             through my activities as a creator, blogger and developer.
           </h3>
-          <br /><br /><br /><br />
+          <br /><br />
 
           <div className="row">
             <div className="col-6">
               <div
                 style={{
-                  padding: "1rem 0",
+                  padding: "5rem 0",
                   textAlign: "left",
                   background: "",
                 }}
               >
                 <div class="skill">
                   <div class="skill-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" id="skill-ui-icon">
+                    <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" id="skill-ui-icon">
                       <defs></defs>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="light-bulb" fill-rule="nonzero" fill="#8F98E4">
@@ -58,7 +58,7 @@ const AboutPage = ({ data }, location) => {
                     </svg>
                   </div>
                   <h3>UX Designer</h3>
-                  <p>I'm a UX designer with 3+ years of experience. I am currently a UX designer at Red Academy in Vancouver.</p>
+                  <p>I'm a UX designer with 3+ years of experience. I am now a UX designer at Red Academy in Vancouver.</p>
                 </div>
 
               </div>
@@ -66,14 +66,14 @@ const AboutPage = ({ data }, location) => {
             <div className="col-6">
               <div
                 style={{
-                  padding: "1rem 0",
+                  padding: "5rem 0",
                   textAlign: "left",
                   background: "",
                 }}
               >
                 <div class="skill">
                   <div class="skill-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns xlink="http://www.w3.org/1999/xlink" id="skill-code-icon">
+                    <svg width="70px" height="60px" viewBox="0 0 76 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns xlink="http://www.w3.org/1999/xlink" id="skill-code-icon">
                       <defs></defs>
                       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <path d="M21.963,8.904 C21.448,8.256 20.507,8.146 19.856,8.662 L0.643,23.901 C0.285,24.185 0.076,24.618 0.076,25.076 C0.076,25.534 0.285,25.967 0.643,26.251 L19.855,41.49 C20.131,41.709 20.46,41.815 20.787,41.815 C21.229,41.815 21.667,41.621 21.963,41.248 C22.479,40.599 22.369,39.655 21.721,39.141 L3.989,25.076 L21.72,11.012 C22.369,10.497 22.479,9.554 21.963,8.904 Z" id="code-left" fill="#4BC6B9"></path>
