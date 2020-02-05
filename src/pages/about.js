@@ -17,16 +17,45 @@ const AboutPage = ({ data }, location) => {
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and modern UI/UX design. <br /> Follow me on {" "}
-            <a href="https://dribbble.com/simpleuiux">
-              dribbble
-            </a>{" "}and{" "}
-            <a href="https://medium.com/@simpleuiux">
-              medium
-            </a>{" "}
-          </h1>
+          <h1 id="hi-im-yining-i-design-stuff">
+            <br />
+            Hi! I'm Yining.<br />
+            I design ideas.
+                    </h1>
+          <br /><br /><br /><br /><br /><br /><br /><br />
+
+
+          <h3 id="hi-im-yining-i-design-stuff">
+            I'm a UX designer based in Vancouver.
+            I'm passionate about travel, collaboration and shaping new designs
+            through my activities as a creator, blogger and developer.
+          </h3>
           <br /><br /><br /><br />
+
+
+
+          <div class="skill">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" id="skill-ui-icon">
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="light-bulb-copy" fill-rule="nonzero" fill="#8F98E4">
+                    <path d="M30,9.95510204 C20.9142857,9.95510204 14.3510204,16.7265306 13.3102041,24 C12.6612245,28.8489796 14.2285714,33.5755102 17.4857143,37.1510204 C20.3510204,40.2122449 21.9183673,44.3020408 21.9183673,48.5142857 L21.9061224,55.1510204 C21.9061224,57.8326531 24.122449,60 26.8653061,60 L33.2571429,60 C36,60 38.2163265,57.8326531 38.2163265,55.1510204 L38.2285714,48.5142857 C38.2285714,44.1795918 39.6612245,40.2122449 42.4040816,37.4081633 C45.4040816,34.3469388 46.9714286,30.3918367 46.9714286,26.3020408 C46.9591837,17.2285714 39.2571429,9.95510204 30,9.95510204 L30,9.95510204 Z M35.7306122,55.1510204 C35.7306122,56.4244898 34.6897959,57.4530612 33.3795918,57.4530612 L26.9877551,57.4530612 C25.677551,57.4530612 24.6367347,56.4367347 24.6367347,55.1510204 L24.6367347,52.2122449 L35.7183673,52.2122449 L35.7183673,55.1510204 L35.7306122,55.1510204 Z M40.5795918,35.6204082 C37.322449,38.9387755 35.6204082,43.5306122 35.6204082,48.5142857 L35.6204082,49.6653061 L24.5387755,49.6653061 L24.5387755,48.5142857 C24.5387755,43.7877551 22.5795918,39.0734694 19.322449,35.4979592 C16.4571429,32.4367347 15.2816327,28.4816327 15.7959184,24.3918367 C16.7142857,18.2693878 22.4081633,12.5142857 30.0122449,12.5142857 C37.9714286,12.5142857 44.3632653,18.7714286 44.3632653,26.3020408 C44.3632653,29.7428571 43.0530612,33.0612245 40.5795918,35.6204082 Z" id="Shape"></path>
+                    <rect class="bulb-ray" id="bulb-ray1" x="0" y="27.5755102" width="6.39183673" height="2.55918367" fill="#fff"></rect>
+                    <polygon class="bulb-ray" id="bulb-ray2" points="9.68571429 7.49387755 7.84897959 9.31836735 12.3183673 13.6163265 14.1428571 11.7918367" fill="#fff"></polygon>
+                    <rect class="bulb-ray" id="bulb-ray3" x="28.6897959" y="0" width="2.60816327" height="6.12244898" fill="#fff"></rect>
+                    <polygon class="bulb-ray" id="bulb-ray4" points="45.8081633 11.8040816 47.6326531 13.6285714 52.1020408 9.33061224 50.2653061 7.50612245" fill="#fff"></polygon>
+                    <rect class="bulb-ray" id="bulb-ray5" x="53.6081633" y="27.5755102" width="6.39183673" height="2.55918367" fill="#fff"></rect>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h3>UX Designer</h3>
+            <p>I'm a UX designer with 7+ years of experience. I am currently a UX designer at Booking.com in Amsterdam.</p>
+          </div>
+
+
+
 
           <h4 id="dynamic-styles">I help digital product work</h4>
           <p>
@@ -34,7 +63,7 @@ const AboutPage = ({ data }, location) => {
             I help business decide on the right solutions for digital products.
             I aim not only to make the product look pretty,
             but also to make it work - <b>happy users</b> will result in a more <b>profitable business</b>.
-            I am a firm believer in understanding the human interactoin design and the target audience.
+        I am a firm believer in understanding the human interactoin design and the target audience.
             User wants to have a <b>great experience –
             from start to finish</b> – and I help to make that happen.
           </p>
@@ -54,7 +83,8 @@ const AboutPage = ({ data }, location) => {
           <p>
             <h6 id="dynamic-styles">Recognition</h6>
             2019 - 2020  UX Planet -  UI / UX writer<br />
-            2019       Girls in Tech Hackathon - 1st Place<br />
+            2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Girls in Tech Hackathon - 1st Place<br />
             <h6 id="dynamic-styles">Design workshop</h6>
             2018 - 2020  International Design Foundation<br />
             2016 - 2017  World's Top 50 Thinkers workshop - Hermann Simon (Branding)<br />
@@ -74,22 +104,22 @@ const AboutPage = ({ data }, location) => {
 
 const indexQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
+          site {
+        siteMetadata {
+          title
+        }
+        }
+        benchAccounting: file(
+      relativePath: {eq: "bench-accounting-49909-unsplash.jpg" }
     ) {
-      childImageSharp {
+          childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
         }
+        }
       }
     }
-  }
-`
+  `
 
 export default props => (
   <StaticQuery
