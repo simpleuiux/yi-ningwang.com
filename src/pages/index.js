@@ -23,9 +23,10 @@ const BlogIndex = ({ data }, location) => {
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
         <header className="page-head">
-          <h2 className="page-head-title">
-            {data.site.siteMetadata.description}
-          </h2>
+          <h1 className="page-head-title">
+            Hi! I'm Yining.<br />
+            I design stuff.<br />
+          </h1>
         </header>
       )}
       <div className="post-feed">

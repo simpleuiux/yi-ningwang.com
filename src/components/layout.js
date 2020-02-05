@@ -27,24 +27,30 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>Project</Link>
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
+              </li>
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
               </li>
               <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
               </li>
             </ul>
           </nav>
-          <div className="site-head-center">
-            <Link className="site-head-logo" to={`/`}>
-              {title}
-            </Link>
-          </div>
+          {/* <div className="site-head-right"> 
+                <Link className="site-head-logo" to={`/`}>
+                  {title}
+                </Link>
+              </div>
+          */}
           <div className="site-head-right">
             <div className="social-links">
-              <a
+              <Link className="site-head-logo" to={`/`}>yining wang
+              </Link>
+              {/*    <a
                 href="https://www.facebook.com"
                 title="Facebook"
                 target="_blank"
@@ -60,7 +66,7 @@ const Layout = props => {
               >
                 Twitter
               </a>
-              <Link
+               <Link 
                 to={`/rss.xml`}
                 title="RSS"
                 target="_blank"
@@ -68,18 +74,19 @@ const Layout = props => {
               >
                 RSS
               </Link>
+              */}
             </div>
           </div>
         </div>
-      </header>
+      </header >
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
+        &copy; {new Date().getFullYear()} &mdash;
+        Handcrafted by Yining with ❤ with{" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
@@ -88,7 +95,7 @@ const Layout = props => {
           Gatsby
         </a>
       </footer>
-    </div>
+    </div >
   )
 }
 
