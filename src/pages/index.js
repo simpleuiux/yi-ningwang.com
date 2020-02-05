@@ -21,14 +21,20 @@ const BlogIndex = ({ data }, location) => {
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
       {/* <Bio /> */}
-      {data.site.siteMetadata.description && (
-        <header className="page-head">
-          <h1 className="page-head-title">
-            Hi! I'm Yining.<br />
-            I design stuff.<br />
+      <article className="post-content page-template no-image">
+        <div className="post-content-body">
+          <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-"><br/>
+            Clean, minimal, and modern UI/UX design. <br /> Follow me on {" "}
+            <a href="https://dribbble.com/simpleuiux">
+              dribbble
+            </a>{" "}and{" "}
+            <a href="https://medium.com/@simpleuiux">
+              medium
+            </a>{" "}
           </h1>
-        </header>
-      )}
+        </div>
+      </article>
+      <br /><br /><br /><br />
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++
