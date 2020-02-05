@@ -48,7 +48,7 @@ const Layout = props => {
           */}
           <div className="site-head-right">
             <div className="social-links">
-              <Link className="site-head-logo" to={`/`}>yining wang
+              <Link className="site-head-logo" to={`about`}>yining wang
               </Link>
               {/*    <a
                 href="https://www.facebook.com"
@@ -86,7 +86,7 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} &mdash;
-        Handcrafted by Yining with ❤ with{" "}
+        Handcrafted by Yining with ❤ {" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
