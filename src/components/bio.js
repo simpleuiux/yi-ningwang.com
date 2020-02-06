@@ -28,7 +28,7 @@ function Bio() {
               Written by <strong>{author}</strong> who lives and works in Vancouver building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                You should follow her on Twitter
               </a>
             </p>
           </section>
