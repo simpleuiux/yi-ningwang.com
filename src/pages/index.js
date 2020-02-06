@@ -1,95 +1,71 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import PostCard from "../components/postCard"
 
-// import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-//TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
-const BlogIndex = ({ data }, location) => {
+
+const AboutPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
-  let postCounter = 0
 
   return (
     <Layout title={siteTitle}>
-      <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-      />
-      {/* <Bio /> */}
+      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-"><br/>
-            Clean, minimal, and modern UI/UX design. <br /> Follow me on {" "}
-            <a href="https://dribbble.com/simpleuiux">
-              dribbble
-            </a>{" "}and{" "}
-            <a href="https://medium.com/@simpleuiux">
-              medium
-            </a>{" "}
-          </h1>
+          <h1 id="hi-im-yining-i-design-stuff">
+            <br />
+            Hi! I'm {" "}
+            <a href="http://localhost:8000/about">
+              Yining</a>{""}.<br />
+            I {" "}
+            <a href="http://localhost:8000/project">
+              design</a>{""} ideas.
+                    </h1>
+
+          <h6>I'm a UX designer based in Vancouver.
+              I am passionate about creating beautiful and enjoyable experience.</h6>
+
+          <br /><br /><br />
+
+
+
+
+
         </div>
       </article>
-      <br /><br /><br /><br />
-      <div className="post-feed">
-        {posts.map(({ node }) => {
-          postCounter++
-          return (
-            <PostCard
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
-      </div>
-    </Layout>
+    </Layout >
   )
 }
 
 const indexQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-        description
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-            thumbnail {
-              childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
+          site {
+        siteMetadata {
+          title
+        }
+        }
+        benchAccounting: file(
+      relativePath: {eq: "bench-accounting-49909-unsplash.jpg" }
+    ) {
+          childImageSharp {
+        fluid(maxWidth: 1360) {
+          ...GatsbyImageSharpFluid
+        }
         }
       }
     }
-  }
-`
+  `
 
 export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <BlogIndex location={props.location} props data={data} {...props} />
+      <AboutPage location={props.location} data={data} {...props} />
     )}
   />
 )
