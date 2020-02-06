@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'London',
-  shortName: 'London',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
-  url: 'https://gatsby-london.netlify.com', // Domain of your site without prefix!
+  name: 'Yining Wang',
+  shortName: 'Yining Wang',
+  description: 'Hi! I am Yining. I design ideas',
+  url: 'https://simpleuiux.com', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Imed Adel',
-  twitter: 'Imed_Adel'
+  author: 'Yining Wang',
+  twitter: 'Yining Wang'
 }
