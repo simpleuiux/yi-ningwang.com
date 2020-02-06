@@ -26,18 +26,21 @@ const Layout = props => {
           </a>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              <li className="nav-home nav-current" role="menuitem">
+              {/* <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Project</Link>
+              </li> */}
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-contact" role="menuitem">
-                <Link to={`/contact`}>Contact</Link>
+              <li className="nav-project" role="menuitem">
+                <Link to={`/project`}>Project</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
+              {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           {/* <div className="site-head-right"> 
@@ -48,7 +51,7 @@ const Layout = props => {
           */}
           <div className="site-head-right">
             <div className="social-links">
-              <Link className="site-head-logo" to={`about`}>yining wang
+              <Link className="site-head-logo" to={`/`}>yining wang
               </Link>
               {/*    <a
                 href="https://www.facebook.com"
