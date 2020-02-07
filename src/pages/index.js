@@ -27,14 +27,6 @@ const AboutPage = ({ data }, location) => {
               design</a>{""} ideas.
                     </h1>
 
-          <h6>I'm a UX designer based in Vancouver.
-              I am passionate about creating beautiful and enjoyable experience.</h6>
-
-          <br /><br /><br />
-
-
-
-
 
         </div>
       </article>
