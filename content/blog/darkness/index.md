@@ -1,8 +1,8 @@
 ---
-title: Darkness
-date: "2019-05-08"
-thumbnail: ./bbbb.jpg
-description: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.
+title: Fireaware (UX, Data visualization)
+date: "2020-02-08"
+thumbnail: ./fireaware.jpg
+description: Fire Prediction & Real-Time Alert Interactive Platform. 
 ---
 
 ### A wallpaper series using shapes and light by [Jean-Marc Denis](http://jmd.im/black)
