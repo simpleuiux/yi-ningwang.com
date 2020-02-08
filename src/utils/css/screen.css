@@ -400,7 +400,7 @@ body {
     flex: 1 1 50%;
     display: flex;
     position: relative;
-    height: 35vw;
+    height: 50vw;
     background: linear-gradient(135deg, #1f1f1f 0%, #111 100%) center center;
     background-size: cover;
     overflow: hidden;
@@ -434,7 +434,7 @@ body {
     bottom: 0;
     left: 0;
     color: #fff;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.6);
     opacity: 1;
     transition: opacity 0.5s cubic-bezier(.33,0,.2,1);
 }
@@ -456,7 +456,7 @@ body {
 .post-card-title {
     margin: 0;
     display: inline-block;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     max-width: 70%;
     text-align: center;
     transition: all 0.3s cubic-bezier(.33,0,.2,1);
