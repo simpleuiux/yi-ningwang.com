@@ -185,6 +185,13 @@ body {
     opacity: 1;
 }
 
+.nav-current a,
+.site-head a:focus {
+    text-decoration: none;
+    opacity: 1;
+}
+
+
 .site-head-center {
     position: absolute;
     display: flex;
