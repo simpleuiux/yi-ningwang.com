@@ -16,12 +16,12 @@ const ContactPage = ({ data }, location) => {
     <Layout title={siteTitle}>
       <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
-      <Particles style={{ position: 'absolute' }}
+      <Particles style={{ position: 'absolute', zIndex: '-99' }}
         params={{
           particles: {
 
             number: {
-              value: 40,
+              value: 100,
               density: {
                 enable: true,
                 value_area: 800

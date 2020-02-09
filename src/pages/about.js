@@ -16,7 +16,7 @@ const AboutPage = ({ data }, location) => {
     <Layout title={siteTitle}>
       <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
-      <Particles style={{ position: 'absolute' }}
+      <Particles style={{ position: 'absolute', zIndex: '-99' }}
         params={{
           particles: {
 
@@ -34,7 +34,7 @@ const AboutPage = ({ data }, location) => {
               type: 'circle',
               stroke: {
                 width: 0,
-                color: '#eee'
+                color: '#bebebe'
               },
               polygon: {
                 nb_sides: 4
@@ -68,7 +68,7 @@ const AboutPage = ({ data }, location) => {
             line_linked: {
               enable: true,
               distance: 200,
-              color: '#eee',
+              color: '#bebebe',
               opacity: 1,
               width: 1
             },
@@ -110,7 +110,7 @@ const AboutPage = ({ data }, location) => {
               },
               bubble: {
                 distance: 400,
-                size: 40,
+                size: 20,
                 duration: 2
               },
               repulse: {

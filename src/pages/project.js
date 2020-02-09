@@ -23,12 +23,12 @@ const BlogIndex = ({ data }, location) => {
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 
-      <Particles style={{ position: 'absolute' }}
+      <Particles style={{ position: 'absolute', zIndex: '-99' }}
         params={{
           particles: {
 
             number: {
-              value: 60,
+              value: 40,
               density: {
                 enable: true,
                 value_area: 800
@@ -75,7 +75,7 @@ const BlogIndex = ({ data }, location) => {
             line_linked: {
               enable: true,
               distance: 200,
-              color: '#eee',
+              color: '#bebebe',
               opacity: 1,
               width: 1
             },
@@ -117,7 +117,7 @@ const BlogIndex = ({ data }, location) => {
               },
               bubble: {
                 distance: 400,
-                size: 40,
+                size: 20,
                 duration: 2
               },
               repulse: {
