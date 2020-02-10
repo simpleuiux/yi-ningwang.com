@@ -3,7 +3,7 @@ const siteConfig = require("./siteConfig")
 
 module.exports = {
   siteMetadata: {
-    title: siteConfig.name,
+    title: "YINING WANG",
     author: siteConfig.author,
     description: siteConfig.description,
     siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
@@ -92,7 +92,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/bbbb.jpg`,
       },
     },
     `gatsby-plugin-netlify`,

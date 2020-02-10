@@ -5,5 +5,5 @@ module.exports = {
   url: 'https://simpleuiux.com', // Domain of your site without prefix!
   prefix: '/',
   author: 'Yining Wang',
-  twitter: 'Yining Wang'
+  twitter: 'Yining Wang',
 }
