@@ -14,7 +14,7 @@ const ContactPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="CONTACT" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <Particles style={{ position: 'absolute', zIndex: '-99' }}
         params={{
