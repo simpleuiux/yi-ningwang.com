@@ -149,8 +149,8 @@ const ContactPage = ({ data }, location) => {
                         </a>{" "}or drop me an {" "}
             <a href="mailto:simpleuiux@gmail.com">
               Email
-                        </a>{" "}.
-                    </h1>
+                </a>{" "}
+     </h1>
 
         </div>
       </article>
