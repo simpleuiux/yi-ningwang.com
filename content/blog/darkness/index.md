@@ -1,11 +1,13 @@
 ---
-title: Fireaware (UX, Data visualization)
+title: FIREAWARE
 date: "2020-02-08"
 thumbnail: ./fireaware.jpg
-description: Fire Prediction & Real-Time Alert Interactive Platform.
+description: UI/UX, Data visualization
 ---
 
-### We provide fire prevention interactive app & AI predictive model [DEVPOST](https://devpost.com/software/girls_in_tech_vancouver)
+### FIREAWARE is a Fire Prediction & Real-Time Alert Interactive Platform.
+
+We provide fire prevention interactive app & AI predictive model [DEVPOST](https://devpost.com/software/girls_in_tech_vancouver)
 
 Fireaware is an app provides general public for fire prediction and alert functions.
 

@@ -1,16 +1,24 @@
 ---
-title: Don't stop
+title: AGE SISTER
 date: "2019-05-07"
-thumbnail: ./ian-dooley-298769-unsplash.jpg
-description: Pink is my favourite colour. I used to say my favourite colour was black to be cool, but it is pink - all shades of pink. If I have an accessory, it is probably pink.
+thumbnail: ./agesister.png
+description: UI/UX
 ---
 
-### Picasso had his pink period and his blue period. I am in my blonde period right now.
+### How to age happily? Like a woman over 50.
 
-When I first started wearing pink, it wasn't nothing I planned on doing or strategized. But people showed me so much love for the pink mink I wore, I had to go out to Pantone and create my own color, which is called Killa Pink.
+###### - Re-define healthy ageing with Age Sister.
 
+---
+
+**BRIEF**
+
+Ageing is the term that we want all to ran away from. It’s happening every day, but we tend to ignore it. Kate Milne noticed that women, especially aged 50–70 years old, are among the most under-served population. She then started her health consultancy firm in Vancouver with the focus to help women ageing in a happier and healthier way.
+
+---
 
 ![Don't stop](./ian-dooley-298771-unsplash-1.jpg)
 
+<a href="https://miro.medium.com/max/2379/1*KyeILKxxpXmlVcMpdawolA.png"> </a>
 
 ![Don't stop](./ian-dooley-298780-unsplash-1.jpg)

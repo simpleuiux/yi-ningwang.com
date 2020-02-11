@@ -1,11 +1,13 @@
 ---
-title: Kindrednotes (UX)
+title: KINDREDNOTES
 date: "2019-05-06"
-thumbnail: ./kindrednotes@3x.png
-description: The app that spreads kindness
+thumbnail: ./kindrednotes/kindrednotes@2x.png
+description: UI/UX
 ---
 
-### Kindrednotes is a mobile application that connects people around the world through sending kind notes. [Prototype](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
+### The app that spreads kindness [See Prototype](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
+
+Kindrednotes is a mobile application that connects people around the world through sending kind notes.
 
 "I was extremely pleased with the results. I would recommend Annie to anyone looking for UI/UX design services." - Shelley Moore Founder of Kindrednotes
 
@@ -183,10 +185,10 @@ description: The app that spreads kindness
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<!-- <div class="kg-card kg-image-card kg-width-full">
 
 ![It's all blue](./kindrednotes/kindrednotes033.png)
-
+ -->
 </div>
 
 <div class="kg-card kg-image-card kg-width-full">
@@ -195,7 +197,7 @@ description: The app that spreads kindness
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<!-- <div class="kg-card kg-image-card kg-width-full">
 
 ![It's all blue](./kindrednotes/kindrednotes035.png)
 
@@ -217,7 +219,7 @@ description: The app that spreads kindness
 
 ![It's all blue](./kindrednotes/kindrednotes038.png)
 
-</div>
+</div> -->
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -230,3 +232,5 @@ description: The app that spreads kindness
 ![It's all blue](./kindrednotes/kindrednotes040.png)
 
 </div>
+
+### Check the [Prototype](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
