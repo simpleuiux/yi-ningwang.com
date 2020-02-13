@@ -1,9 +1,15 @@
 ---
 title: FIREAWARE
 date: "2020-02-08"
-thumbnail: ./fireaware.jpg
+thumbnail: ./fireaware-vertical.png
 description: UI/UX, Data visualization
 ---
+
+<h1 align="center">
+
+[![Botton prototype](./botton-click-prototype.svg)](https://projects.invisionapp.com/d/main?origin=v7#/console/19387257/404977253/preview?scrollOffset=211.25)
+
+</h1>
 
 ### FIREAWARE is a Fire Prediction & Real-Time Alert Interactive Platform.
 
@@ -12,12 +18,6 @@ We provide fire prevention interactive app & AI predictive model [DEVPOST](https
 Fireaware is an app provides general public for fire prediction and alert functions.
 
 The visualization fire map shows the locations where has fires right now. Along with it, there is twitter feeds for people to get the latest information.
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![Darkness](./fireaware.001.jpeg)
-
-</div>
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -102,3 +102,9 @@ The visualization fire map shows the locations where has fires right now. Along 
 ![Darkness](./fireaware.015.jpeg)
 
 </div>
+
+<h1 align="center">
+
+[![Botton prototype](./botton-click-prototype.svg)](https://projects.invisionapp.com/d/main?origin=v7#/console/19387257/404977253/preview?scrollOffset=211.25)
+
+</h1>

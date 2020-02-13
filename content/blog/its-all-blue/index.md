@@ -1,11 +1,17 @@
 ---
-title: KINDREDNOTES
-date: "2019-05-06"
+title: KINDREDNOTS
+date: "2019-05-07"
 thumbnail: ./kindrednotes/kindrednotes-thumbnail.png
-description: UI/UX Design
+description: UI/UX
 ---
 
-### The app that spreads kindness [See Prototype](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
+<h1 align="center">
+
+[![Botton prototype](./botton-click-prototype.svg)](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
+
+</h1>
+
+### The app that spreads kindness
 
 Kindrednotes is a mobile application that connects people around the world through sending kind notes.
 
@@ -233,4 +239,11 @@ Kindrednotes is a mobile application that connects people around the world throu
 
 </div>
 
-### Check the [Prototype](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
+<h1 align="center">
+</h1>
+
+<h1 align="center">
+
+[![Botton prototype](./botton-click-prototype.svg)](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
+
+</h1>
