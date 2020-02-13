@@ -1,8 +1,8 @@
 ---
 title: KINDREDNOTES
 date: "2019-05-06"
-thumbnail: ./kindrednotes/kindrednotes@2x.png
-description: UI/UX
+thumbnail: ./kindrednotes/kindrednotes-thumbnail.png
+description: UI/UX Design
 ---
 
 ### The app that spreads kindness [See Prototype](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
