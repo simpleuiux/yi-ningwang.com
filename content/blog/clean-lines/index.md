@@ -1,9 +1,15 @@
 ---
 title: Sage Foundation
 date: "2019-05-05"
-thumbnail: ./sage-foundation.001.png
-description: Sage Fondation
+thumbnail: ./sagefoundation.png
+description: UX Research & Design
 ---
+
+<div class="kg-card kg-image-card kg-width-full">
+
+![Darkness](./sage-foundation.001.png)
+
+</div>
 
 <div class="kg-card kg-image-card kg-width-full">
 
