@@ -1,8 +1,8 @@
 ---
-title: KINDREDNOTS
+title: KINDREDNOTES
 date: "2019-05-07"
-thumbnail: ./kindrednotes/kindrednotes-thumbnail.png
-description: UI/UX
+thumbnail: ./kindrednotes/kindrednotes.png
+description: UX/UI Design
 ---
 
 <h1 align="center">
