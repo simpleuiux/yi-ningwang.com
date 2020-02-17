@@ -11,239 +11,102 @@ description: UX/UI Design
 
 </h1>
 
-### The app that spreads kindness
+> "I was extremely pleased with the results. I would recommend Annie to anyone looking for UI/UX design services." - Shelley Moore Founder of Kindrednotes
 
-Kindrednotes is a mobile application that connects people around the world through sending kind notes.
+---
 
-"I was extremely pleased with the results. I would recommend Annie to anyone looking for UI/UX design services." - Shelley Moore Founder of Kindrednotes
+### BRIEF
 
-<div class="kg-card kg-image-card kg-width-full">
+#### A MOBILE EXPERIENCE ENABLE USERS SPREAD KINDNESS AT THE FINGERTIPS
 
-![It's all blue](./kindrednotes/kindrednotes004.png)
+Kindrednotes is a Vacouver based start-up that aims to connects people around the world through sending and receiving kind notes. Even there is already an official website, no functional app designed for users yet. In the project, the goal is to take a mobile-first approach to design an engaging experience for users.
 
-</div>
+---
 
-<div class="kg-card kg-image-card kg-width-full">
+### THE PROCESS
 
-![It's all blue](./kindrednotes/kindrednotes005.png)
+#### DEFIND AND UNDERSTAND USER'S BEHAVIORS
 
-</div>
+First challenge is to find the liking and behavior of the users, and through 20 responses and 6 interviews, we learn that users fall to the age of 25 to 34, they like to type something short and quick with positive tone and they would be happy to have reward system (such as In-App services).
 
-<div class="kg-card kg-image-card kg-width-full">
+#### IMAGINING THE USERS' EXPERIENCE
 
-![It's all blue](./kindrednotes/kindrednotes006.png)
+I focused on creating a user story and user scenario to understand their experience. I wanted to allow users to tell us how they wanted their app delivered. If users can tailor it to fit their mentalities and interests, they are more likely to stick to the service.
 
-</div>
+<h1 align="center">
 
-<div class="kg-card kg-image-card kg-width-full">
+![doris](/doris-thumbnail.png)
 
-![It's all blue](./kindrednotes/kindrednotes007.png)
+</h1>
 
-</div>
+###### Meet Doris!
 
-<div class="kg-card kg-image-card kg-width-full">
+Doris is a 26-year-old illustrator who likes to read before going to sleep. She likes her job because she can work from home. However, she **feels quite lonely sometimes** and **wish someone could encourage her**. One day, after a long day, she especially urged for some comforts. While googling the keyword ‘how to get motivated’, she found Kindrednotes that **for people to spread kindness online**...she was curious and would like to know more...
 
-![It's all blue](./kindrednotes/kindrednotes008.png)
+<div class="kg-card kg-image-card kg-width-wide">
 
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes009.png)
+![It's all blue](./user-scenario-1.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
-![It's all blue](./kindrednotes/kindrednotes010.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes011.png)
+![It's all blue](./user-scenario-2.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
-![It's all blue](./kindrednotes/kindrednotes012.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes013.png)
+![It's all blue](./user-scenario-3.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+#### CREATE VALUE WITH IN-DEPTH CONNECTION
 
-![It's all blue](./kindrednotes/kindrednotes014.png)
+Before, people connect to each other but only talk about superficial things. Now, Kindrednotes connects users with topics that they really care. The value of it is through the simple gesture, we can share in-depth understanding with great positivity power, but still able keep the space and privacy that people need.
 
-</div>
+<div class="kg-card kg-image-card kg-width-wide">
 
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes015.png)
+![It's all blue](./illustration.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+---
 
-![It's all blue](./kindrednotes/kindrednotes016.png)
+<div class="kg-card kg-image-card kg-width-wide">
 
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes017.png)
+![It's all blue](./IA.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
-![It's all blue](./kindrednotes/kindrednotes018.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes019.png)
+![It's all blue](./MVP.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
-![It's all blue](./kindrednotes/kindrednotes020.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes021.png)
+![It's all blue](./wireframes-2.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+#### TESTING TO FIND THE TRUE VALUE OF THE PRODUCT
 
-![It's all blue](./kindrednotes/kindrednotes022.png)
+After user testing, there are some improvements made accordingly, such as received and sent notes should all go under the same categories. Better to have avatar to recognize which section the user is at. They would like to know the impact of their messages. It is good to have a notification shown that reply has been sent successfully, etc.
 
-</div>
+<div class="kg-card kg-image-card kg-width-wide">
 
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes023.png)
+![It's all blue](./testing.png)
 
 </div>
 
-<div class="kg-card kg-image-card kg-width-full">
+### FINAL DESIGN
 
-![It's all blue](./kindrednotes/kindrednotes024.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes025.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes026.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes027.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes028.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes029.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes030.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes031.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes032.png)
-
-</div>
-
-<!-- <div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes033.png)
- -->
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes034.png)
-
-</div>
-
-<!-- <div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes035.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes036.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes037.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes038.png)
-
-</div> -->
-
-<div class="kg-card kg-image-card kg-width-full">
-
-![It's all blue](./kindrednotes/kindrednotes039.png)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
+<div class="kg-card kg-image-card kg-width-wide">
 
 ![It's all blue](./kindrednotes/kindrednotes040.png)
 
 </div>
 
-<h1 align="center">
-</h1>
-
-<h1 align="center">
-
-[![Botton prototype](./botton-click-prototype.svg)](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
-
-</h1>
+<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/WAA0SimkEZs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="http://add-link-exchange.com">Add-link-exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="http://add-link-exchange.com">add-link-Exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode.com/de/</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode.com/en/</a></small></div><div><small><a href="http://add-link-exchange.com">w://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode es</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div></iframe>

@@ -33,6 +33,40 @@ We have made many different kind of iterations. This is our very first version, 
 
 </div>
 
-![Cactus](./charles-deluvio-695758-unsplash.jpg)
+We also need influencer profile pages to show their further information. Here is the initial idea of the design.
 
-![Cactus](./charles-deluvio-695733-unsplash.jpg)
+<div class="kg-card kg-image-card">
+
+![Darkness](./influencer-dashboard-1.png)
+
+</div>
+
+<div class="kg-card kg-image-card">
+
+![Darkness](./influencer-dashboard-2.png)
+
+</div>
+
+<div class="kg-card kg-image-card">
+
+![Darkness](./influencer-dashboard-3.png)
+
+</div>
+
+<div class="kg-card kg-image-card">
+
+![Darkness](./influencer-dashboard-4.png)
+
+</div>
+
+<div class="kg-card kg-image-card">
+
+![Darkness](./influencer-dashboard-5.png)
+
+</div>
+
+<div class="kg-card kg-image-card">
+
+![Darkness](./filter.png)
+
+</div>
