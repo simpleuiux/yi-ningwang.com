@@ -1,8 +1,8 @@
 ---
 title: AGE SISTER
-date: "2019-05-06"
+date: "2019-05-07"
 thumbnail: ./agesister.png
-description: UI/UX
+description: UI/UX Design
 ---
 
 <h1 align="center">
