@@ -2,16 +2,28 @@
 title: Japan Influencer Network
 date: "2019-05-04"
 thumbnail: ./jin-thumbnail.png
-description: UI/UX, Front-end
+description: UI/UX, Sprint Prototyping, Front-end
 ---
 
-#### JIN is the first Japan influencer network connecting influencers and advertising agencies.
+### JIN is the first Japan influencer network connecting influencers and advertising agencies.
 
-When my partner, who is a back-end developer, reached me out at the beginning, I thought 'This is a pretty cool idea!' We collaborated with a British friend who is living in Tokyo, knows the contact of advertising agency in Japan.
+When my partner Raphael, who is a back-end developer, reached me out and suggested that maybe we could make a fast prototyping of this influencer search function and show to the advertising agency we know in Tokyo. I was like, "Sure, it sounds cool!"
 
-The idea is to create the first Japanese influencer network since most of the search function in advertising industry Japan is oudated. It would be great to add new blood to the industry.
+I enjoyed the project a lot and walked through the whole phase of design, including UI/UX and front-end (HTML, CSS, JS), it was a super valuable and fun experience!
 
-At the beginning, the function is merely search only. This is our very first idea, just a search function for the users to find the influencers that in our database.
+### Choose MVP wisely to test the market
+
+The idea was to create a platform for advertising agencies to find the right influencer on Instagram and to make a booking accordingly. Most of the in-house search function in the Japan advertising industry is outdated. We would like to provide an easy booking services with better user experience.
+
+Since the production time is merely 1 month, we selected search page and user profile page first to test out the market.
+
+---
+
+### Design from single search to a complete filter function
+
+At first, the user profile page has only have the text with pictures. In order to include more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
+
+###### 1st design
 
 <div class="kg-card kg-image-card">
 
@@ -19,7 +31,7 @@ At the beginning, the function is merely search only. This is our very first ide
 
 </div>
 
-We have made many different kind of iterations. This is our very first version, that there are some ideas of what kind of filter we woule like to include, such as price, gender, level of influence, type of focus and followers numbers.
+###### 2nd design
 
 <div class="kg-card kg-image-card">
 
@@ -27,13 +39,19 @@ We have made many different kind of iterations. This is our very first version, 
 
 </div>
 
+###### Final design of search & filter page
+
 <div class="kg-card kg-image-card">
 
-![Darkness](./search-page-model.png)
+![filter-final](./filter-final.png)
 
 </div>
 
-We also need influencer profile pages to show their further information. Here is the initial idea of the design.
+### How I visualized influencer profile
+
+At first the user profile page has only have text with pictures. In order to includes more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
+
+###### 1st design
 
 <div class="kg-card kg-image-card">
 
@@ -41,23 +59,15 @@ We also need influencer profile pages to show their further information. Here is
 
 </div>
 
+###### Improvement with visualized data
+
 <div class="kg-card kg-image-card">
 
 ![Darkness](./influencer-dashboard-2.png)
 
 </div>
 
-<div class="kg-card kg-image-card">
-
-![Darkness](./influencer-dashboard-3.png)
-
-</div>
-
-<div class="kg-card kg-image-card">
-
-![Darkness](./influencer-dashboard-4.png)
-
-</div>
+###### Final design of user profile page
 
 <div class="kg-card kg-image-card">
 
@@ -65,8 +75,12 @@ We also need influencer profile pages to show their further information. Here is
 
 </div>
 
-<div class="kg-card kg-image-card">
+###### Take away
 
-![Darkness](./filter.png)
+1.  **Time is money** - since this is the services we want to sell. For sure, we weren’t paid for developing it. It is important to value the time and get the maximized result. That is why we set the time frame to less than a month.
 
-</div>
+2.  **Select MVP** - It is important to select MVP, make a quick design with user testing and start to develop it. It saved us much time not thinking too much about landing page, booking page and others.
+
+3.  **Dont' seek for perfection** - I know, I know, designers often wants to make designs pixel perfect, so am I. I found myself ended up spending lots of time fixing minor things. Funny things is that the client, and the user doesn’t really mind what I cared much. It taught me not to get trapped but do more testing on the midway.
+
+4.  **Know if customers really want it** - We did a lot of research but miscalculate the willingness to purchase the service from our initial client. It seems promising according to our sales contact, but later on, the client weren’t as interested as before. Our sales contact is still trying to find the buyer in Japan. We learnt that it is better to have at least a buyer pays for the services before jumping in too fast. However, Raphael and I both enjoyed and learnt a lot from it.
