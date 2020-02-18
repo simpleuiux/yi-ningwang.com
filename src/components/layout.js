@@ -51,7 +51,8 @@ const Layout = props => {
           */}
           <div className="site-head-right">
             <div className="social-links">
-              <Link className="site-head-logo" to={`/`}>yining wang
+              <Link className="site-head-logo" to={`/`}>
+                yining wang
               </Link>
               {/*    <a
                 href="https://www.facebook.com"
@@ -81,24 +82,24 @@ const Layout = props => {
             </div>
           </div>
         </div>
-      </header >
+      </header>
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} &mdash;
-        Handcrafted by Yining with ❤ {" "}
+        &copy; {new Date().getFullYear()} &mdash; Handcrafted by Yining with ❤
+        {/* {" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>
+        </a> */}
       </footer>
-    </div >
+    </div>
   )
 }
 
