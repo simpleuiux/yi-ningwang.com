@@ -1,17 +1,17 @@
 ---
-title: Japan Influencer Network
+title: JAPAN INFLUENCER NETWORK
 date: "2019-05-04"
-thumbnail: ./jin-thumbnail.png
+thumbnail: ./jin.png
 description: UI/UX, Sprint Prototyping, Front-end
 ---
 
-### JIN is the first Japan influencer network connecting influencers and advertising agencies.
+#### JIN, Japan Influencer network, is the first network platform connects influencers and advertising agencies.
 
 When my partner Raphael, who is a back-end developer, reached me out and suggested that maybe we could make a fast prototyping of this influencer search function and show to the advertising agency we know in Tokyo. I was like, "Sure, it sounds cool!"
 
 I enjoyed the project a lot and walked through the whole phase of design, including UI/UX and front-end (HTML, CSS, JS), it was a super valuable and fun experience!
 
-### Choose MVP wisely to test the market
+#### Choose MVP wisely to test the market
 
 The idea was to create a platform for advertising agencies to find the right influencer on Instagram and to make a booking accordingly. Most of the in-house search function in the Japan advertising industry is outdated. We would like to provide an easy booking services with better user experience.
 
@@ -19,9 +19,9 @@ Since the production time is merely 1 month, we selected search page and user pr
 
 ---
 
-### Design from single search to a complete filter function
+#### From a single search to a complete filter function
 
-At first, the user profile page has only have the text with pictures. In order to include more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
+At first, the user profile page has only have the text with pictures. To include more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
 
 ###### 1st design
 
@@ -47,9 +47,9 @@ At first, the user profile page has only have the text with pictures. In order t
 
 </div>
 
-### How I visualized influencer profile
+#### How I visualized influencer profile
 
-At first the user profile page has only have text with pictures. In order to includes more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
+At first, the user profile page has only have contents with pictures. To include more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
 
 ###### 1st design
 
@@ -77,10 +77,10 @@ At first the user profile page has only have text with pictures. In order to inc
 
 ###### Take away
 
-1.  **Time is money** - since this is the services we want to sell. For sure, we weren’t paid for developing it. It is important to value the time and get the maximized result. That is why we set the time frame to less than a month.
+1.  **Time is money** - Since this is the services we want to sell. For sure, we weren’t getting paid for developing it. It is important to value the time and get the maximized result. That is why we set the time frame to less than a month.
 
-2.  **Select MVP** - It is important to select MVP, make a quick design with user testing and start to develop it. It saved us much time not thinking too much about landing page, booking page and others.
+2.  **Select MVP** - It is important to select MVP, make a quick design with user testing, and develop it. It saved us much time not thinking too much about landing page, booking page and others.
 
-3.  **Dont' seek for perfection** - I know, I know, designers often wants to make designs pixel perfect, so am I. I found myself ended up spending lots of time fixing minor things. Funny things is that the client, and the user doesn’t really mind what I cared much. It taught me not to get trapped but do more testing on the midway.
+3.  **Don't seek for perfection** - I know, I know, designers often wants to make designs pixel perfect, so am I. I found myself ended up spending lots of time fixing minor things. Funny things is that the client, and the user doesn’t really mind what I cared much. It taught me not to get trapped but do more testing on the midway.
 
 4.  **Know if customers really want it** - We did a lot of research but miscalculate the willingness to purchase the service from our initial client. It seems promising according to our sales contact, but later on, the client weren’t as interested as before. Our sales contact is still trying to find the buyer in Japan. We learnt that it is better to have at least a buyer pays for the services before jumping in too fast. However, Raphael and I both enjoyed and learnt a lot from it.
