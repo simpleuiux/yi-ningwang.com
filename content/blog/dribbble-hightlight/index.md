@@ -1,13 +1,13 @@
 ---
-title: DRIBBBLE HIGHTLIGHT
+title: DESIGN HIGHTLIGHT ON DRIBBBLE
 date: "2019-05-03"
-thumbnail: ./dribbble-pink.png
+thumbnail: ./dribbble-brightpink.png
 description: USER INTERFACE DESIGN
 ---
 
 <div class="kg-card kg-image-card kg-width-wide">
 
-![It's all blue](./dribbble-thumbnail.png)
+![dribbble](./dribbble-thumbnail.png)
 
 </div>
 

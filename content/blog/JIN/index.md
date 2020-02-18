@@ -1,7 +1,7 @@
 ---
 title: JAPAN INFLUENCER NETWORK
 date: "2019-05-04"
-thumbnail: ./jin.png
+thumbnail: ./jin-darkgrey.png
 description: UI/UX, Sprint Prototyping, Front-end
 ---
 

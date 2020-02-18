@@ -1,7 +1,7 @@
 ---
 title: SAGE FOUNDATION
 date: "2019-05-05"
-thumbnail: ./sagefoundation.png
+thumbnail: ./sagefoundation-green.png
 description: UX Research & Design
 ---
 
