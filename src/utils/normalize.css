@@ -533,3 +533,9 @@ caption {
     "onum" 0, "lnum" 1, "zero" 1;
   /* 1. */
 }
+
+.gatsby-resp-image-link {
+  touch-action: none;
+  pointer-events: none;
+  cursor: default;
+}
