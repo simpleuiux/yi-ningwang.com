@@ -8,7 +8,7 @@ import PostCard from "../components/postCard"
 // import "../utils/global.scss"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-import Particles from 'react-particles-js'
+import Particles from "react-particles-js"
 
 //TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
 const BlogIndex = ({ data }, location) => {
@@ -23,34 +23,34 @@ const BlogIndex = ({ data }, location) => {
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 
-      <Particles style={{ position: 'absolute', zIndex: '-99' }}
+      <Particles
+        style={{ position: "absolute", zIndex: "-99" }}
         params={{
           particles: {
-
             number: {
               value: 40,
               density: {
                 enable: true,
-                value_area: 800
-              }
+                value_area: 800,
+              },
             },
             color: {
-              value: '#bebebe'
+              value: "#bebebe",
             },
             shape: {
-              type: 'circle',
+              type: "circle",
               stroke: {
                 width: 0,
-                color: '#bebebe'
+                color: "#bebebe",
               },
               polygon: {
-                nb_sides: 4
+                nb_sides: 4,
               },
               image: {
-                src: '',
+                src: "",
                 width: 100,
-                height: 100
-              }
+                height: 100,
+              },
             },
             opacity: {
               value: 0.5,
@@ -59,8 +59,8 @@ const BlogIndex = ({ data }, location) => {
                 enable: false,
                 speed: 1,
                 opacity_min: 0.1,
-                sync: false
-              }
+                sync: false,
+              },
             },
             size: {
               value: 3,
@@ -69,96 +69,100 @@ const BlogIndex = ({ data }, location) => {
                 enable: false,
                 speed: 40,
                 size_min: 0.1,
-                sync: false
-              }
+                sync: false,
+              },
             },
             line_linked: {
               enable: true,
               distance: 200,
-              color: '#bebebe',
+              color: "#bebebe",
               opacity: 1,
-              width: 1
+              width: 1,
             },
             move: {
               enable: true,
               speed: 2,
-              direction: 'none',
+              direction: "none",
               random: false,
               straight: false,
-              out_mode: 'out',
+              out_mode: "out",
               bounce: false,
               attract: {
                 enable: false,
                 rotateX: 600,
-                rotateY: 1200
-              }
+                rotateY: 1200,
+              },
             },
-            array: []
+            array: [],
           },
           interactivity: {
-            detect_on: 'canvas',
+            detect_on: "canvas",
             events: {
               onhover: {
                 enable: true,
-                mode: 'repulse'
+                mode: "repulse",
               },
               onclick: {
                 enable: true,
-                mode: 'push'
+                mode: "push",
               },
-              resize: true
+              resize: true,
             },
             modes: {
               grab: {
                 distance: 400,
                 line_linked: {
-                  opacity: 1
-                }
+                  opacity: 1,
+                },
               },
               bubble: {
                 distance: 400,
                 size: 20,
-                duration: 2
+                duration: 2,
               },
               repulse: {
                 distance: 200,
-                duration: 0.4
+                duration: 0.4,
               },
               push: {
-                particles_nb: 4
+                particles_nb: 4,
               },
               remove: {
-                particles_nb: 2
-              }
+                particles_nb: 2,
+              },
             },
-            mouse: {}
+            mouse: {},
           },
           retina_detect: true,
           fn: {
             interact: {},
             modes: {},
-            vendors: {}
+            vendors: {},
           },
-          tmp: {}
-        }
-
-        } />
+          tmp: {},
+        }}
+      />
 
       {/* <Bio /> */}
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-"><br />
-            Clean, minimal, and modern UI/UX design. <br /> Follow me on {" "}
-            <a href="https://dribbble.com/simpleuiux">
-              dribbble
-            </a>{" "}and{" "}
-            <a href="https://medium.com/@simpleuiux">
-              medium
+          <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
+            <br />
+            Eye-catching, minimal, and simple UI/UX design. <br /> Follow me on{" "}
+            <a href="https://dribbble.com/simpleuiux" target="_blank">
+              Dribbble.
+            </a>{" "}
+            and{" "}
+            <a href="https://medium.com/@simpleuiux" target="_blank">
+              Medium
             </a>{" "}
           </h1>
         </div>
       </article>
-      <br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++

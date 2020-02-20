@@ -139,8 +139,11 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />A design, psychology, and travel enthusiast who{" "}
-            <a href="https://github.com/simpleuiux">code</a> her own ideas.
+            <br />A design, psychology, and travel enthusiasts who{" "}
+            <a href="https://github.com/simpleuiux" target="_blank">
+              codes
+            </a>{" "}
+            her own ideas.
           </h1>
           <br />
           <br />
@@ -175,7 +178,7 @@ const AboutPage = ({ data }, location) => {
                   <h5>
                     I'm currently a UX designer based in Vancouver. <br />I have
                     a passionate, curious and persistent mind. I am very keen on
-                    implementing new experiences through design, writing and
+                    implementing new experiences through design, research and
                     coding.
                   </h5>
                 </div>
@@ -451,15 +454,21 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
 
-          <h5 id="dynamic-styles">I help digital product work</h5>
+          <h5 id="dynamic-styles">I make digital product work</h5>
           <p>
-            With my diversed background in{" "}
+            With my diverse background in{" "}
             <b>design, communication and business</b>, I aim not only to make
             the product look pretty, but also to make it work -{" "}
             <b>happy users</b> will result in a more <b>profitable business</b>
           </p>
           <br />
           <h5 id="dynamic-styles">Experience</h5>
+
+          <p>
+            Co-founder of a Canadian-based Tech design studio -{" "}
+            <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
+          </p>
+
           <p>
             I started my career as an international journalist and market
             researcher. I have travelled to 40+ countries and collaborated with
@@ -472,10 +481,7 @@ const AboutPage = ({ data }, location) => {
             industries from{" "}
             <b>Fintech, Banking, NGO, Healthcare, to Data Analysis</b>.
           </p>
-          <p>
-            Co-founder of a Canadian-based Tech design studio -{" "}
-            <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
-          </p>
+
           <p>
             <br />
             <br />

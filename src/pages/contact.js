@@ -141,13 +141,13 @@ const ContactPage = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="want-to-chat-hit-me-up-on-linkedin-messenger-or-drop-me-an-email"><br />
             Want to chat? Hit me up on {" "}
-            <a href="https://www.linkedin.com/in/annieyiningwang/">
+            <a href="https://www.linkedin.com/in/annieyiningwang/" target="_blank">
               Linkedin
                         </a>{" "},{" "}
-            <a href="https://m.me/annieynwang">
+            <a href="https://m.me/annieynwang" target="_blank">
               Messenger
                         </a>{" "}or drop me an {" "}
-            <a href="mailto:simpleuiux@gmail.com">
+            <a href="mailto:simpleuiux@gmail.com" target="_blank">
               Email
                 </a>{" "}
      </h1>
