@@ -25,21 +25,15 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-left">
+          <nav id="swup" class="site-head-right">
             <ul className="nav" role="menu">
               {/* <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Project</Link>
               </li> */}
-              <li className="nav-contact" role="menuitem">
-                <Link to={`/contact`}>CONTACT</Link>
-              </li>
-              <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>ABOUT</Link>
-              </li>
-              <li className="nav-project" role="menuitem">
-                <Link to={`/project`}>PROJECT</Link>
-              </li>
 
+              <Link className="site-head-logo" to={`/`}>
+                yining wang
+              </Link>
               <a
                 href={Resume}
                 aria-label="Resume"
@@ -49,23 +43,25 @@ const Layout = props => {
                 {" "}
                 RESUME
               </a>
+            </ul>
+          </nav>
+
+          <div className="site-head-left">
+            <div className="social-links">
+              <li className="nav-about" role="menuitem">
+                <Link to={`/about`}>ABOUT</Link>
+              </li>
+              <li className="nav-project" role="menuitem">
+                <Link to={`/project`}>PROJECTS</Link>
+              </li>
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>CONTACT</Link>
+              </li>
 
               {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
               </li> */}
-            </ul>
-          </nav>
-          {/* <div className="site-head-right"> 
-                <Link className="site-head-logo" to={`/`}>
-                  {title}
-                </Link>
-              </div>
-          */}
-          <div className="site-head-right">
-            <div className="social-links">
-              <Link className="site-head-logo" to={`/`}>
-                yining wang
-              </Link>
+
               {/*    <a
                 href="https://www.facebook.com"
                 title="Facebook"
