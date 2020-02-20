@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Resume from "../../content/assets/Resume.pdf"
 
 const Layout = props => {
   const { title, children } = props
@@ -38,6 +39,17 @@ const Layout = props => {
               <li className="nav-project" role="menuitem">
                 <Link to={`/project`}>PROJECT</Link>
               </li>
+
+              <a
+                href={Resume}
+                aria-label="Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                RESUME
+              </a>
+
               {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
               </li> */}
