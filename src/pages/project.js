@@ -150,11 +150,11 @@ const BlogIndex = ({ data }, location) => {
             <br />
             Eye-catching, minimal, and simple UI/UX design. <br /> Follow me on{" "}
             <a href="https://dribbble.com/simpleuiux" target="_blank">
-              Dribbble.
+              Dribbble
             </a>{" "}
             and{" "}
             <a href="https://medium.com/@simpleuiux" target="_blank">
-              Medium
+              Medium.
             </a>{" "}
           </h1>
         </div>
