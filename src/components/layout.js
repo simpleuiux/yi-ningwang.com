@@ -2,6 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import Resume from "../../content/assets/Resume.pdf"
 
+const activeStyle = {
+  color: "rgb(38, 168, 237)",
+  fontWeight: 700,
+}
+
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -31,7 +36,11 @@ const Layout = props => {
                 <Link to={`/`}>Project</Link>
               </li> */}
 
-              <Link className="site-head-logo" to={`/`}>
+              <Link
+                className="site-head-logo"
+                to={`/`}
+                activeStyle={activeStyle}
+              >
                 yining wang
               </Link>
               <a
@@ -49,13 +58,19 @@ const Layout = props => {
           <div className="site-head-left">
             <div className="social-links">
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>ABOUT</Link>
+                <Link to={`/about`} activeStyle={activeStyle}>
+                  ABOUT
+                </Link>
               </li>
               <li className="nav-project" role="menuitem">
-                <Link to={`/project`}>PROJECTS</Link>
+                <Link to={`/project`} activeStyle={activeStyle}>
+                  PROJECTS
+                </Link>
               </li>
               <li className="nav-contact" role="menuitem">
-                <Link to={`/contact`}>CONTACT</Link>
+                <Link to={`/contact`} activeStyle={activeStyle}>
+                  CONTACT
+                </Link>
               </li>
 
               {/* <li className="nav-elements" role="menuitem">
