@@ -7,43 +7,46 @@ import SEO from "../components/seo"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
-import Particles from 'react-particles-js'
+import Particles from "react-particles-js"
 
 const ContactPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="CONTACT" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO
+        title="CONTACT"
+        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+      />
 
-      <Particles style={{ position: 'absolute', zIndex: '-99' }}
+      <Particles
+        style={{ position: "absolute", zIndex: "-99" }}
         params={{
           particles: {
-
             number: {
               value: 100,
               density: {
                 enable: true,
-                value_area: 800
-              }
+                value_area: 800,
+              },
             },
             color: {
-              value: '#bebebe'
+              value: "#bebebe",
             },
             shape: {
-              type: 'circle',
+              type: "circle",
               stroke: {
                 width: 0,
-                color: '#bebebe'
+                color: "#bebebe",
               },
               polygon: {
-                nb_sides: 4
+                nb_sides: 4,
               },
               image: {
-                src: '',
+                src: "",
                 width: 100,
-                height: 100
-              }
+                height: 100,
+              },
             },
             opacity: {
               value: 0.5,
@@ -52,8 +55,8 @@ const ContactPage = ({ data }, location) => {
                 enable: false,
                 speed: 1,
                 opacity_min: 0.1,
-                sync: false
-              }
+                sync: false,
+              },
             },
             size: {
               value: 3,
@@ -62,99 +65,102 @@ const ContactPage = ({ data }, location) => {
                 enable: false,
                 speed: 40,
                 size_min: 0.1,
-                sync: false
-              }
+                sync: false,
+              },
             },
             line_linked: {
               enable: true,
               distance: 200,
-              color: '#eee',
+              color: "#eee",
               opacity: 1,
-              width: 1
+              width: 1,
             },
             move: {
               enable: true,
               speed: 2,
-              direction: 'none',
+              direction: "none",
               random: false,
               straight: false,
-              out_mode: 'out',
+              out_mode: "out",
               bounce: false,
               attract: {
                 enable: false,
                 rotateX: 600,
-                rotateY: 1200
-              }
+                rotateY: 1200,
+              },
             },
-            array: []
+            array: [],
           },
           interactivity: {
-            detect_on: 'canvas',
+            detect_on: "canvas",
             events: {
               onhover: {
                 enable: true,
-                mode: 'repulse'
+                mode: "repulse",
               },
               onclick: {
                 enable: true,
-                mode: 'push'
+                mode: "push",
               },
-              resize: true
+              resize: true,
             },
             modes: {
               grab: {
                 distance: 400,
                 line_linked: {
-                  opacity: 1
-                }
+                  opacity: 1,
+                },
               },
               bubble: {
                 distance: 400,
                 size: 40,
-                duration: 2
+                duration: 2,
               },
               repulse: {
                 distance: 200,
-                duration: 0.4
+                duration: 0.4,
               },
               push: {
-                particles_nb: 4
+                particles_nb: 4,
               },
               remove: {
-                particles_nb: 2
-              }
+                particles_nb: 2,
+              },
             },
-            mouse: {}
+            mouse: {},
           },
           retina_detect: true,
           fn: {
             interact: {},
             modes: {},
-            vendors: {}
+            vendors: {},
           },
-          tmp: {}
-        }
-
-        } />
+          tmp: {},
+        }}
+      />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h1 id="want-to-chat-hit-me-up-on-linkedin-messenger-or-drop-me-an-email"><br />
-            Want to chat? Hit me up on {" "}
-            <a href="https://www.linkedin.com/in/annieyiningwang/" target="_blank">
-              Linkedin
-                        </a>{" "},{" "}
+          <h1 id="want-to-chat-hit-me-up-on-linkedin-messenger-or-drop-me-an-email">
+            <br />
+            Want to chat? Hit me up on{" "}
+            <a
+              href="https://www.linkedin.com/in/annieyiningwang/"
+              target="_blank"
+            >
+              Linkedin,
+            </a>{" "}
             <a href="https://m.me/annieynwang" target="_blank">
               Messenger
-                        </a>{" "}or drop me an {" "}
+            </a>{" "}
+            or drop me an{" "}
             <a href="mailto:simpleuiux@gmail.com" target="_blank">
-              Email
-                </a>{" "}
-     </h1>
-
+              Email.
+            </a>{" "}
+          </h1>
         </div>
       </article>
-    </Layout >
+    </Layout>
   )
 }
 
