@@ -15,7 +15,7 @@ description: UI/UX, DATA VISUALIZATION
 
 [FIREAWARE](https://devpost.com/software/girls_in_tech_vancouver) is an interactive app that provides firefighters and the public visualization map, AI fire prediction model and alert functions. **This winning project has won Girls in Tech Hackathon in 2019**. It was created in a team of four within 10 hours.
 
-###### Approximately 8,000 wildfires occur each year in Canada. Human-caused fires represent 55% of all fires.
+#### Approximately 8,000 wildfires occur each year in Canada. Human-caused fires represent 55% of all fires.
 
 Human-caused fires result from campfires left unattended, the burning of debris, equipment use and malfunctions, negligently discarded cigarettes, and intentional acts of arson. It is hard to predict where and when is vulnerable to fire and to prevent it.
 
@@ -27,7 +27,7 @@ Human-caused fires result from campfires left unattended, the burning of debris
 - Alert firefighters where and what date have more chance to cause a fire.
 - Prevent publics from going certain areas with activities easily cause a fire.
 
-###### Therefore, we created a fire prevention interactive app with an AI predictive model.
+#### Therefore, we created a fire prevention interactive app with an AI predictive model.
 
 ---
 
@@ -41,7 +41,7 @@ I am in charge of the business model and UX/UI design. These are the glimpses of
 
 </div>
 
-###### ONLY EMPATHIZE USERS CAN WE CREATE THE PRODUCT IN NEED
+#### ONLY EMPATHIZE USERS CAN WE CREATE THE PRODUCT IN NEED
 
 <div class="kg-card kg-image-card kg-width-wide">
 
@@ -55,7 +55,7 @@ I am in charge of the business model and UX/UI design. These are the glimpses of
 
 </div>
 
-###### INFORMATION ARCHITECTURE HELPS US OUTLINE THE STRUCTURE OF THE APP
+#### INFORMATION ARCHITECTURE HELPS US OUTLINE THE STRUCTURE OF THE APP
 
 <div class="kg-card kg-image-card kg-width-wide">
 
@@ -63,7 +63,7 @@ I am in charge of the business model and UX/UI design. These are the glimpses of
 
 </div>
 
-###### WHAT USER CARE THE MOST IS THE MAP AND THE FIRE PREDICTION FUNCTION
+#### WHAT USER CARE THE MOST IS THE MAP AND THE FIRE PREDICTION FUNCTION
 
 <div class="kg-card kg-image-card kg-width-wide">
 
