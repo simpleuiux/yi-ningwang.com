@@ -7,7 +7,7 @@ description: UI/UX, DATA VISUALIZATION
 
 <h1 align="center">
 
-[![Botton prototype](./botton-click-prototype.svg)](https://invis.io/RKW1VR5YQX6)
+[![Botton prototype](./view-the-prototype.svg)](https://invis.io/RKW1VR5YQX6)
 
 </h1>
 
@@ -114,6 +114,6 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 
 <h1 align="center">
 
-[![Botton prototype](./botton-click-prototype.svg)](https://invis.io/RKW1VR5YQX6)
+[![Botton prototype](./view-the-prototype.svg)](https://invis.io/RKW1VR5YQX6)
 
 </h1>

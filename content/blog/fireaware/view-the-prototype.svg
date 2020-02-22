@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="41" viewBox="0 0 178 41">
+  <defs>
+    <linearGradient id="view-the-prototype-a" x1="2.155%" x2="54.043%" y1="47.575%" y2="50%">
+      <stop offset="0%" stop-color="#7DD3F3"/>
+      <stop offset="100%" stop-color="#47A8E2"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="178" height="41" fill="url(#view-the-prototype-a)" rx="10"/>
+    <text fill="#FFF" font-family="Muli-Bold, Muli" font-size="14" font-weight="bold">
+      <tspan x="10" y="26">VIEW THE PROTOTYPE</tspan>
+    </text>
+  </g>
+</svg>

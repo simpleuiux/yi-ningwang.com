@@ -5,13 +5,7 @@ thumbnail: ./kindrednotes-thumbnail.png
 description: UX/UI Design
 ---
 
-<h1 align="center">
-
-[![Botton prototype](./botton-click-prototype.svg)](https://www.youtube.com/watch?v=WAA0SimkEZs&feature=youtu.be)
-
-</h1>
-
-> "I was extremely pleased with the results. I would recommend Annie to anyone looking for UI/UX design services." - Shelley Moore Founder of Kindrednotes
+> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UI/UX design services." - Shelley Moore Founder of Kindrednotes
 
 ---
 
@@ -43,17 +37,17 @@ I focused on creating a user story and user scenario to understand their experie
 
 Doris is a 26-year-old illustrator who likes to read before going to sleep. She likes her job because she can work from home. However, she **feels lonely sometimes** and **wish someone could encourage her**. One day, after a long day, she especially urged for some comfort. While googling the keyword ‘how to get motivated’, she found Kindrednotes that **for people to spread kindness online**...she was curious and would like to know more...
 
-<div class="kg-card kg-image-card kg-width-wide">
+<h1 class="kg-card kg-image-card kg-width-wide">
 
 ![It's all blue](./user-scenario-1.png)
 
-</div>
+</h1>
 
-<div class="kg-card kg-image-card kg-width-wide">
+<h1 class="kg-card kg-image-card kg-width-wide">
 
 ![It's all blue](./user-scenario-2.png)
 
-</div>
+</h1>
 
 <div class="kg-card kg-image-card kg-width-wide">
 

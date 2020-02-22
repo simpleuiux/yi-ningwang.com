@@ -7,7 +7,7 @@ description: UI/UX Design
 
 <h1 align="center">
 
-[![Botton prototype](./botton-click-prototype.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
+[![Botton prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
 
 </h1>
 
@@ -108,8 +108,8 @@ After the busy Christmas, Linda finally has time to sit down and reflect on what
 
 ![Final Design](https://miro.medium.com/max/1440/1*Dhrs-MqMbCH3qsotYWq83Q.png)
 
-<h1 align="center">
+<div align="center">
 
-[![Botton prototype](./botton-click-prototype.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
+[![Botton prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
 
 </h1>
