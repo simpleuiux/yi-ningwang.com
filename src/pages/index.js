@@ -140,8 +140,8 @@ const AboutPage = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="hi-im-yining-i-design-stuff">
             <br />
-            Hi! I'm <a href="http://localhost:8001/about">Yining</a>
-            {""}.<br />I <a href="http://localhost:8001/project">design</a>
+            Hi! I'm <a href="/about">Yining</a>
+            {""}.<br />I <a href="/project">design</a>
             {""} ideas.
           </h1>
           <br />
