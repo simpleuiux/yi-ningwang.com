@@ -15,10 +15,11 @@ description: UI/UX Design
 
 **BRIEF**
 
-> As women, we take care of everyone else before we take care of ourselves. As we move into our 50s and beyond, self-care is more important than ever before.
+> As women, we take care of everyone else before we take care of ourselves. When we move into our 50s and beyond, self-care is more important than ever before.
+>
 > — Kate Milne, the founder of Age Sister
 
-Ageing is happening every day, but we usually ignore it. Kate Milne noticed that women, especially aged 50–70 years old, are among the most under-served population. She started Age Sister, a health consultancy firm, in Vancouver to help women ageing in a happier and healthier way.
+Ageing is happening every day, but we usually ignore it. Kate Milne noticed that women, especially aged from 50 to 70 years old, are among the most under-served population. She started Age Sister, a health consultancy firm, in Vancouver to help women ageing in a happier and healthier way.
 
 ---
 
@@ -110,6 +111,6 @@ After the busy Christmas, Linda finally has time to sit down and reflect on what
 
 <div align="center">
 
-[![Botton prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
+[![age-sister-prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
 
 </h1>

@@ -444,7 +444,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>Presenter</h3>
                   <p>
                     I present at hackathons and conferences about UX / UI
-                    design, business plan and more.
+                    design, business plans and more.
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ const AboutPage = ({ data }, location) => {
             With my diverse background in{" "}
             <b>design, communication and business</b>, I aim not only to make
             the product look pretty, but also to make it work -{" "}
-            <b>happy users</b> will result in a more <b>profitable business</b>
+            <b>happy users</b> will result in a more <b>profitable business.</b>
           </p>
           <br />
           <h5 id="dynamic-styles">Experience</h5>
@@ -475,11 +475,11 @@ const AboutPage = ({ data }, location) => {
             people from North America, Africa, Europe to Asia.
           </p>
           <p>
-            In 2015, I worked for UBS and dived into UX world. Since then, I
-            have been growing from UX researcher to UX / UI designer. I have
+            In 2015, I worked for UBS and dived into the UX world. Since then, I
+            have been growing from UX researcher to UX/UI designer. I have
             provided systematic and precise researches and designs for
             industries from{" "}
-            <b>Fintech, Banking, NGO, Healthcare, to Data Analysis</b>.
+            <b>Fintech, Banking, NGO, Healthcare, to Data Analysis.</b>
           </p>
 
           <p>
@@ -490,7 +490,10 @@ const AboutPage = ({ data }, location) => {
             <br />
             2019
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Girls in Tech Hackathon - 1st Place
+            Girls in Tech Hackathon -{" "}
+            <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
+              1st Place.
+            </a>{" "}
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>

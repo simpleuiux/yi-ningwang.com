@@ -2,7 +2,7 @@
 title: FIREAWARE
 date: "2020-02-08"
 thumbnail: ./fireaware-thumbnail.png
-description: UI/UX, DATA VISUALIZATION
+description: UI/UX Design, DATA VISUALIZATION
 ---
 
 <h1 align="center">
@@ -17,7 +17,7 @@ description: UI/UX, DATA VISUALIZATION
 
 #### Approximately 8,000 wildfires occur each year in Canada. Human-caused fires represent 55% of all fires.
 
-Human-caused fires result from campfires left unattended, the burning of debris, equipment use and malfunctions, negligently discarded cigarettes, and intentional acts of arson. It is hard to predict where and when is vulnerable to fire and to prevent it.
+Human-caused fires result from campfires left unattended, the burning of debris, equipment uses and malfunctions, negligently discarded cigarettes, and intentional acts of arson. It is hard to predict where and when is vulnerable to fire and to prevent it.
 
 ---
 

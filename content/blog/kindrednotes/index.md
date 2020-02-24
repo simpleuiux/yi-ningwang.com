@@ -5,7 +5,9 @@ thumbnail: ./kindrednotes-thumbnail.png
 description: UX/UI Design
 ---
 
-> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UI/UX design services." - Shelley Moore Founder of Kindrednotes
+> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UI/UX design services."
+>
+> -- Shelley Moore - Founder of KindredNotes
 
 ---
 
@@ -13,17 +15,17 @@ description: UX/UI Design
 
 #### A MOBILE EXPERIENCE ENABLE USERS SPREAD KINDNESS AT THE FINGERTIPS
 
-Kindrednotes is a Vancouver based start-up that aims to connect people around the world through sending and receiving kind notes. Even though there is already an official website, no functional app is designed for users yet. In the project, the goal is to take a mobile-first approach to design an engaging experience for users.
+KindredNotes is a Vancouver based start-up that aims to connect people around the world through sending and receiving kind notes. Even though there is already an official website, no functional app is designed for users yet. In the project, the goal is to take a mobile-first approach to design an engaging experience for users.
 
 ---
 
 ### THE PROCESS
 
-#### DEFIND AND UNDERSTAND USER'S BEHAVIORS
+#### DEFINE AND UNDERSTAND USERS' BEHAVIORS
 
 First challenge is to find the liking and behavior of the users, and through 20 responses and 6 interviews, we learn that users fall to the age of 25 to 34, they like to type something short and quick with a positive tone and they would be happy to have a reward system (such as In-App services).
 
-#### IMAGINING THE USERS EXPERIENCE
+#### IMAGINING THE USERS' EXPERIENCE
 
 I focused on creating a user story and user scenario to understand their experience. I wanted to allow users to tell us how they wanted their app delivered. If users can tailor it to fit their mentalities and interests, they are more likely to stick to the service.
 
@@ -33,9 +35,9 @@ I focused on creating a user story and user scenario to understand their experie
 
 </h1>
 
-###### Meet Doris!
+#### Meet Doris!
 
-Doris is a 26-year-old illustrator who likes to read before going to sleep. She likes her job because she can work from home. However, she **feels lonely sometimes** and **wish someone could encourage her**. One day, after a long day, she especially urged for some comfort. While googling the keyword ‘how to get motivated’, she found Kindrednotes that **for people to spread kindness online**...she was curious and would like to know more...
+Doris is a 26-year-old illustrator who likes to read before going to sleep. She likes her job because she can work from home. However, she **feels lonely sometimes** and **wish someone could encourage her**. One day, after a long day, she especially urged for some comfort. While googling the keyword ‘how to get motivated’, she found KindredNotes that **for people to spread kindness online**...she was curious and would like to know more...
 
 <h1 class="kg-card kg-image-card kg-width-wide">
 
@@ -57,7 +59,7 @@ Doris is a 26-year-old illustrator who likes to read before going to sleep. She 
 
 #### CREATE VALUE WITH IN-DEPTH CONNECTION
 
-Before, people connect to each other but only talk about superficial things. Now, Kindrednotes connects users with topics that they really care. The value of it is through the simple gesture, we can share in-depth understanding with great positivity power, but still able to keep the space and privacy that people need.
+Before, people connect to each other but only talk about superficial things. Now, KindredNotes connects users with topics that they really care. The value of it is through the simple gesture, we can share in-depth understanding with great positivity power, but still able to keep the space and privacy that people need.
 
 <div class="kg-card kg-image-card kg-width-wide">
 
