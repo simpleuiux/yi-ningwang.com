@@ -31,4 +31,22 @@ description: USER INTERFACE DESIGN
   <img alt="" src="https://cdn.dribbble.com/users/2551235/screenshots/7918951/media/7108e61af029166bd95847b7207b7a5c.png" />
 </div>
 
-#### CILCK [HERE](https://dribbble.com/simpleuiux) TO SEE MORE
+<div>
+
+#### IF YOU WOULD LIKE TO SEE MORE, CLICK [HERE](https://dribbble.com/simpleuiux)
+
+</div>
+
+<br/>
+<div>
+      <a href='/JIN'>
+       &#8592; Previous
+      </a>
+
+</div>
+<div style=text-align-last:end>
+  
+<a href='/fireaware'>
+       Next &#8594; 
+      </a>
+</div>

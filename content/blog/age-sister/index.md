@@ -13,7 +13,7 @@ description: UI/UX Design
 
 #### REDESIGN USER EXPERIENCE TO MAKE IT ACCESSIBLE FOR USERS OVER 50
 
-**BRIEF**
+### BRIEF
 
 > As women, we take care of everyone else before we take care of ourselves. When we move into our 50s and beyond, self-care is more important than ever before.
 >
@@ -23,9 +23,9 @@ Ageing is happening every day, but we usually ignore it. Kate Milne noticed that
 
 ---
 
-#### REAEARCH PROCESS
+### REAEARCH PROCESS
 
-###### DOMAIN RESEARCH
+#### DOMAIN RESEARCH
 
 1. Only 15% of women at all ages meet the PE guidelines.
 2. Women between 50 and 70 are under-served.
@@ -50,7 +50,7 @@ We sent out the survey and received 20+ responses, from the survey we have some 
 2. User frequency mobile > desktop > iPad
 3. Visual, font side, interface are important especially for women with certain disabilities
 
-##### USER PERSONA
+#### USER PERSONA
 
 <div class="kg-card kg-image-card">
 
@@ -58,17 +58,17 @@ We sent out the survey and received 20+ responses, from the survey we have some 
 
 </div>
 
-##### USER STORY
+#### USER STORY
 
 After the busy Christmas, Linda finally has time to sit down and reflect on what she has done during this year. After the reflections, Linda wrote a list of things she wants to accomplish next year. She wants to have more time for her own, try to eat out less and cook more and to exercise more…
 
-##### MOTIVATION AND PAIN POINT OF USERS
+#### MOTIVATION AND PAIN POINT OF USERS
 
 - Highly motivated to exercise to overcome physical discomfort
 - The lack of the support group in their life circle makes them feel lonely
 - Users are also looking for a right way working out
 
-#### DESIGN PROCESS
+### DESIGN PROCESS
 
 <div class="kg-card kg-image-card">
 
@@ -105,7 +105,7 @@ After the busy Christmas, Linda finally has time to sit down and reflect on what
 
 ---
 
-#### Final Design
+### Final Design
 
 ![Final Design](https://miro.medium.com/max/1440/1*Dhrs-MqMbCH3qsotYWq83Q.png)
 
@@ -113,4 +113,17 @@ After the busy Christmas, Linda finally has time to sit down and reflect on what
 
 [![age-sister-prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
 
-</h1>
+</div>
+<br/>
+
+<div>
+    <a href='/kindrednotes'> &#8592; Previous </a>
+
+</div>
+
+<div style=text-align-last:end>
+
+<a href='/sage-foundation'>
+       Next &#8594; 
+      </a>
+</div>

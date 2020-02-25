@@ -19,11 +19,11 @@ Since the production time is merely 1 month, we selected search page and user pr
 
 ---
 
-#### From a single search to a complete filter function
+### From a single search to a complete filter function
 
 At first, the user profile page has only have the text with pictures. To include more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
 
-###### 1st design
+#### 1st design
 
 <div class="kg-card kg-image-card">
 
@@ -31,7 +31,7 @@ At first, the user profile page has only have the text with pictures. To include
 
 </div>
 
-###### 2nd design
+#### 2nd design
 
 <div class="kg-card kg-image-card">
 
@@ -39,7 +39,7 @@ At first, the user profile page has only have the text with pictures. To include
 
 </div>
 
-###### Final design of search & filter page
+### Final design of search & filter page
 
 <div class="kg-card kg-image-card">
 
@@ -47,11 +47,11 @@ At first, the user profile page has only have the text with pictures. To include
 
 </div>
 
-#### How I visualized influencer profile
+### How I visualized influencer profile
 
 At first, the user profile page has only have contents with pictures. To include more information and make it easier for users to see the actual info instead of just general information. I make the second design with visualized data.
 
-###### 1st design
+#### 1st design
 
 <div class="kg-card kg-image-card">
 
@@ -59,7 +59,7 @@ At first, the user profile page has only have contents with pictures. To inclu
 
 </div>
 
-###### Improvement with visualized data
+#### Improvement with visualized data
 
 <div class="kg-card kg-image-card">
 
@@ -67,7 +67,7 @@ At first, the user profile page has only have contents with pictures. To inclu
 
 </div>
 
-###### Final design of user profile page
+## Final design of user profile page
 
 <div class="kg-card kg-image-card">
 
@@ -84,3 +84,17 @@ At first, the user profile page has only have contents with pictures. To inclu
 3.  **Don't seek for perfection** - I know, I know, designers often wants to make designs pixel perfect, so am I. I found myself ended up spending lots of time fixing minor things. Funny things is that the client, and the user doesn’t really mind what I cared much. It taught me not to get trapped but do more testing on the midway.
 
 4.  **Know if customers really want it** - We did a lot of research but miscalculate the willingness to purchase the service from our initial client. It seems promising according to our sales contact, but later on, the client weren’t as interested as before. Our sales contact is still trying to find the buyer in Japan. We learnt that it is better to have at least a buyer pays for the services before jumping in too fast. However, Raphael and I both enjoyed and learnt a lot from it.
+
+<br/>
+<div>
+      <a href='/sage-foundation'>
+       &#8592; Previous
+      </a>
+
+</div>
+<div style=text-align-last:end>
+  
+<a href='/dribbble-hightlight'>
+       Next &#8594; 
+      </a>
+</div>

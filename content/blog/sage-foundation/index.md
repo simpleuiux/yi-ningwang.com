@@ -106,3 +106,16 @@ I asked users to play different roles, such as the youth and the donor, through 
 ![HI-FI](./sage-foundation020.png)
 
 </div>
+
+<div>
+      <a href='/age-sister'>
+       &#8592; Previous
+      </a>
+
+</div>
+<div style=text-align-last:end>
+  
+<a href='/JIN'>
+       Next &#8594; 
+      </a>
+</div>

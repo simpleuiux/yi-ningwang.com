@@ -21,7 +21,7 @@ Human-caused fires result from campfires left unattended, the burning of debris
 
 ---
 
-##### OUR VISION
+### OUR VISION
 
 - Create a data visualization map with current wild fire.
 - Alert firefighters where and what date have more chance to cause a fire.
@@ -31,7 +31,7 @@ Human-caused fires result from campfires left unattended, the burning of debris
 
 ---
 
-#### RESEARCH PROCESS
+### RESEARCH PROCESS
 
 I am in charge of the business model and UX/UI design. These are the glimpses of inspiration I got form developing the app.
 
@@ -96,7 +96,7 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 
 </div>
 
-#### FINAL DESIGN
+### FINAL DESIGN
 
 <div class="kg-card kg-image-card kg-width-wide">
 
@@ -104,7 +104,7 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 
 </div>
 
-#### FIREAWARE TEAM
+### FIREAWARE TEAM
 
 <div class="kg-card kg-image-card">
 
@@ -117,3 +117,16 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 [![Botton prototype](./view-the-prototype.svg)](https://invis.io/RKW1VR5YQX6)
 
 </h1>
+
+<div>
+      <a href='/dribbble-hightlight'>
+       &#8592; Previous
+      </a>
+
+</div>
+<div style=text-align-last:end>
+  
+<a href='/kindrednotes'>
+       Next &#8594; 
+      </a>
+</div>
