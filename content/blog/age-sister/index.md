@@ -114,7 +114,6 @@ After the busy Christmas, Linda finally has time to sit down and reflect on what
 [![age-sister-prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
 
 </div>
-<br/>
 
 <div>
     <a href='/kindrednotes'> &#8592; Previous </a>
