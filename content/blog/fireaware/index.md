@@ -118,6 +118,8 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 
 </a>
 
+<br/><br/>
+
 <div style=text-align-last:end>
   
 <a href='/kindrednotes'>

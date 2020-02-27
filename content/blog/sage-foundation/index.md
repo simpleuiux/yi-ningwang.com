@@ -107,15 +107,9 @@ I asked users to play different roles, such as the youth and the donor, through 
 
 </div>
 
-<div>
-      <a href='/age-sister'>
-       &#8592; Previous
-      </a>
-
-</div>
 <div style=text-align-last:end>
   
 <a href='/JIN'>
-       Next &#8594; 
+       Japanese Influencer Network &#8594; 
       </a>
 </div>

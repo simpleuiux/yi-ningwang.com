@@ -5,11 +5,11 @@ thumbnail: ./agesister-thumbnail.png
 description: UI/UX Design
 ---
 
-<h1 align="center">
+<a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">
 
-[![Botton prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
+![Botton prototype](./view-the-prototype-age-sister.svg)
 
-</h1>
+</a>
 
 #### REDESIGN USER EXPERIENCE TO MAKE IT ACCESSIBLE FOR USERS OVER 50
 
@@ -109,20 +109,19 @@ After the busy Christmas, Linda finally has time to sit down and reflect on what
 
 ![Final Design](https://miro.medium.com/max/1440/1*Dhrs-MqMbCH3qsotYWq83Q.png)
 
-<div align="center">
+<br/>
 
-[![age-sister-prototype](./view-the-prototype-age-sister.svg)](https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens)
+<a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">
 
-</div>
+![Botton prototype](./view-the-prototype-age-sister.svg)
 
-<div>
-    <a href='/kindrednotes'> &#8592; Previous </a>
+</a>
 
-</div>
+<br/><br/>
 
 <div style=text-align-last:end>
 
 <a href='/sage-foundation'>
-       Next &#8594; 
+       Sage Foundation &#8594; 
       </a>
 </div>

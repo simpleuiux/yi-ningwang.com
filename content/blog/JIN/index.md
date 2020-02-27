@@ -2,7 +2,7 @@
 title: JAPAN INFLUENCER NETWORK
 date: "2019-05-04"
 thumbnail: ./jin-darkgrey.png
-description: UI/UX Design, Sprint Prototyping, Front-end
+description: UI/UX Design, Prototyping, Data Visualization, Front-end
 ---
 
 #### JIN, Japan Influencer network, is the first network platform connects influencers and advertising agencies.
@@ -75,26 +75,21 @@ At first, the user profile page has only have contents with pictures. To inclu
 
 </div>
 
-###### Take away
+### Take away
 
-1.  **Time is money** - Since this is the services we want to sell. For sure, we weren’t getting paid for developing it. It is important to value the time and get the maximized result. That is why we set the time frame to less than a month.
+1.  **Select MVP** - It is important to select MVP, make a quick design with user testing, and develop it. It saved us much time not thinking too much about landing page, booking page and others.
 
-2.  **Select MVP** - It is important to select MVP, make a quick design with user testing, and develop it. It saved us much time not thinking too much about landing page, booking page and others.
+2.  **Don't seek for perfection** - I know, I know, designers often wants to make designs pixel perfect, so am I. I found myself ended up spending lots of time fixing minor things. Funny things is that the client, and the user doesn’t really mind what I cared much. It taught me not to get trapped but do more testing on the midway.
 
-3.  **Don't seek for perfection** - I know, I know, designers often wants to make designs pixel perfect, so am I. I found myself ended up spending lots of time fixing minor things. Funny things is that the client, and the user doesn’t really mind what I cared much. It taught me not to get trapped but do more testing on the midway.
-
-4.  **Know if customers really want it** - We did a lot of research but miscalculate the willingness to purchase the service from our initial client. It seems promising according to our sales contact, but later on, the client weren’t as interested as before. Our sales contact is still trying to find the buyer in Japan. We learnt that it is better to have at least a buyer pays for the services before jumping in too fast. However, Raphael and I both enjoyed and learnt a lot from it.
+3.  **Know if customers really want it** - We did a lot of research but miscalculate the willingness to purchase the service from our initial client. It seems promising according to our sales contact, but later on, the client weren’t as interested as before. Our sales contact is still trying to find the buyer in Japan. We learnt that it is better to have at least a buyer pays for the services before jumping in too fast. However, Raphael and I both enjoyed and learnt a lot from it.
 
 <br/>
-<div>
-      <a href='/sage-foundation'>
-       &#8592; Previous
-      </a>
 
-</div>
+<br/>
+
 <div style=text-align-last:end>
   
 <a href='/dribbble-hightlight'>
-       Next &#8594; 
+       UI highlights on DRIBBBLE &#8594; 
       </a>
 </div>
