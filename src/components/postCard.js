@@ -8,9 +8,7 @@ export default props => (
     } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
     style={
       props.node.frontmatter.thumbnail && {
-        backgroundImage: `url(${
-          props.node.frontmatter.thumbnail.childImageSharp.fluid.src
-        })`,
+        backgroundImage: `url(${props.node.frontmatter.thumbnail.childImageSharp.fluid.src})`,
       }
     }
   >
@@ -19,6 +17,9 @@ export default props => (
         <h2 className="post-card-title">
           {props.node.frontmatter.title || props.node.fields.slug}
         </h2>
+        <div className="post-card-description">
+          {props.node.frontmatter.description || "test"}
+        </div>
       </div>
     </Link>
   </article>

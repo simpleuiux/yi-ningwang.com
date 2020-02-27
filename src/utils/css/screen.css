@@ -429,6 +429,7 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
+  flex-direction: column;
   top: 0;
   right: 0;
   bottom: 0;
@@ -456,12 +457,16 @@ body {
 .post-card-title {
   margin: 0;
   display: inline-block;
-  font-size: 2.4rem;
+  font-size: 3rem;
   max-width: 70%;
   text-align: center;
   transition: all 0.3s cubic-bezier(0.33, 0, 0.2, 1);
 }
 
+.post-card-description {
+  font-size: 2rem;
+  color: #dfdfdf;
+}
 /* Posts without images */
 .post-card.no-image:before {
   display: block;
