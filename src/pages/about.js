@@ -139,7 +139,7 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />A design, psychology, and travel enthusiasts who{" "}
+            <br />A design, psychology, and travel enthusiast who{" "}
             <a href="https://github.com/simpleuiux" target="_blank">
               codes
             </a>{" "}
@@ -454,7 +454,7 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
 
-          <h5 id="dynamic-styles">I make digital product work</h5>
+          <h5 id="dynamic-styles">I make digital products work</h5>
           <p>
             With my diverse background in{" "}
             <b>design, communication and business</b>, I aim not only to make
@@ -472,14 +472,14 @@ const AboutPage = ({ data }, location) => {
           <p>
             I started my career as an international journalist and market
             researcher. I have travelled to 40+ countries and collaborated with
-            people from North America, Africa, Europe to Asia.
+            people from North America, Africa, Europe, and Asia.
           </p>
           <p>
             In 2015, I worked for UBS and dived into the UX world. Since then, I
             have been growing from UX researcher to UX/UI designer. I have
             provided systematic and precise researches and designs for
-            industries from{" "}
-            <b>Fintech, Banking, NGO, Healthcare, to Data Analysis.</b>
+            industries from <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>,{" "}
+            <b>Healthcare</b>, to <b>Data Analysis</b>.
           </p>
 
           <p>
