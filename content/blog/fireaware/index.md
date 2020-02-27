@@ -2,14 +2,14 @@
 title: FIREAWARE
 date: "2020-02-08"
 thumbnail: ./fireaware-thumbnail.png
-description: UI/UX Design, DATA VISUALIZATION
+description: UI/UX Design, Data Visualization
 ---
 
-<h1 align="center">
+<a href="https://invis.io/RKW1VR5YQX6" align="center" target="_blank">
 
-[![Botton prototype](./view-the-prototype.svg)](https://invis.io/RKW1VR5YQX6)
+![Botton prototype](./view-the-prototype.svg)
 
-</h1>
+</a>
 
 #### A Fire Prediction & Real-Time Alert Interactive Platform.
 
@@ -112,21 +112,15 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 
 </div>
 
-<h1 align="center">
+<a href="https://invis.io/RKW1VR5YQX6" align="center" target="_blank">
 
-[![Botton prototype](./view-the-prototype.svg)](https://invis.io/RKW1VR5YQX6)
+![Botton prototype](./view-the-prototype.svg)
 
-</h1>
+</a>
 
-<div>
-      <a href='/dribbble-hightlight'>
-       &#8592; Previous
-      </a>
-
-</div>
 <div style=text-align-last:end>
   
 <a href='/kindrednotes'>
-       Next &#8594; 
+       KINDREDNOTES &#8594; 
       </a>
 </div>
