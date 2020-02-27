@@ -270,7 +270,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>UX Designer</h3>
                   <p>
                     I'm a UX designer with 3+ years of experience. Currently a
-                    UX / UI designer at Red Academy in Vancouver.
+                    UX / UI designer at RED Academy in Vancouver.
                   </p>
                 </div>
               </div>
