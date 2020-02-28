@@ -139,9 +139,9 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />A design, psychology, and travel enthusiast who{" "}
+            <br />A design, psychology, and travel enthusiast who {""}
             <a href="https://github.com/simpleuiux" target="_blank">
-              codes
+              codes{" "}
             </a>{" "}
             her own ideas.
           </h1>
@@ -176,10 +176,10 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h5>
-                    I'm currently a UX designer based in Vancouver. <br />I have
-                    a passionate, curious and persistent mind. I am very keen on
-                    implementing new experiences through design, research and
-                    coding.
+                    I'm an UX designer based in Vancouver. I am precise,
+                    passionate and perseverance. With a curious mind, I like to
+                    try new things and take risks. I am keen on implementing new
+                    experiences through design, research, and coding.
                   </h5>
                 </div>
               </div>
