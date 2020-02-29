@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import PostCard from "../components/postCard"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,6 +12,8 @@ import Particles from "react-particles-js"
 
 const AboutPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
+  const posts = data.allMarkdownRemark.edges
+  let postCounter = 0
 
   return (
     <Layout title={siteTitle}>
@@ -148,6 +151,41 @@ const AboutPage = ({ data }, location) => {
           <br />
         </div>
       </article>
+
+      {/* <Bio /> */}
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="post-feed">
+        {posts.map(({ node }) => {
+          postCounter++
+          return (
+            <PostCard
+              key={node.fields.slug}
+              count={postCounter}
+              node={node}
+              postClass={`post`}
+            />
+          )
+        })}
+      </div>
+
+      <article className="post-content page-template no-image">
+        <div className="post-content-body">
+          <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
+            <br />
+            Eye-catching, minimal, and smart UI/UX design. <br /> Look me up on{" "}
+            <a href="https://dribbble.com/simpleuiux" target="_blank">
+              Dribbble
+            </a>{" "}
+            and{" "}
+            <a href="https://medium.com/@simpleuiux" target="_blank">
+              Medium.
+            </a>{" "}
+          </h1>
+        </div>
+      </article>
     </Layout>
   )
 }
@@ -157,14 +195,28 @@ const indexQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
-    ) {
-      childImageSharp {
-        fluid(maxWidth: 1360) {
-          ...GatsbyImageSharpFluid
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            description
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 1360) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
         }
       }
     }
