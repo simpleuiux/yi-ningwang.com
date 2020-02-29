@@ -43,15 +43,6 @@ const Layout = props => {
               >
                 yining wang
               </Link>
-              <a
-                href={Resume}
-                aria-label="Resume"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                RESUME
-              </a>
             </ul>
           </nav>
 
@@ -62,16 +53,25 @@ const Layout = props => {
                   ABOUT
                 </Link>
               </li>
-              <li className="nav-project" role="menuitem">
+              <a
+                href={Resume}
+                aria-label="Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                RESUME
+              </a>
+              {/* <li className="nav-project" role="menuitem">
                 <Link to={`/project`} activeStyle={activeStyle}>
                   PROJECTS
                 </Link>
-              </li>
-              <li className="nav-contact" role="menuitem">
+              </li> */}
+              {/* <li className="nav-contact" role="menuitem">
                 <Link to={`/contact`} activeStyle={activeStyle}>
                   CONTACT
                 </Link>
-              </li>
+              </li> */}
 
               {/* <li className="nav-elements" role="menuitem">
                 <Link to={`/elements`}>Elements</Link>
@@ -112,15 +112,51 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} &mdash; Handcrafted by Yining with ❤
-        {/* {" "}
+        <a href="www.yi-ningwang.com" rel="noopener noreferrer">
+          yi-ningwang.com
+        </a>{" "}
+        &nbsp; · &nbsp;
         <a
-          href="https://gatsbyjs.org"
+          href="https://dribbble.com/simpleuiux"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gatsby
-        </a> */}
+          Dribbble
+        </a>
+        &nbsp; · &nbsp;
+        <a
+          href="https://medium.com/@simpleuiux"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Medium
+        </a>
+        &nbsp; · &nbsp;
+        <a
+          href="https://www.linkedin.com/in/annieyiningwang/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>
+        &nbsp; · &nbsp;
+        <a
+          href="mailto:simpleuiux@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Email
+        </a>
+        &nbsp; · &nbsp;
+        <a
+          href="https://m.me/annieynwang"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Messenger
+        </a>
+        &nbsp; · &nbsp; &copy; {new Date().getFullYear()} &mdash; Handcrafted by
+        Yining with ❤{" "}
       </footer>
     </div>
   )
