@@ -1,127 +1,119 @@
 ---
-title: AGE SISTER
+title: KINDREDNOTES
 date: "2019-05-07"
-thumbnail: ./agesister-thumbnail.png
-description: UI/UX Design
+thumbnail: ./kindrednotes-thumbnail.png
+description: UX/UI Design
 ---
 
-<a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">
+> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UI/UX design services."
+>
+> -- Shelley Moore - Founder of KindredNotes
 
-![Botton prototype](./view-the-prototype-age-sister.svg)
-
-</a>
-
-#### REDESIGN USER EXPERIENCE TO MAKE IT ACCESSIBLE FOR USERS OVER 50
+---
 
 ### BRIEF
 
-> As women, we take care of everyone else before we take care of ourselves. When we move into our 50s and beyond, self-care is more important than ever before.
->
-> — Kate Milne, the founder of Age Sister
+#### A MOBILE EXPERIENCE ENABLE USERS SPREAD KINDNESS AT THE FINGERTIPS
 
-Ageing is happening every day, but we usually ignore it. Kate Milne noticed that women, especially aged from 50 to 70 years old, are among the most under-served population. She started Age Sister, a health consultancy firm, in Vancouver to help women ageing in a happier and healthier way.
+KindredNotes is a Vancouver based start-up that aims to connect people around the world through sending and receiving kind notes. Even though there is already an official website, no functional app is designed for users yet. In the project, the goal is to take a mobile-first approach to design an engaging experience for users.
 
 ---
 
-### REAEARCH PROCESS
+### THE PROCESS
 
-#### DOMAIN RESEARCH
+#### DEFINE AND UNDERSTAND USERS' BEHAVIORS
 
-1. Only 15% of women at all ages meet the PE guidelines.
-2. Women between 50 and 70 are under-served.
-3. Women during menopause have an increased risk of developing cardiovascular diseases.
-4. Lifestyle intervention can reverse the effect.
-5. It links physical inactivity to premature mortality.
-6. PE can delay age-related diseases, such as Alzheimer’s and Parkinson’s.
-7. Self-efficacy, intention, and depression link to PE.
-8. Social and structured inequality affects how much PE and exercise an older adult is getting.
+First challenge is to find the liking and behavior of the users, and through 20 responses and 6 interviews, we learn that users fall to the age of 25 to 34, they like to type something short and quick with a positive tone and they would be happy to have a reward system (such as In-App services).
 
-<div class="kg-card kg-image-card">
+#### IMAGINING THE USERS' EXPERIENCE
 
-![User Interview](https://miro.medium.com/max/1440/1*JN93SSeGkxyQM3YBTxLaJQ.png)
+I focused on creating a user story and user scenario to understand their experience. I wanted to allow users to tell us how they wanted their app delivered. If users can tailor it to fit their mentalities and interests, they are more likely to stick to the service.
 
-</div>
+<h1 align="center">
 
-#### SURVEY
+![doris](/doris-thumbnail.png)
 
-We sent out the survey and received 20+ responses, from the survey we have some key findings.
+</h1>
 
-1. Know that we need to focus are woman aged 50 to 60 years old
-2. User frequency mobile > desktop > iPad
-3. Visual, font side, interface are important especially for women with certain disabilities
+#### Meet Doris!
 
-#### USER PERSONA
+Doris is a 26-year-old illustrator who likes to read before going to sleep. She likes her job because she can work from home. However, she **feels lonely sometimes** and **wish someone could encourage her**. One day, after a long day, she especially urged for some comfort. While googling the keyword ‘how to get motivated’, she found KindredNotes that **for people to spread kindness online**...she was curious and would like to know more...
 
-<div class="kg-card kg-image-card">
+<h1 class="kg-card kg-image-card kg-width-wide">
 
-![User Persona](./user-persona.png)
+![It's all blue](./user-scenario-1.png)
 
-</div>
+</h1>
 
-#### USER STORY
+<h1 class="kg-card kg-image-card kg-width-wide">
 
-After the busy Christmas, Linda finally has time to sit down and reflect on what she has done during this year. After the reflections, Linda wrote a list of things she wants to accomplish next year. She wants to have more time for her own, try to eat out less and cook more and to exercise more…
+![It's all blue](./user-scenario-2.png)
 
-#### MOTIVATION AND PAIN POINT OF USERS
-
-- Highly motivated to exercise to overcome physical discomfort
-- The lack of the support group in their life circle makes them feel lonely
-- Users are also looking for a right way working out
-
-### DESIGN PROCESS
-
-<div class="kg-card kg-image-card">
-
-![Mood board](https://miro.medium.com/max/1440/1*YgJ5A9wEzvW9Nl8GWIca4w.png)
-
-</div>
-
-- There are two mood boards for the client. The brownish-yellow colours help the whole website pop up visually with a vibrant atmosphere while the blue version on the right conveyed a resilient feeling.
-- Age Sister would like to present a happy and revitalized vibe to gladden users. Therefore, the brownish-yellow serve as the final decision.
+</h1>
 
 <div class="kg-card kg-image-card kg-width-wide">
 
-![Logo Design](https://miro.medium.com/max/1440/1*k4X2RHW-Bg7R-6QbmQnZtA.png)
+![It's all blue](./user-scenario-3.png)
 
 </div>
 
-- I want to make the logo fluid and full of feminine gestures. There are several variations in the logo design. We can reorganize the elements of logo in several ways, make it a dynamic logo.
+#### CREATE VALUE WITH IN-DEPTH CONNECTION
+
+Before, people connect to each other but only talk about superficial things. Now, KindredNotes connects users with topics that they really care. The value of it is through the simple gesture, we can share in-depth understanding with great positivity power, but still able to keep the space and privacy that people need.
+
+<div class="kg-card kg-image-card kg-width-wide">
+
+![It's all blue](./illustration.png)
+
+</div>
+
+---
+
+<div class="kg-card kg-image-card kg-width-wide">
+
+![It's all blue](./IA.png)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-wide">
+
+![It's all blue](./MVP.png)
+
+</div>
+
+<div class="kg-card kg-image-card kg-width-wide">
+
+![It's all blue](./wireframes-2.png)
+
+</div>
+
+#### TESTING TO FIND THE TRUE VALUE OF THE PRODUCT
+
+After user testing, there are some improvements made, such as received and sent notes should all go under the same categories. Better to have avatar to recognize which section the user is at. They would like to know the impact of their messages. It is good to have a notification shown that reply is sent successfully, etc.
+
+<div class="kg-card kg-image-card kg-width-wide">
+
+![It's all blue](./testing.png)
+
+</div>
+
+### FINAL DESIGN
 
 <div class="kg-card kg-image-card">
 
-![Style Tile](./style-tile.png)
+![Final Design](./kindrednotes040.png)
 
 </div>
 
-- **Colours** | Teal, brownish and yellow colour palette provides a energetic and healthy tone.
-- **Typography** | Metropolis and Futura are both minimalistic san-serif font that give a neat feeling. They were chosen for the accessibility reason. It is easier for elders to read at either small or large font size.
-- **Design Elements** | I added CTA (Call To Action) buttons with a bright colour so it can pop and stand out.
+### CHECK OUT THE PROTOTYPE
 
----
+<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/WAA0SimkEZs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="http://add-link-exchange.com">Add-link-exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="http://add-link-exchange.com">add-link-Exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode.com/de/</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode.com/en/</a></small></div><div><small><a href="http://add-link-exchange.com">w://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode es</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div></iframe>
 
-#### Wireframes
-
-![Wireframes](https://miro.medium.com/max/1440/1*cstbTspWVNbnwNXQueayWg.png)
-
----
-
-### Final Design
-
-![Final Design](https://miro.medium.com/max/1440/1*Dhrs-MqMbCH3qsotYWq83Q.png)
-
-<br/>
-
-<a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">
-
-![Botton prototype](./view-the-prototype-age-sister.svg)
-
-</a>
-
-<br/><br/>
+<br/><br/><br/>
 
 <div style=text-align-last:end>
-
-<a href='/sage-foundation'>
-       Sage Foundation &#8594; 
+  
+<a href='/age-sister'>
+       AGE SISTER &#8594; 
       </a>
 </div>
