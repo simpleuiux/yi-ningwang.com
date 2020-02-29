@@ -28,7 +28,7 @@ const AboutPage = ({ data }, location) => {
               },
             },
             color: {
-              value: "#bebebe",
+              value: "#eeeeee",
             },
             shape: {
               type: "circle",
@@ -141,7 +141,7 @@ const AboutPage = ({ data }, location) => {
           <h1 id="about-me-titles">
             <br />A design, psychology, and travel enthusiast who {""}
             <a href="https://github.com/simpleuiux" target="_blank">
-              codes{" "}
+              codes{""}
             </a>{" "}
             her own ideas.
           </h1>
@@ -150,7 +150,6 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
           <br />
-
           <div className="row">
             <div className="col-6">
               <div
@@ -176,21 +175,19 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h5>
-                    I'm an UX designer based in Vancouver. I am precise,
-                    passionate and perseverance. With a curious mind, I like to
-                    try new things and take risks. I am keen on implementing new
+                    I'm an UX designer based in Vancouver. With a curious mind,
+                    I like to try new things and take risks. I am precise,
+                    passionate and perseverance. I am keen on implementing new
                     experiences through design, research, and coding.
                   </h5>
                 </div>
               </div>
             </div>
           </div>
-
           <br />
           <br />
           <br />
           <br />
-
           <div className="row">
             <div className="col-6">
               <div
@@ -330,7 +327,6 @@ const AboutPage = ({ data }, location) => {
               </div>
             </div>
           </div>
-
           <div className="row">
             <div className="col-6">
               <div
@@ -450,10 +446,8 @@ const AboutPage = ({ data }, location) => {
               </div>
             </div>
           </div>
-
           <br />
           <br />
-
           <h5 id="dynamic-styles">I make digital products work</h5>
           <p>
             With my diverse background in{" "}
@@ -462,13 +456,23 @@ const AboutPage = ({ data }, location) => {
             <b>happy users</b> will result in a more <b>profitable business.</b>
           </p>
           <br />
+          <br />
+          <h5 id="dynamic-styles">Recognition</h5>
+          2019 - 2020 &nbsp; UX Planet - UI / UX writer
+          <br />
+          2019
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Girls in Tech Hackathon -{" "}
+          <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
+            1st Place.
+          </a>{" "}
+          <br />
+          <br />
           <h5 id="dynamic-styles">Experience</h5>
-
           <p>
             Co-founder of a Canadian-based Tech design studio -{" "}
             <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
           </p>
-
           <p>
             I started my career as an international journalist and market
             researcher. I have travelled to 40+ countries and collaborated with
@@ -481,32 +485,7 @@ const AboutPage = ({ data }, location) => {
             industries from <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>,{" "}
             <b>Healthcare</b>, to <b>Data Analysis</b>.
           </p>
-
           <p>
-            <br />
-            <br />
-            <h5 id="dynamic-styles">Recognition</h5>
-            2019 - 2020 &nbsp; UX Planet - UI / UX writer
-            <br />
-            2019
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Girls in Tech Hackathon -{" "}
-            <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
-              1st Place.
-            </a>{" "}
-            <br />
-            <br />
-            <h5 id="dynamic-styles">Design workshop</h5>
-            2018 - 2020 &nbsp; International Design Foundation
-            <br />
-            2016 - 2017 &nbsp; World's Top 50 Thinkers workshop - Hermann Simon
-            (Branding)
-            <br />
-            2015 - 2016 &nbsp; World's Top 50 Thinkers workshop - Alex
-            Osterwalder (UX)
-            <br />
-            2014 - 2015 &nbsp; TAITRA - Market Research and Branding
-            <br />
             <br />
             <h5 id="dynamic-styles">Educational background</h5>
             2014 - 2016 &nbsp; National Chiao Tung University - Global MBA{" "}
@@ -521,8 +500,43 @@ const AboutPage = ({ data }, location) => {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Top 1
             Nation-wide)
             <br />
+            <br />
+            <h5 id="dynamic-styles">Design workshop</h5>
+            2018 - 2020 &nbsp; International Design Foundation
+            <br />
+            2016 - 2017 &nbsp; World's Top 50 Thinkers workshop - Hermann Simon
+            (Branding)
+            <br />
+            2015 - 2016 &nbsp; World's Top 50 Thinkers workshop - Alex
+            Osterwalder (UX)
+            <br />
+            2014 - 2015 &nbsp; TAITRA - Market Research and Branding
+            <br />
           </p>
         </div>
+      </article>
+
+      <article className="post-content page-template no-image">
+        <div className="post-content-body">
+          <h1 id="want-to-chat-hit-me-up-on-linkedin-messenger-or-drop-me-an-email">
+            Want to chat? Hit me up on{" "}
+            <a
+              href="https://www.linkedin.com/in/annieyiningwang/"
+              target="_blank"
+            >
+              Linkedin,
+            </a>{" "}
+            <a href="https://m.me/annieynwang" target="_blank">
+              Messenger
+            </a>{" "}
+            or drop me an{" "}
+            <a href="mailto:simpleuiux@gmail.com" target="_blank">
+              Email.
+            </a>{" "}
+          </h1>
+        </div>
+        <br />
+        <br />
       </article>
     </Layout>
   )
