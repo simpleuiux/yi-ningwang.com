@@ -1,7 +1,7 @@
 ---
 title: KINDREDNOTES
 date: "2019-05-07"
-thumbnail: ./kindrednotes-thumbnail.png
+thumbnail: ./kindrednotes-thumbnail-horizontal.png
 description: UX/UI Design
 ---
 
