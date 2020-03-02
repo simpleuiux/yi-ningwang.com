@@ -546,7 +546,7 @@ body {
 .post-content-image {
   margin: 4vw 0;
   position: relative;
-  width: 75vw;
+  width: 100vw;
   min-width: 100%;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
