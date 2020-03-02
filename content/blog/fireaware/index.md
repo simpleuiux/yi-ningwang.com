@@ -1,7 +1,7 @@
 ---
 title: FIREAWARE
 date: "2020-02-08"
-thumbnail: ./fireaware-thumbnail.png
+thumbnail: ./fireaware-thumbnail-horizontal.png
 description: UI/UX Design, Data Visualization
 ---
 
