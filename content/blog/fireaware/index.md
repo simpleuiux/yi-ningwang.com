@@ -91,7 +91,7 @@ firefighters are vulnerable to the unpredictability of wildfires
 </div>
 
 <h6 style="font-size: 16px; margin-bottom:20px; text-transform:uppercase">
-Campers have not enough information to camp safely 
+Campers don't have enough information to prevent fire and to camp safely
 </h6>
 
 <div class="kg-card kg-image-card kg-width-full">
