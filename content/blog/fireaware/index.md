@@ -40,7 +40,7 @@ Our high level goals were to:
    </br>
    </br>
 
-<h6 style="margin-bottom:20px; text-transform:uppercase">
+<h6 style="font-size: 16px; margin-bottom:20px; text-transform:uppercase">
 My role 
 </h6>
 
@@ -80,7 +80,7 @@ A good problem is one that many thousands of people have </h3>
 
 Wildfires have become endemic around the world, especially in 2019. With limited resources, it is hard for <b>firefighters</b> to find the wildfires in the first place, and to get there timely, sometimes when they arrived, the fire has become too big to put off. To <b>campers</b> who like to cook in the wild, it is hard for them to know what day and where is safer and not vulnerable to forest fires. These people are whom we would like to target to. It is our market niche which has enough users, and the market is solid.
 
-<h6 style="margin-top: 80px; margin-bottom: -80px; text-transform:uppercase">
+<h6 style="font-size: 16px; margin-top: 80px; margin-bottom: -80px; text-transform:uppercase">
 firefighters are vulnerable to the unpredictability of wildfires  
 </h6>
 
@@ -90,7 +90,7 @@ firefighters are vulnerable to the unpredictability of wildfires
 
 </div>
 
-<h6 style="margin-bottom:20px; text-transform:uppercase">
+<h6 style="font-size: 16px; margin-bottom:20px; text-transform:uppercase">
 Campers have not enough information to camp safely 
 </h6>
 
