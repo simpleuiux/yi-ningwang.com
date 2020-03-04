@@ -90,11 +90,11 @@ firefighters are vulnerable to the unpredictability of wildfires
 
 </div>
 
-<h6 style="font-size: 16px; margin-bottom:20px; text-transform:uppercase">
+<h6 style="font-size: 16px; margin-top: 80px; margin-bottom: -80px; text-transform:uppercase">
 Campers don't have enough information to prevent fire and to camp safely
 </h6>
 
-<div class="kg-card kg-image-card kg-width-full">
+<div class="margin-top:-20px; kg-card kg-image-card kg-width-full">
 
 ![user-story](./fireaware3.png)
 
