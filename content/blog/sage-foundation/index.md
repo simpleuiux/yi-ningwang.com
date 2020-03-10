@@ -5,19 +5,25 @@ thumbnail: ./sagefoundation-green-horizontal.png
 description: UX Research & Design
 ---
 
-### BRIEF
+---
 
-#### AN EXPERIENCE FOR USERS TO FIND SUPPORT AND BELONGINGS
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+BRIEF </h6>
 
-Sage Foundation is an NPO that aims to provide information and sponsorship for youth immigrants coming to Canada. However, the existing website hasn’t been renovated for years. In the project, the goal is to create a more user-friendly platform which will serve as a bridge for both the youth and the donor who would like to contribute.
+<h3 style="margin-bottom:20px; text-transform:uppercase">
+Bridge the supports with those in needs</h3>
+
+Sage Foundation is an NPO that aims to <b>provide information and sponsorship</b> for <b>youth immigrants</b> coming to Canada. The goal is to revamp the old website and to create a more user-friendly platform which will bridge both the youth and the supporters who would like to contribute.
 
 ---
 
-### THE PROCESS
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+Research Process </h6>
 
-#### DEFIND THE PROBLEM USER IS FACING
+<h3 style="margin-bottom:20px; text-transform:uppercase">
+DEFIND THE PROBLEM THE USERS ARE FACING </h3>
 
-With the competitive analysis, we found that Sage Foundation website has a high bounce rate and a low engagement rate. Through the data shown below, we made the website more imageries based on attracting users’ attention and adding more immigration supporting documents for users to stay longer on the site.
+I started with the competitive analysis and found that Sage Foundation website has a high bounce rate and a low engagement rate. Through the data shown below, I made the website more imageries based on attracting users’ attentions and adding more immigration supporting documents for users to stay longer on the site.
 
 <div class="kg-card kg-image-card kg-width-wide">
 
@@ -31,7 +37,11 @@ With the competitive analysis, we found that Sage Foundation website has a high 
 
 </div>
 
-#### UNDERSTAND THE USERS' FEELING
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+User story </h6>
+
+<h3 style="margin-bottom:20px; text-transform:uppercase">
+UNDERSTAND THE USERS' FEELING</h3>
 
 Simulating user experience can help us find the right users and empathize them. From the project, there are two user profiles created, the youth immigrant- Kim and the donor - Julia, which are both main users of the future website.
 
@@ -53,7 +63,11 @@ Simulating user experience can help us find the right users and empathize them. 
 
 </div>
 
-#### SIMULATING USERS' ONLINE EXPERIENCE
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+User flow </h6>
+
+<h3 style="margin-bottom:20px; text-transform:uppercase">
+SIMULATING USERS' ONLINE EXPERIENCE</h3>
 
 Understanding what routes users might go through can help us know what we are missing and what is our MVP.
 
@@ -77,7 +91,11 @@ Understanding what routes users might go through can help us know what we are mi
 
 </div>
 
-#### IMPROVE DESIGN THROUGH CONTINUOUS TESTING
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+User testing </h6>
+
+<h3 style="margin-bottom:20px; text-transform:uppercase">
+Testing the user experience through continuous testing</h3>
 
 I asked users to play different roles, such as the youth and the donor, through the testing. They have to complete the task to fill the sponsorship form, for example. After the user testing, I have revised the design according to the feedback. I changed it from the drop-down menu to a more imagery-based menu.
 
