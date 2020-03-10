@@ -11,9 +11,13 @@ description: UI/UX Design
 
 </a>
 
-#### REDESIGN USER EXPERIENCE TO MAKE IT ACCESSIBLE FOR USERS OVER 50
+---
 
-### BRIEF
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+BRIEF </h6>
+
+<h3 style="margin-bottom:20px; text-transform:uppercase">
+REDESIGN USER EXPERIENCE TO MAKE IT ACCESSIBLE FOR USERS OVER 50</h3>
 
 > As women, we take care of everyone else before we take care of ourselves. When we move into our 50s and beyond, self-care is more important than ever before.
 >
