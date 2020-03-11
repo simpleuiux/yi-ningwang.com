@@ -160,7 +160,7 @@ CHECK OUT THE PROTOTYPE
 
 <div style=text-align-last:end>
   
-<a href='/kindrednotes'>
+<a href='/age-sister'>
        <b>AGE SISTER</b> &#8594; 
       </a>
 </div>

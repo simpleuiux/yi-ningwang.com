@@ -186,7 +186,7 @@ To test an idea, prototyping it is the most effective way. It is crucial to gain
 
 <div style=text-align-last:end>
   
-<a href='/age-sister'>
+<a href='/kindrednotes'>
        <b>KINDREDNOTES</b> &#8594; 
       </a>
 </div>
