@@ -1,15 +1,13 @@
 ---
-title: AGE SISTER
+title: KINDREDNOTES
 date: "2019-05-07"
-thumbnail: ./agesister-thumbnail.png
-description: UI/UX Design
+thumbnail: ./kindrednotes-thumbnail-horizontal.png
+description: UX/UI Design
 ---
 
-<a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">
-
-![Botton prototype](./view-the-prototype-age-sister.svg)
-
-</a>
+> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UI/UX design services."
+>
+> -- Shelley Moore - Founder of KindredNotes
 
 ---
 
@@ -17,13 +15,9 @@ description: UI/UX Design
 BRIEF </h6>
 
 <h3 style="margin-bottom:20px; text-transform:uppercase">
-REDESIGN USER EXPERIENCE TO MAKE IT ACCESSIBLE FOR USERS OVER 50</h3>
+A MOBILE EXPERIENCE ENABLE USERS SPREAD KINDNESS AT THE FINGERTIPS </h3>
 
-> As women, we take care of everyone else before we take care of ourselves. When we move into our 50s and beyond, self-care is more important than ever before.
->
-> — Kate Milne, the founder of Age Sister
-
-Ageing is happening every day, but we usually ignore it. Kate Milne noticed that women, especially aged from 50 to 70 years old, are among the most under-served population. She started Age Sister, a health consultancy firm, in Vancouver to help women ageing in a happier and healthier way.
+KindredNotes is a Vancouver based start-up that aims to connect people around the world through sending and receiving kind notes. Even though there is already an official website, no functional app is designed for users yet. In the project, the goal is to take a mobile-first approach to design an engaging experience for users.
 
 ---
 
@@ -33,140 +27,140 @@ Research Process </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 DEFINE AND UNDERSTAND USERS' BEHAVIORS </h3>
 
-#### DOMAIN RESEARCH
-
-1. <b>Only 15%</b> of women at all ages meet the PE guidelines.
-2. Women between 50 and 70 years old are <b>under-served</b>.
-3. Women during menopause have an increased risk of developing <b>cardiovascular diseases.</b>
-4. Lifestyle intervention can reverse the effect.
-5. It links physical inactivity to <b>premature mortality</b>.
-6. PE can delay age-related diseases, such as Alzheimer’s and Parkinson’s.
-7. <b>Self-efficacy, intention, and depression</b> link to PE.
-8. <b>Social and structured inequality</b> affects how much PE and exercise an older adult is getting.
-
-<div class="kg-card kg-image-card">
-
-![User Interview](https://miro.medium.com/max/1440/1*JN93SSeGkxyQM3YBTxLaJQ.png)
-
-</div>
-
-<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
-survey </h6>
-
-<h3 style="margin-bottom:20px; text-transform:uppercase">
-find out the behaviour of users</h3>
-
-We sent out the survey and received 20+ responses, from the survey we have some key findings.
-
-1. Know that we need to focus are woman aged 50 to 60 years old
-2. User frequency mobile > desktop > iPad
-3. Visual, font side, interface are important especially for women with certain disabilities
+First challenge is to find the liking and behavior of the users, and through 20 responses and 6 interviews, we learn that users fall to the age of 25 to 34, they like to type something short and quick with a positive tone and they would be happy to have a reward system (such as In-App services).
 
 ---
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
-user persona </h6>
+User story </h6>
 
 <h3 style="margin-bottom:20px; text-transform:uppercase">
-They need support to age healthily</h3>
+IMAGINING THE USERS' EXPERIENCE </h3>
 
-After the busy Christmas, Linda finally has time to sit down and reflect on what she has done during this year. After the reflections, Linda wrote a list of things she wants to accomplish next year. She wants to have more time for her own, try to eat out less and cook more and to exercise more…
+I focused on creating a user story and user scenario to understand their experience. I wanted to allow users to tell us how they wanted their app delivered. If users can tailor it to fit their mentalities and interests, they are more likely to stick to the service.
 
-<div class="kg-card kg-image-card">
+<h4 style="margin-bottom:-60px; text-transform:uppercase">
+Meet Doris! </h4>
 
-![User Persona](./user-persona.png)
+<h1>
 
-</div>
+![doris](/doris-thumbnail.png)
 
-#### MOTIVATION AND PAIN POINT OF USERS
+</h1>
 
-- Highly motivated to exercise to overcome physical discomfort
-- The lack of the support group in their life circle makes them feel lonely
-- Users are also looking for a right way working out
+Doris is a 26-year-old illustrator who likes to read before going to sleep. She likes her job because she can work from home. However, she **feels lonely sometimes** and **wish someone could encourage her**. One day, after a long day, she especially urged for some comfort. While googling the keyword ‘how to get motivated’, she found KindredNotes that **for people to spread kindness online**...she was curious and would like to know more...
 
 ---
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
-design Process </h6>
+User scenario & storyboard </h6>
 
-<h3 style="margin-bottom:70px; text-transform:uppercase">
-empathize the users' needs and likings </h3>
+<h4 style="margin-bottom:-70px; text-transform:uppercase">
+Doris's day </h4>
 
-<h6 style=" font-size: 16px; text-transform:uppercase">
-mood board </h6>
+<div style="margin-top:-20px" class="kg-card kg-image-card kg-width-full">
 
-<p style=" margin-bottom:-50px">
-There are two mood boards for the client. The brownish-yellow colours help the whole website pop up visually with <b>a vibrant atmosphere</b> while the blue version on the right <b>conveyed a resilient feeling</b>. </br>
-Age Sister would like to present a happy and revitalized vibe to gladden users. Therefore, the brownish-yellow serve as the final decision.
-</p>
-<div class="kg-card kg-image-card">
-
-![Mood board](https://miro.medium.com/max/1440/1*YgJ5A9wEzvW9Nl8GWIca4w.png)
+![Doris's day](./user-scenario-1.png)
 
 </div>
 
----
+<div style="margin-top:-20px" class="kg-card kg-image-card kg-width-full">
 
-<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
-logo process </h6>
+![Doris's day](./user-scenario-2.png)
 
-<h3 style="margin-bottom:20px; text-transform:uppercase">
-embody the dynamic and fluidity of femininity </h3>
+</div>
 
-<p style=" margin-bottom:-50px">
-I want to make a dynamic logo with feminine gestures. There are several variations in the logo design. We can reorganize the elements of logo that changed in several ways, make it a changable and adaptable.
-</p>
+<div style="margin-top:-20px" class="kg-card kg-image-card kg-width-full">
+
+![Doris's day](./user-scenario-3.png)
+
+</div>
+
+#### CREATE VALUE WITH IN-DEPTH CONNECTION
+
+Before, people connect to each other but only talk about superficial things. Now, KindredNotes connects users with topics that they really care. The value of it is through the simple gesture, we can share in-depth understanding with great positivity power, but still able to keep the space and privacy that people need.
 
 <div class="kg-card kg-image-card kg-width-wide">
 
-![Logo Design](https://miro.medium.com/max/1440/1*k4X2RHW-Bg7R-6QbmQnZtA.png)
+![It's all blue](./illustration.png)
+
+</div>
+
+---
+
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+Information Architecture </h6>
+
+<h3 style="text-transform:uppercase">
+define the logical structure of the app </h3>
+
+<div style="margin-top:-100px" class="kg-card kg-image-card kg-width-full">
+
+![Information Architecture](./IA.png)
 
 </div>
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
-style tile</h6>
+User flow & MVP </h6>
 
-<h3 style="margin-bottom:20px; text-transform:uppercase">
-a good branding is its consistency</h3>
+<h3 style="text-transform:uppercase">
+Get the best experience user want to have </h3>
 
-<p style=" margin-bottom:-50px">
-<b>Colours</b> | Teal, brownish and yellow colour palette provides a energetic and healthy tone. </br>
-<b>Typography</b> | Metropolis and Futura are both minimalistic san-serif font that give a neat feeling. They were chosen for the accessibility reason. It is easier for elders to read at either small or large font size.</br>
-<b>Design Elements</b> | I added CTA (Call To Action) buttons with a bright colour so it can pop and stand out.
+<div style="margin-top:-100px" class="kg-card kg-image-card kg-width-full">
 
-</p>
-
-<div class="kg-card kg-image-card">
-
-![Style Tile](./style-tile.png)
+![MVP](./MVP.png)
 
 </div>
 
----
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+Lo-fidelity wireframes </h6>
 
-#### Wireframes
+<h3 style="text-transform:uppercase">
+Kick off and test the theory</h3>
 
-![Wireframes](https://miro.medium.com/max/1440/1*cstbTspWVNbnwNXQueayWg.png)
+<div style="margin-top:-100px" class="kg-card kg-image-card kg-width-full">
 
----
+![lo-fi](./wireframes-2.png)
 
-#### Final Design
+</div>
 
-![Final Design](https://miro.medium.com/max/1440/1*Dhrs-MqMbCH3qsotYWq83Q.png)
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+user testing </h6>
 
-<br/>
+<h3 style="text-transform:uppercase">
+TESTING TO FIND THE TRUE VALUE OF THE PRODUCT</h3>
 
-<a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">
+After user testing, there are some improvements made, such as received and sent notes should all go under the same categories. Better to have avatar to recognize which section the user is at. They would like to know the impact of their messages. It is good to have a notification shown that reply is sent successfully, etc.
 
-![Botton prototype](./view-the-prototype-age-sister.svg)
+<div style="margin-top:-100px" class="kg-card kg-image-card kg-width-full">
 
-</a>
+![user testing](./testing.png)
 
-<br/><br/>
+</div>
+
+<h6 style=" font-size: 16px; margin-bottom:-30px; text-transform:uppercase">
+high-fidelity wireframes </h6>
+
+<h3 style="text-transform:uppercase">
+final design</h3>
+
+<div style="margin-top:-100px" class="kg-card kg-image-card kg-width-full">
+
+![Final Design](./kindrednotes040.png)
+
+</div>
+
+<h3 style="text-transform:uppercase">
+CHECK OUT THE PROTOTYPE
+</h3>
+
+<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="788.54" height="443" type="text/html" src="https://www.youtube.com/embed/WAA0SimkEZs?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="http://add-link-exchange.com">Add-link-exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="http://add-link-exchange.com">add-link-Exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode.com/de/</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode.com/en/</a></small></div><div><small><a href="http://add-link-exchange.com">w://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode es</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div></iframe>
+
+<br/><br/><br/>
 
 <div style=text-align-last:end>
-
-<a href='/sage-foundation'>
-       <b>Sage Foundation</b> &#8594; 
+  
+<a href='/kindrednotes'>
+       <b>AGE SISTER</b> &#8594; 
       </a>
 </div>
