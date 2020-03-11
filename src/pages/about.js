@@ -175,8 +175,8 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h5>
-                    I'm an UX designer based in Vancouver. With a curious mind,
-                    I like to try new things and take risks. I am precise,
+                    I'm an UX / UI designer based in Vancouver. With a curious
+                    mind, I like to try new things and take risks. I am precise,
                     passionate and perseverance. I am keen on implementing new
                     experiences through design, research, and coding.
                   </h5>
@@ -264,10 +264,10 @@ const AboutPage = ({ data }, location) => {
                       </g>
                     </svg>
                   </div>
-                  <h3>UX Designer</h3>
+                  <h3>UX / UI Designer</h3>
                   <p>
-                    I'm a UX designer with 3+ years of experience. Currently a
-                    UX / UI designer at RED Academy in Vancouver.
+                    I'm an UX / UI designer with 5+ years of experience.
+                    Currently a design lead at RED Academy in Vancouver.
                   </p>
                 </div>
               </div>
@@ -321,7 +321,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>Front-End Developer</h3>
                   <p>
                     I like to code my own designs. I apply my designs with
-                    modern HTML, (S)CSS and basic Javascript.
+                    modern HTML, (S)CSS and Javascript.
                   </p>
                 </div>
               </div>
@@ -439,8 +439,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Presenter</h3>
                   <p>
-                    I present at hackathons and conferences about UX / UI
-                    design, business plans and more.
+                    I present and mentor at hackathons, conferences and
+                    universities in UX / UI design, design thinking and more.
                   </p>
                 </div>
               </div>
@@ -502,6 +502,8 @@ const AboutPage = ({ data }, location) => {
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>
+            2019 - 2020 &nbsp; UBC Sustainability Hacks
+            <br />
             2018 - 2020 &nbsp; International Design Foundation
             <br />
             2016 - 2017 &nbsp; World's Top 50 Thinkers workshop - Hermann Simon
@@ -510,7 +512,8 @@ const AboutPage = ({ data }, location) => {
             2015 - 2016 &nbsp; World's Top 50 Thinkers workshop - Alex
             Osterwalder (UX)
             <br />
-            2014 - 2015 &nbsp; TAITRA - Market Research and Branding
+            2014 - 2015 &nbsp; TAITRA Taiwan - Market Research and Corporate
+            Branding
             <br />
           </p>
         </div>
