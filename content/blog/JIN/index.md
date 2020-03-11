@@ -2,7 +2,7 @@
 title: JAPAN INFLUENCER NETWORK
 date: "2019-05-04"
 thumbnail: ./jin-darkgrey.png
-description: UI/UX Design, Prototyping, Data Visualization, Front-end
+description: UI/UX Design, Data Visualization, Front-end
 ---
 
 #### JIN, Japan Influencer network, is the first network platform connects influencers and advertising agencies.
@@ -90,6 +90,6 @@ At first, the user profile page has only have contents with pictures. To inclu
 <div style=text-align-last:end>
   
 <a href='/dribbble-hightlight'>
-       UI highlights on DRIBBBLE &#8594; 
+       <b>UI highlights on DRIBBBLE</b> &#8594; 
       </a>
 </div>

@@ -2,7 +2,7 @@
 title: DESIGN HIGHTLIGHTS ON DRIBBBLE
 date: "2019-05-03"
 thumbnail: ./dribbble-brightpink.png
-description: USER INTERFACE DESIGN
+description: UI Design
 ---
 
 <div class="kg-card kg-image-card kg-width-full">
@@ -44,6 +44,6 @@ description: USER INTERFACE DESIGN
 <div style=text-align-last:end>
   
 <a href='/fireaware'>
-       FIREAWARE &#8594; 
+       <b>FIREAWARE</b> &#8594; 
       </a>
 </div>

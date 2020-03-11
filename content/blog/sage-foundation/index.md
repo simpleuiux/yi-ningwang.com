@@ -128,6 +128,6 @@ I asked users to play different roles, such as the youth and the donor, through 
 <div style=text-align-last:end>
   
 <a href='/JIN'>
-       Japanese Influencer Network &#8594; 
+       <b>Japanese Influencer Network</b> &#8594; 
       </a>
 </div>

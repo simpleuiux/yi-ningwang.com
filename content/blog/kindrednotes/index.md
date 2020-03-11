@@ -167,6 +167,6 @@ a good branding is its consistency</h3>
 <div style=text-align-last:end>
 
 <a href='/sage-foundation'>
-       Sage Foundation &#8594; 
+       <b>Sage Foundation</b> &#8594; 
       </a>
 </div>
