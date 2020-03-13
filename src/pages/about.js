@@ -321,7 +321,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>Front-End Developer</h3>
                   <p>
                     I like to code my own designs. I apply my designs with
-                    modern HTML, (S)CSS and Javascript.
+                    modern HTML5, (S)CSS3 and Javascript.
                   </p>
                 </div>
               </div>
