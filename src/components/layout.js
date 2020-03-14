@@ -113,7 +113,7 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         <a href="/" rel="noopener noreferrer">
-          yi-ningwang.com
+          Yining Wang
         </a>{" "}
         &nbsp; · &nbsp;
         <a
