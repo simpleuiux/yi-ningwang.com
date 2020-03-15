@@ -439,8 +439,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Presenter</h3>
                   <p>
-                    I present and mentor at hackathons, conferences and
-                    universities in UX / UI design, design thinking and more.
+                    I present at hackathons, conferences and universities on UX
+                    / UI design, design thinking and more.
                   </p>
                 </div>
               </div>
@@ -452,7 +452,7 @@ const AboutPage = ({ data }, location) => {
           <p>
             With my diverse background in{" "}
             <b>design, communication and business</b>, I aim not only to make
-            the product look pretty, but also to make it work -{" "}
+            the product look appealing, but also to make it work effectively-{" "}
             <b>happy users</b> will result in a more <b>profitable business.</b>
           </p>
           <br />
@@ -474,9 +474,10 @@ const AboutPage = ({ data }, location) => {
             <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
           </p>
           <p>
-            I started my career as an international journalist and market
-            researcher. I have travelled to 40+ countries and collaborated with
-            people from North America, Africa, Europe, and Asia.
+            I started my career as an international journalist, a content
+            strategist and a market researcher. I have travelled to 40+
+            countries and collaborated with people from North America, Africa,
+            Europe, and Asia.
           </p>
           <p>
             In 2015, I worked for UBS and dived into the UX world. Since then, I
