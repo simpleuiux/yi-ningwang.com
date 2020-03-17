@@ -17,7 +17,7 @@ BRIEF </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 A MOBILE EXPERIENCE ENABLE USERS SPREAD KINDNESS AT THE FINGERTIPS </h3>
 
-KindredNotes is a Vancouver based start-up that aims to connect people around the world through sending and receiving kind notes. Even though there is already an official website, no functional app is designed for users yet. In the project, the goal is to take a mobile-first approach to design an engaging experience for users.
+KindredNotes is a Vancouver based start-up that aims to connect people around the world through sending and receiving kind notes. Even though there is already an official website, no functional app is designed for users yet. In the project, the goal was to take a mobile-first approach to design an engaging experience for users.
 
 ---
 
