@@ -131,7 +131,7 @@ User testing </h6>
 <h3 style="margin-bottom:20px; text-transform:capitalize">
 Optimize the users' experience through continuous testing</h3>
 
-I asked users to play different roles, such as the youth and the donor, through the testing. They have to complete the task to fill the sponsorship form, for example. After the user testing, I have revised the design according to the feedback. I changed it from the drop-down menu to a more imagery-based menu.
+I asked users to play in different roles, such as the youth and the donor. They had to complete the task by filling out the sponsorship form, for example. After the user testings, I have revised the design according to the feedbacks. I changed the design from the original drop-down menu to a more imagery-based menu. It can make users navigate more easily.
 
 <div class="kg-card kg-image-card kg-width-wide">
 
