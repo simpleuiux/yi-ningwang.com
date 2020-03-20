@@ -33,9 +33,9 @@ Approximately 8,000 wildfires occur each year in Canada. Human-caused fires�
 
 Our high level goals were to:
 
-1. Make it easy to visualize wildfires for everyone, everywhere.
+1. Make it easy to visualize ongoing wildfires for everyone, everywhere.
 2. Give firefighters more control over time and money.
-3. Create an interative platform for real-time alert and fire prevention.
+3. Create an real-time alert and fire prevention interative platform.
    </p>
    </br>
    </br>
@@ -44,11 +44,11 @@ Our high level goals were to:
 My role 
 </h6>
 
-I work with the team to draft FIREAWARE business plan, conduct UX research and create UI/UX design. I collaborated with another designer to create the fire prediction and interactive experience on the app and collaborated with two developers with visualization map and AI prediction model.
+I worked with the team to draft FIREAWARE business plan, conducted UX research and created UI/UX design. I collaborated with another designer to create the fire prediction and interactive experience on the app and collaborated with two developers with visualization map and AI prediction model.
 
-We invest about 12 hours and stopped working on the project after the presentation and the price announced.
+We invested about 12 hours on the project in two days.
 
-The app is under developed by <a href="https://quantaloop.com/"> Quantaloop</a>, one of the hackathon sponsors.
+The app is under development by <a href="https://quantaloop.com/"> Quantaloop</a>, one of the hackathon sponsors.
 
 ---
 
@@ -58,7 +58,7 @@ Research Process </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 Design by conscientious </h3>
 
-I gathered a bunch of visualization maps to give me inspirations that I want to work on. It also helps me to know what kind of maps are more suitable to showcase wildfires' locations.
+I gathered a bunch of visualization maps to give me inspirations that I wanted to work on. It also helped me to know what kind of maps are more suitable to showcase wildfires' locations.
 
 <div style="margin-bottom:20px; margin-top:-20px" class="kg-card kg-image-card kg-width-full">
 
@@ -70,9 +70,9 @@ I gathered a bunch of visualization maps to give me inspirations that I want to 
 User story </h6>
 
 <h3 style="margin-bottom:20px; text-transform:uppercase">
-A good problem is one that many thousands of people have </h3>
+A good problem is the one that many thousands of people have </h3>
 
-Wildfires have become endemic around the world, especially in 2019. With limited resources, it is hard for <b>firefighters</b> to find the wildfires in the first place, and to get there timely, sometimes when they arrived, the fire has become too big to put off. To <b>campers</b> who like to cook in the wild, it is hard for them to know what day and where is safer and not vulnerable to forest fires. These people are whom we would like to target to. It is our market niche which has enough users, and the market is solid.
+Wildfires have become pandemic around the world, especially in 2019. With limited resources, it is hard for <b>firefighters</b> to find the wildfires in the first place, and to get there timely. Sometimes when they arrived, the fire has become too big to put off. To <b>campers</b> who need to cook in the wild, it is hard for them to know what day and where is safer and less vulnerable to forest fires. These people are whom we would like to target to. Our market is solid and niche. It also has large amount of target users.
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Target User 1</h6>
