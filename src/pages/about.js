@@ -141,7 +141,7 @@ const AboutPage = ({ data }, location) => {
           <h1 id="about-me-titles">
             <br />A design, psychology, and travel enthusiast who {""}
             <a href="https://github.com/simpleuiux" target="_blank">
-              codes{""}
+              creates{""}
             </a>{" "}
             her own ideas.
           </h1>
@@ -175,10 +175,11 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h5>
-                    I'm an UX / UI designer based in Vancouver. With a curious
-                    mind, I like to try new things and take risks. I am precise,
-                    passionate and perseverance. I am keen on implementing new
-                    experiences through design, research, and coding.
+                    I'm a UX designer based in Vancouver with 5+ experience.
+                    With a curious mind, I embrace challeges and enjoy finding
+                    solutions. I am precise, passionate and perseverance. I am
+                    keen on applying new experiences through research, design
+                    process and prototypes.
                   </h5>
                 </div>
               </div>
