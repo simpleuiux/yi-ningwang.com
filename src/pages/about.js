@@ -174,13 +174,13 @@ const AboutPage = ({ data }, location) => {
                 }}
               >
                 <div class="skill">
-                  <h5>
-                    I'm a UX designer based in Vancouver with 5+ experience.
-                    With a curious mind, I embrace challeges and enjoy finding
-                    solutions. I am precise, passionate and perseverance. I am
-                    keen on applying new experiences through research, design
-                    process and prototypes.
-                  </h5>
+                  <h6>
+                    I'm a UX designer based in Vancouver with 5+ years of
+                    experience. With a curious mind, I embrace challeges and
+                    enjoy finding solutions. I am precise, passionate and
+                    perseverance. I am keen on applying new experiences through
+                    research, design process and prototypes.
+                  </h6>
                 </div>
               </div>
             </div>
@@ -265,10 +265,11 @@ const AboutPage = ({ data }, location) => {
                       </g>
                     </svg>
                   </div>
-                  <h3>UX / UI Designer</h3>
+                  <h3>UX Design</h3>
                   <p>
-                    I'm an UX / UI designer with 5+ years of experience.
-                    Currently a design lead at RED Academy in Vancouver.
+                    I'm a Senior UX designer with 5+ years of experience.
+                    Currently work as Lead UX designer at QuoteToMe, a startup
+                    in Canada.
                   </p>
                 </div>
               </div>
@@ -319,10 +320,10 @@ const AboutPage = ({ data }, location) => {
                       </g>
                     </svg>
                   </div>
-                  <h3>Front-End Developer</h3>
+                  <h3>Front-End</h3>
                   <p>
-                    I like to code my own designs. I apply my designs with
-                    modern HTML5, (S)CSS3 and Javascript.
+                    I enjoy learning new technology and code my own designs with
+                    modern HTML5, (S)CSS3 and vanilla Javascript.
                   </p>
                 </div>
               </div>
@@ -385,12 +386,12 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Avid Reader</h3>
                   <p>
-                    Check my reading list on {""}
+                    Current read on {""}
                     <a href="https://www.goodreads.com/user/show/3607330-yining-wang">
                       goodreads
                     </a>
-                    {""}. Current read: 'The Laws of Human Nature by Robert
-                    Greene'.
+                    {""} - 'No Rules Rules: Netflix and the Culture of
+                    Reinvention' by Reed Hastings, Erin Meyer.
                   </p>
                 </div>
               </div>
@@ -438,10 +439,10 @@ const AboutPage = ({ data }, location) => {
                       </g>
                     </svg>
                   </div>
-                  <h3>Presenter</h3>
+                  <h3>Mentorship</h3>
                   <p>
-                    I present at hackathons, conferences and universities on UX
-                    / UI design, design thinking and more.
+                    I give presentations and mentorship to junior designers and
+                    students in design workshops, hackathons, and universities.
                   </p>
                 </div>
               </div>
@@ -453,7 +454,7 @@ const AboutPage = ({ data }, location) => {
           <p>
             With my diverse background in{" "}
             <b>design, communication and business</b>, I aim not only to make
-            the product look appealing, but also to make it work effectively-{" "}
+            products make sense, but also to make it communicate effectively-{" "}
             <b>happy users</b> will result in a more <b>profitable business.</b>
           </p>
           <br />
@@ -471,36 +472,31 @@ const AboutPage = ({ data }, location) => {
           <br />
           <h5 id="dynamic-styles">Experience</h5>
           <p>
-            Co-founder of a Canadian-based Tech design studio -{" "}
+            Co-founder of a Canada/Tokyo-based Tech design studio -{" "}
             <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
           </p>
           <p>
             I started my career as an international journalist, a content
-            strategist and a market researcher. I have travelled to 40+
-            countries and collaborated with people from North America, Africa,
-            Europe, and Asia.
+            strategist and a brand researcher. I have travelled to 40+ countries
+            and collaborated with people from North America, Africa, Europe, and
+            Asia.
           </p>
           <p>
             In 2015, I worked for UBS and dived into the UX world. Since then, I
-            have been growing from UX researcher to UX/UI designer. I have
-            provided systematic and precise researches and designs for
-            industries from <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>,{" "}
-            <b>Healthcare</b>, to <b>Data Analysis</b>.
+            have been growing from UX researcher to UX designer. I have provided
+            systematic and precise researches and designs for industries from{" "}
+            <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>, <b>Healthcare</b>, to{" "}
+            <b>Data Analysis</b>.
           </p>
           <p>
             <br />
             <h5 id="dynamic-styles">Educational background</h5>
             2014 - 2016 &nbsp; National Chiao Tung University - Global MBA{" "}
-            <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (World's Top
-            100 in entrepreneurship)
+            &nbsp; (World's Top 100 in entrepreneurship)
             <br />
             2006 - 2010 &nbsp; National Cheng Chi University - Media and
-            Communication <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Top 1
-            Nation-wide)
+            Communication &nbsp; (Top 1 Nation-wide in Communication and Digital
+            Media)
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>
