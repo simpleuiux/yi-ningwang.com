@@ -8,6 +8,7 @@
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },
   "dependencies": {
+    "browserslist": "^4.18.1",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-feed": "^2.2.0",
