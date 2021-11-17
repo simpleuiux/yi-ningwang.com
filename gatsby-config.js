@@ -61,7 +61,9 @@ module.exports = {
           require("postcss-easy-import")(),
           require("postcss-custom-properties")({ preserve: false }),
           require("postcss-color-function")(),
-          require("autoprefixer")(),
+          require("autoprefixer")({
+            Browserslist: ["last 2 versions"],
+          }),
         ],
       },
     },
