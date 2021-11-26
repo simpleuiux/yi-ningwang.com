@@ -175,11 +175,11 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                    I'm a UX designer based in Vancouver with 5+ years of
-                    experience. With a curious mind, I embrace challeges and
-                    enjoy finding solutions. I am precise, passionate and
-                    perseverance. I am keen on applying new experiences through
-                    research, design process and prototypes.
+                    I'm an experienced UX designer based in Montreal with 6+
+                    years of experience. With a curious mind, I embrace
+                    challeges and enjoy finding solutions. I am precise,
+                    passionate and perseverance. I am keen on applying new
+                    experiences through research, design process and prototypes.
                   </h6>
                 </div>
               </div>
@@ -267,9 +267,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>UX Design</h3>
                   <p>
-                    I'm a Senior UX designer with 5+ years of experience.
-                    Currently work as Lead UX designer at QuoteToMe, a startup
-                    in Canada.
+                    I'm a UX designer with 6+ years of experience. Currently
+                    work as Lead UX designer at QuoteToMe, a startup in Canada.
                   </p>
                 </div>
               </div>
@@ -453,14 +452,14 @@ const AboutPage = ({ data }, location) => {
           <h5 id="dynamic-styles">I make digital products work</h5>
           <p>
             With my diverse background in{" "}
-            <b>design, communication and business</b>, I aim not only to make
+            <b>design, communication and strategy</b>, I aim not only to make
             products make sense, but also to make it communicate effectively-{" "}
             <b>happy users</b> will result in a more <b>profitable business.</b>
           </p>
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2019 - 2020 &nbsp; UX Planet - UI / UX writer
+          2019 - 2021 &nbsp; UX Planet - UI / UX writer
           <br />
           2019
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -477,16 +476,16 @@ const AboutPage = ({ data }, location) => {
           </p>
           <p>
             I started my career as an international journalist, a content
-            strategist and a brand researcher. I have travelled to 40+ countries
+            strategist and a brand designer. I have travelled to 40+ countries
             and collaborated with people from North America, Africa, Europe, and
             Asia.
           </p>
           <p>
-            In 2015, I worked for UBS and dived into the UX world. Since then, I
-            have been growing from UX researcher to UX designer. I have provided
-            systematic and precise researches and designs for industries from{" "}
-            <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>, <b>Healthcare</b>, to{" "}
-            <b>Data Analysis</b>.
+            In 2015, I worked for UBS, a swiss bank, and dived into the UX
+            world. Since then, I have been growing as a UX designer. I have
+            provided systematic and precise researches and designs for
+            industries from <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>,{" "}
+            <b>Healthcare</b>, to <b>Data Analysis</b>.
           </p>
           <p>
             <br />
