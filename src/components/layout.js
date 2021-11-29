@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Resume from "../../content/assets/Senior UX designer 2021 Nov (Annie)Yining Wang.pdf"
+import Resume from "../../content/assets/Senior UX designer (Annie)Yining Wang.pdf"
 
 const activeStyle = {
   color: "rgb(38, 168, 237)",
