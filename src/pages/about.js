@@ -453,13 +453,13 @@ const AboutPage = ({ data }, location) => {
           <p>
             With my diverse background in{" "}
             <b>design, communication and strategy</b>, I aim not only to make
-            products make sense, but also to make it communicate effectively-{" "}
+            products make sense, but also to make it communicate effectively -{" "}
             <b>happy users</b> will result in a more <b>profitable business.</b>
           </p>
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2019 - 2022 &nbsp; UX Planet - UI / UX writer
+          2019 - 2022 &nbsp; UX Planet - UX / UI writer
           <br />
           2019
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -475,17 +475,17 @@ const AboutPage = ({ data }, location) => {
             <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
           </p>
           <p>
-            I started my career as an international journalist, a content
-            strategist and a brand designer. I have travelled to 40+ countries
-            and collaborated with people from North America, Africa, Europe, and
+            I started my career as an international journalist, a research
+            strategist and a UX designer. I have travelled to 40+ countries and
+            collaborated with people from North America, Africa, Europe, and
             Asia.
           </p>
           <p>
             In 2015, I worked for UBS, a swiss bank, and dived into the UX
             world. Since then, I have been growing as a UX designer. I have
             provided systematic and precise researches and designs for
-            industries from <b>Fintech</b>, <b>Banking</b>, <b>NGO</b>,{" "}
-            <b>Healthcare</b>, to <b>Data Analysis</b>.
+            industries from <b>Consultancy</b>, <b>Financial Services</b>,{" "}
+            <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>.
           </p>
           <p>
             <br />
