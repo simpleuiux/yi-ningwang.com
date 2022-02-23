@@ -156,7 +156,7 @@ const Layout = props => {
           Messenger
         </a>
         &nbsp; · &nbsp; &copy; {new Date().getFullYear()} &mdash; Handcrafted by
-        Yining with ❤{" "}
+        Annie Yining Wang with ❤{" "}
       </footer>
     </div>
   )
