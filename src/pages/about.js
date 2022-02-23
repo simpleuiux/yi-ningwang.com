@@ -175,11 +175,11 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                    I'm an experienced UX designer based in Montreal with 6+
-                    years of experience. With a curious mind, I embrace
-                    challeges and enjoy finding solutions. I am precise,
-                    passionate and perseverance. I am keen on applying new
-                    experiences through research, design process and prototypes.
+                    I'm a Lead UX designer based in Montreal with 6+ years of
+                    experience. With a curious mind, I embrace challenges and
+                    enjoy finding solutions. I am precise, passionate and
+                    perseverance. I am keen on applying new experiences through
+                    research, design process and prototypes.
                   </h6>
                 </div>
               </div>
@@ -267,8 +267,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>UX Design</h3>
                   <p>
-                    I'm a UX designer with 6+ years of experience. Currently
-                    work as Lead UX designer at QuoteToMe, a startup in Canada.
+                    With 6+ years of UX experience, I currently work as the Lead
+                    UX designer at Zoocasa, a Canadian startup.
                   </p>
                 </div>
               </div>
@@ -459,7 +459,7 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2019 - 2021 &nbsp; UX Planet - UI / UX writer
+          2019 - 2022 &nbsp; UX Planet - UI / UX writer
           <br />
           2019
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -509,8 +509,7 @@ const AboutPage = ({ data }, location) => {
             2015 - 2016 &nbsp; World's Top 50 Thinkers workshop - Alex
             Osterwalder (UX)
             <br />
-            2014 - 2015 &nbsp; TAITRA Taiwan - Market Research and Corporate
-            Branding
+            2014 - 2015 &nbsp; TAITRA Taiwan - Research and Branding Branding
             <br />
           </p>
         </div>
