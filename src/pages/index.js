@@ -144,7 +144,7 @@ const AboutPage = ({ data }, location) => {
           <h1 id="hi-im-yining-i-design-stuff">
             <br />
             Hi! I'm <a href="/about">Yining Wang</a>
-            {""}.<br />I craft user-friendly<a href="/project"> design</a>
+            {""}.<br />I <a href="/project"> design</a> exciting ideas.
             {""}.
           </h1>
           <br />
