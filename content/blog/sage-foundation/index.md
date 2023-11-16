@@ -163,6 +163,14 @@ The Final Design of Sage Foundation</h3>
 
 </div>
 
+<br/><br/>
+
+<div style="text-align-last:start;">
+  <a href='/age-sisters'>
+    <b>&#8592; AGE SISTER</b>
+  </a>
+</div>
+
 <div style=text-align-last:end>
   
 <a href='/JIN'>

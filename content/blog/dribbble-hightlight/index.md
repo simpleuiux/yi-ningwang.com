@@ -41,6 +41,14 @@ description: UI Design
 <br/>
 <br/>
 
+<br/><br/>
+
+<div style="text-align-last:start;">
+  <a href='/JIN'>
+    <b>&#8592; Japanese Influencer Network</b>
+  </a>
+</div>
+
 <div style=text-align-last:end>
   
 <a href='/fireaware'>

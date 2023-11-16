@@ -164,6 +164,14 @@ a good branding is its consistency</h3>
 
 <br/><br/>
 
+<br/><br/>
+
+<div style="text-align-last:start;">
+  <a href='/kindrednotes'>
+    <b>&#8592; KINDREDNOTES</b>
+  </a>
+</div>
+
 <div style=text-align-last:end>
 
 <a href='/sage-foundation'>

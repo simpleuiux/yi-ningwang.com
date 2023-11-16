@@ -185,8 +185,8 @@ When it comes to testing an idea, prototyping emerges as the most effective meth
 <br/><br/>
 
 <div style="text-align-last:start;">
-  <a href='/Dribbble'>
-    <b>&#8592; Dribbble</b>
+  <a href='/dribbble-hightlight'>
+    <b>&#8592; UI HIGHLIGHTS ON DRIBBBLE</b>
   </a>
 </div>
 

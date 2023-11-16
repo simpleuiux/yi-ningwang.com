@@ -87,9 +87,17 @@ At first, the user profile page has only have contents with pictures. To inclu
 
 <br/>
 
+<br/><br/>
+
+<div style="text-align-last:start;">
+  <a href='/sage-foundation'>
+    <b>&#8592; SAGE FOUNDATION</b>
+  </a>
+</div>
+
 <div style=text-align-last:end>
   
 <a href='/dribbble-hightlight'>
-       <b>UI highlights on DRIBBBLE</b> &#8594; 
+       <b>UI HIGHLIGHTS ON DRIBBBLE</b> &#8594; 
       </a>
 </div>
