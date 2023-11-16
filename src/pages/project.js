@@ -148,12 +148,12 @@ const BlogIndex = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             <br />
-            Eye-catching, minimal, and smart UI/UX design. <br /> Follow me on{" "}
-            <a href="https://dribbble.com/simpleuiux" target="_blank">
+            Eye-catching, minimal, and smart UX/UI design. <br /> Follow me on{" "}
+            <a href="https://dribbble.com/annieuxjourney" target="_blank">
               Dribbble
             </a>{" "}
             and{" "}
-            <a href="https://medium.com/@simpleuiux" target="_blank">
+            <a href="https://medium.com/@annieuxjourney" target="_blank">
               Medium.
             </a>{" "}
           </h1>
