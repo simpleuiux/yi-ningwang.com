@@ -175,7 +175,7 @@ const AboutPage = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             <br />
-            Eye-catching, minimal, and smart UI/UX design. <br /> Look me up on{" "}
+            Eye-catching, minimal, and smart UX/UI design. <br /> Look me up on{" "}
             <a href="https://dribbble.com/annieuxjourney" target="_blank">
               Dribbble
             </a>{" "}

@@ -2,7 +2,7 @@
 title: FIREAWARE
 date: "2020-02-08"
 thumbnail: ./fireaware-thumbnail-horizontal.png
-description: UI/UX Design, Data Visualization
+description: UX Design, Data Visualization
 ---
 
 <h3 style="margin-top:100px; text-transform:uppercase">
@@ -10,7 +10,7 @@ Hackathon Winning Project 2019
 </h3>
 
 <p style="margin-bottom:40px">
-<a href="https://devpost.com/software/girls_in_tech_vancouver">FIREAWARE </a>is a <b>Girl's in Tech Hackathon winning project</b> in 2019. It was created by a team of four in 12 hours. FIREAWARE serves as an interactive app that provides both firefighters and the campers an visualized map, AI prediction model for wildfire and real-time alert function.
+<a href="https://devpost.com/software/girls_in_tech_vancouver">FIREAWARE </a>is a <b>Girl's in Tech Hackathon winning project</b> in 2019. FIREAWARE was developed by a dedicated team of four individuals within a 12-hour timeframe. This interactive application serves a crucial role, offering visualized maps, an AI-based wildfire prediction model, and real-time alert functionality to benefit both firefighters and campers.
 
 </p>
 
@@ -29,13 +29,13 @@ The Challenge </h6>
 Put out the difficulty in 12 Hours </h3>
 
 <p style="margin-bottom:40px">
-Approximately 8,000 wildfires occur each year in Canada. Human-caused fires represent 55% of all fires. Human-caused fires result from campfires left unattended, the burning of debris, equipment uses and malfunctions, negligently discarded cigarettes, and intentional acts of arson. It is hard to predict where and when is vulnerable to fire and to prevent it.
+Canada experiences approximately 8,000 wildfires each year, with human-caused fires accounting for 55% of these incidents. These human-caused fires stem from various factors such as unattended campfires, improper debris burning, equipment malfunctions, negligently discarded cigarettes, and deliberate acts of arson. Predicting and preventing fire vulnerabilities can be a challenging endeavor due to their unpredictable nature.
 
-Our high level goals were to:
+Our high-level goals encompassed:
 
-1. Make it easy to visualize ongoing wildfires for everyone, everywhere.
-2. Give firefighters more control over time and money.
-3. Create an real-time alert and fire prevention interative platform.
+1. Facilitating the visualization of ongoing wildfires for a global audience, ensuring accessibility.
+2. Empowering firefighters with enhanced control over their resources, including time and budget.
+3. Establishing a real-time alert system and an interactive platform for proactive fire prevention.
    </p>
    </br>
    </br>
@@ -44,7 +44,7 @@ Our high level goals were to:
 My role 
 </h6>
 
-I worked with the team to draft FIREAWARE business plan, conducted UX research and created UI/UX design. I collaborated with another designer to create the fire prediction and interactive experience on the app and collaborated with two developers with visualization map and AI prediction model.
+As a leader within the team, I played a pivotal role in not only contributing to the drafting of the FIREAWARE business plan but also in leading the UX research and UX/UI design efforts. I provided guidance and collaboration to another designer in creating the fire prediction and interactive features of the app, while simultaneously leading and coordinating the work of two developers on the visualization map and AI prediction model.
 
 We invested about 12 hours on the project in two days.
 
@@ -58,7 +58,7 @@ Research Process </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 Design by conscientious </h3>
 
-I gathered a bunch of visualization maps to give me inspirations that I wanted to work on. It also helped me to know what kind of maps are more suitable to showcase wildfires' locations.
+I curated a collection of visualization maps to inspire and guide my work. This process allowed me to gain insights into the most suitable map types for effectively showcasing the locations of wildfires.
 
 <div style="margin-bottom:20px; margin-top:-20px" class="kg-card kg-image-card kg-width-full">
 
@@ -72,7 +72,7 @@ User story </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 A good problem is the one that many thousands of people have </h3>
 
-Wildfires have become pandemic around the world, especially in 2019. With limited resources, it is hard for <b>firefighters</b> to find the wildfires in the first place, and to get there timely. Sometimes when they arrived, the fire has become too big to put off. To <b>campers</b> who need to cook in the wild, it is hard for them to know what day and where is safer and less vulnerable to forest fires. These people are whom we would like to target to. Our market is solid and niche. It also has large amount of target users.
+Wildfires have become a global concern, particularly in 2019, reaching a pandemic scale. Limited resources pose a significant challenge for firefighters in terms of both initial wildfire detection and timely response, often resulting in fires growing beyond control by the time they arrive. On the other hand, campers seeking to cook in wilderness areas face the difficulty of determining safer and less fire-prone locations on a given day. These are the target audiences we aim to address. Our market is well-defined and niche, yet it boasts a substantial user base in need of our solution.
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Target User 1</h6>
@@ -86,9 +86,9 @@ Firefighters need more information to allocate resources efficiently and effecti
 
 </div>
 
-Tom is the firefighter captain of Vancouver Fire Hall. He is proud and passionate about his job, but recently he has found that it is hard for him to arrange manpower due to increasing rate of fire.
+Meet Tom, the dedicated Fire Captain of Vancouver Fire Hall. Tom takes immense pride in his role and is deeply passionate about serving his community. However, in recent times, he has encountered challenges in managing manpower efficiently due to the escalating frequency of fires. 
 
-He wants to find an alert system or app that can tell him where is more vulnerable to fire. So he can allocate his brothers in a more strategic way.
+Tom is actively searching for an alert system or app that can provide valuable insights on areas at higher risk of fires, enabling him to strategically allocate his firefighting team for maximum impact.
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Target User 2</h6>
@@ -102,9 +102,9 @@ Campers don't have enough knowledge to camp safely</h4>
 
 </div>
 
-Lisa is a student from UBC who loves outdoor activities and go camping with friends especially during summer times. But she heard that there is more and more wildfires going on lately..
+Meet Lisa, a spirited student from UBC who thrives on outdoor adventures and cherishes camping trips with friends, especially during the summer months. However, she has become increasingly concerned about the growing incidence of wildfires in recent times. 
 
-She wants to have a fire alert app that can give her information about things she need to know and what she should prepare to prevent fire at the areas she wants to camp.
+Lisa is in search of a fire alert app that can provide her with essential information about her chosen camping locations, including important safety precautions and tips to prevent fires. She seeks a reliable companion to ensure her outdoor experiences remain both enjoyable and secure.
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Information Architecture</h6>
@@ -133,7 +133,7 @@ VISUALIZATION MAP</h6>
 
 #### Locate the wildfires timely to act accordingly
 
-This visualized fire data is based on NASA's satellite images. A day and month can be selected. The circle on the map are proportional to the file size. Their color represents the fire weather index. This tool shows past fire on a given date.
+This visualized fire data is derived from NASA's satellite imagery. Users can select a specific day and month of interest. On the map, circles are displayed in proportion to the fire's size, with their color indicating the fire weather index. This tool provides historical information about past fires on a selected date, offering valuable insights into wildfire activity.
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -142,11 +142,11 @@ This visualized fire data is based on NASA's satellite images. A day and month c
 </div>
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
-LOw-fi wireframes</h6>
+Low-Fi wireframes</h6>
 
 #### Start bringing it to life
 
-My approach is to sketch and to white‐board ideas and processes with my teammates. Since I have worked on many existing designs, it was relatively easy to move straight into hi‐fidelity designs later on.
+My approach involves sketching and whiteboarding ideas and processes in collaboration with my teammates. Given my prior experience with various existing designs, transitioning into high-fidelity designs at a later stage was a seamless process.
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -159,7 +159,7 @@ Final design</h6>
 
 #### The below shows some of the app designs for FIREAWARE.
 
-To test an idea, prototyping it is the most effective way. It is crucial to gain feedbacks from users and the judges whom we presented to. We were happy to know that the initial idea proved to be admirable.
+When it comes to testing an idea, prototyping emerges as the most effective method. It becomes imperative to gather feedback from both users and the judges to whom we presented our concept. We were delighted to discover that our initial idea received high praise and admiration.
 
 <div class="kg-card kg-image-card kg-width-full">
 
@@ -169,12 +169,12 @@ To test an idea, prototyping it is the most effective way. It is crucial to gain
 
 #### APP DESIGN
 
-- When the user enters the site, he or she will see a visualization map that shows what locations have wildfires. We linked API of twitter feeds for the user to get the latest information of the fires.
-- The fire probability page shows daily fire prediction in percentage (%) by location they selected. It helps firefighters to be more alert, and users to avoid activities might cause a fire.
-- After clicking a day, the user will see factors such as weather, humidity, and temperature determines the fire probability.
-- The educational page provides selected articles about fire prevention, news and education.
+- Upon entering the site, users are greeted with a visualization map displaying locations affected by wildfires. To provide real-time updates, we have integrated an API for Twitter feeds, enabling users to access the latest information about ongoing fires.
+- The Fire Probability page presents daily fire predictions as a percentage (%) for the user's selected location. This feature serves as a valuable tool for firefighters, enhancing their situational awareness, and also empowers users to make informed decisions, reducing activities that might contribute to fire incidents.
+- Upon selecting a specific day, users gain access to detailed information regarding the factors influencing fire probability, including weather conditions, humidity levels, and temperature data. This insight helps users understand the determinants behind the forecasted fire risk.
+- The Educational Page offers a curated selection of articles covering topics related to fire prevention, as well as the latest news and educational resources on the subject.
 
----
+<br/>
 
 <a href="https://invis.io/RKW1VR5YQX6" align="center" target="_blank">
 
@@ -183,6 +183,13 @@ To test an idea, prototyping it is the most effective way. It is crucial to gain
 </a>
 
 <br/><br/>
+
+<div style="text-align-last:start;">
+  <a href='/Dribbble'>
+    <b>&#8592; Dribbble</b>
+  </a>
+</div>
+
 
 <div style=text-align-last:end>
   

@@ -2,7 +2,7 @@
 title: AGE SISTER
 date: "2019-05-07"
 thumbnail: ./agesister-thumbnail.png
-description: UI/UX Design
+description: UX/UI Design
 ---
 
 <a href="https://projects.invisionapp.com/share/4ATJQUOE9FD#/screens" align="center" target="_blank">

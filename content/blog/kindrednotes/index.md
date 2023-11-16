@@ -5,7 +5,7 @@ thumbnail: ./kindrednotes-thumbnail-horizontal.png
 description: UX/UI Design
 ---
 
-> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UI/UX design services."
+> "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UX/UI design services."
 >
 > -- Shelley Moore - Founder of KindredNotes
 

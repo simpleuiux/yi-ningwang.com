@@ -2,7 +2,7 @@
 title: JAPAN INFLUENCER NETWORK
 date: "2019-05-04"
 thumbnail: ./jin-darkgrey.png
-description: UI/UX Design, Data Visualization, Front-end
+description: UX/UI Design, Data Visualization, Front-end
 ---
 
 #### JIN, Japan Influencer network, is the first network platform connects influencers and advertising agencies.
