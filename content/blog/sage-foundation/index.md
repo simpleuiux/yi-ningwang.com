@@ -166,7 +166,7 @@ The Final Design of Sage Foundation</h3>
 <br/><br/>
 
 <div style="text-align-last:start;">
-  <a href='/age-sisters'>
+  <a href='/age-sister'>
     <b>&#8592; AGE SISTER</b>
   </a>
 </div>
@@ -174,6 +174,6 @@ The Final Design of Sage Foundation</h3>
 <div style=text-align-last:end>
   
 <a href='/JIN'>
-       <b>Japanese Influencer Network</b> &#8594; 
+       <b>JAPANESE INFLUENCER NETWORK</b> &#8594; 
       </a>
 </div>
