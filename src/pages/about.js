@@ -175,11 +175,12 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                    As a Lead UX Designer and Manager in Canada, I have nearly 9 years of experience under my belt. 
-                    Driven by curiosity, I thrive on overcoming challenges and devising innovative solutions. 
-                    My work is marked by precision, passion, and perseverance. 
-                    I am deeply committed to applying new ideas through diligent research, 
-                    thoughtful design processes, and the development of prototypes.
+                  As a Lead UX Designer and Manager in Canada with nearly 9 years of experience, 
+                  I bring a servant-leadership mindset to my role, combining curiosity with leadership to drive project success. 
+                  Skilled in inspiring and motivating teams, I excel in innovative problem-solving and precision work. 
+                  I am committed to leading by example, fostering collaboration, and valuing each team member's contribution. 
+                  My focus is on applying new ideas through thorough research, effective design processes, and prototype development, 
+                  aiming for outstanding collective results.
                   </h6>
                 </div>
               </div>
@@ -267,8 +268,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>UX Design</h3>
                   <p>
-                    With 8+ years of UX experience, I currently work as the Lead
-                    UX | Manager at Zoocasa x eXpRealty.
+                    With extensive UX experience, I currently serve as the Lead
+                    UX | Manager at Zoocasa x eXp Realty.
                   </p>
                 </div>
               </div>
@@ -289,7 +290,6 @@ const AboutPage = ({ data }, location) => {
                       viewBox="0 0 76 50"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlns
                       xlink="http://www.w3.org/1999/xlink"
                       id="skill-code-icon"
                     >
@@ -319,10 +319,10 @@ const AboutPage = ({ data }, location) => {
                       </g>
                     </svg>
                   </div>
-                  <h3>Front-End</h3>
+                  <h3>Creative Technologist</h3>
                   <p>
-                  I embrace new technologies, code my own designs and implement innovative UX using AI.
-                  </p>
+                  I am passionate about sharing new technologies and integrating innovative UX solutions using AI.
+                  I also code my own designs for enjoyment                  </p>
                 </div>
               </div>
             </div>
@@ -344,7 +344,7 @@ const AboutPage = ({ data }, location) => {
                       viewBox="0 0 52 48"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlns
+                  
                       xlink="http://www.w3.org/1999/xlink"
                       id="skill-teacher-icon"
                     >
@@ -410,7 +410,7 @@ const AboutPage = ({ data }, location) => {
                       viewBox="0 0 49 40"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                      xmlns
+                  
                       xlink="http://www.w3.org/1999/xlink"
                       id="skill-speaker-icon"
                     >
@@ -439,7 +439,7 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Mentorship</h3>
                   <p>
-                    I provide mentorshipand deliver speeches to UX designers and
+                    I provide mentorship and deliver speeches to UX designers and
                     design students during workshops, hackathons, and university settings.
                   </p>
                 </div>
@@ -448,16 +448,19 @@ const AboutPage = ({ data }, location) => {
           </div>
           <br />
           <br />
-          <h5 id="dynamic-styles">I make digital products work</h5>
+          <h5 id="dynamic-styles">Leading with Empathy: Shaping the Future of User-Centric Digital Innovation</h5>
           <p>
-            With my diverse background in{" "}
-            <b>design, communication and strategy</b>, I aim not only to make
-            products make sense, but also to make it communicate effectively -{" "}
-            <b>happy users</b> will result in a more <b>profitable business.</b>
+            In crafting digital products, my diverse background in <b>design, communication, 
+            and strategy</b> guides me to not only make products that are sensible but also <b>communidate effectively</b>. 
+            With a <b>servant leadership approach</b>, I prioritize empathy and collaboration, 
+            ensuring our team's collective wisdom shapes each product. 
+            This approach not only meets user needs but also <b>drives business success</b> through <b>asatified users</b>.
           </p>
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
+          2022 &nbsp; ADPList Top 1% Mentor Worldwide
+          <br/>
           2019 - 2023 &nbsp; UX Planet - UX / UI writer
           <br />
           2019
@@ -470,7 +473,7 @@ const AboutPage = ({ data }, location) => {
           <br />
           <h5 id="dynamic-styles">Experience</h5>
           <p>
-            Co-founder of a Canada/Tokyo-based Tech design studio -{" "}
+            Co-founder of a Canada/Japan-based Tech design studio -{" "}
             <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
           </p>
           <p>
@@ -498,6 +501,8 @@ const AboutPage = ({ data }, location) => {
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>
+            2021 &nbsp; ComIT - How to work with UX designer
+            <br/>
             2019 - 2020 &nbsp; UBC Sustainability Hacks
             <br />
             2018 - 2020 &nbsp; International Design Foundation
@@ -507,8 +512,6 @@ const AboutPage = ({ data }, location) => {
             <br />
             2015 - 2016 &nbsp; World's Top 50 Thinkers workshop - Alex
             Osterwalder (UX)
-            <br />
-            2014 - 2015 &nbsp; TAITRA Taiwan - Research and Branding Branding
             <br />
           </p>
         </div>
