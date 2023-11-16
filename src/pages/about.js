@@ -175,11 +175,10 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                  As a Lead UX Designer and Manager in Canada with nearly 9 years of experience, 
-                  I bring a servant-leadership mindset to my role, combining curiosity with leadership to drive project success. 
-                  Skilled in inspiring and motivating teams, I excel in innovative problem-solving and precision work. 
+                  As a Lead UX Designer and Manager in Canada with nearly 9 years of UX experience, 
+                  I lead with a servant-leadership mindset, fostering innovation and teamwork. 
                   I am committed to leading by example, fostering collaboration, and valuing each team member's contribution. 
-                  My focus is on applying new ideas through thorough research, effective design processes, and prototype development, 
+                  My focus is on applying new ideas through thorough research, effective design processes, and centralize user feedback, 
                   aiming for outstanding collective results.
                   </h6>
                 </div>
@@ -322,7 +321,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>Creative Technologist</h3>
                   <p>
                   I am passionate about sharing new technologies and integrating innovative UX solutions using AI.
-                  I also code my own designs for enjoyment                  </p>
+                 </p>
                 </div>
               </div>
             </div>
@@ -451,17 +450,19 @@ const AboutPage = ({ data }, location) => {
           <h5 id="dynamic-styles">Leading with Empathy: Shaping the Future of User-Centric Digital Innovation</h5>
           <p>
             In crafting digital products, my diverse background in <b>design, communication, 
-            and strategy</b> guides me to not only make products that are sensible but also <b>communidate effectively</b>. 
+            and strategy</b> guides me to not only make products that are sensible but also communidate effectively. 
             With a <b>servant leadership approach</b>, I prioritize empathy and collaboration, 
             ensuring our team's collective wisdom shapes each product. 
-            This approach not only meets user needs but also <b>drives business success</b> through <b>asatified users</b>.
+            This approach not only meets user needs but also <b>drives business success</b> through <b>satisfied users</b>.
           </p>
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2022 &nbsp; ADPList Top 1% Mentor Worldwide
+          2022 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ADPList Top 1% Mentor Worldwide
           <br/>
-          2019 - 2023 &nbsp; UX Planet - UX / UI writer
+          2019 - 2023 &nbsp; UX Planet - User Exprience writer
           <br />
           2019
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -472,10 +473,6 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
           <h5 id="dynamic-styles">Experience</h5>
-          <p>
-            Co-founder of a Canada/Japan-based Tech design studio -{" "}
-            <a href="https://sassy.technology">SassyTech</a> .​​​​​​​
-          </p>
           <p>
             I started my career as an international journalist, a research
             strategist and a UX designer. I have travelled to 40+ countries and
@@ -490,27 +487,36 @@ const AboutPage = ({ data }, location) => {
             <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>.
           </p>
           <p>
+          I also hold the role of Co-founder of a Canada/Japan-based Tech design studio  -{" "}
+            <a href="https://sassy.technology">SassyTech, which I engage in for my personal fulfillment.</a> .​​​​​​​
+          </p>
+          <p>
             <br />
             <h5 id="dynamic-styles">Educational background</h5>
-            2014 - 2016 &nbsp; Bobson Colleage &nbsp; National Chiao Tung University - Global MBA{" "}
-            &nbsp; (World's Top 100 in entrepreneurship)
+            2014 - 2016
+            <br/> 
+            Bobson Colleage MBA (Entrepreneurial Studies, Thoughts and Action)
+            <br/>
+            National Chiao Tung University - Global MBA &nbsp; (World's Top 100 in entrepreneurship)
             <br />
-            2006 - 2010 &nbsp; National Cheng Chi University - Media and
-            Communication &nbsp; (Top 1 Nation-wide in Communication and Digital
-            Media)
+            2006 - 2010 
+            <br/>
+            National Cheng Chi University - Media and Communication 
+            <br/> 
+            (Top 1 Nation-wide in Communication and Digital Media)
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>
             2021 &nbsp; ComIT - How to work with UX designer
             <br/>
-            2019 - 2020 &nbsp; UBC Sustainability Hacks
+            2020 &nbsp; UBC Sustainability Hacks
             <br />
-            2018 - 2020 &nbsp; International Design Foundation
+            2020 &nbsp; International Design Foundation
             <br />
-            2016 - 2017 &nbsp; World's Top 50 Thinkers workshop - Hermann Simon
+            2017 &nbsp; World's Top 50 Thinkers workshop - Hermann Simon
             (Branding)
             <br />
-            2015 - 2016 &nbsp; World's Top 50 Thinkers workshop - Alex
+            2016 &nbsp; World's Top 50 Thinkers workshop - Alex
             Osterwalder (UX)
             <br />
           </p>

@@ -155,8 +155,8 @@ const Layout = props => {
         >
           Messenger
         </a>
-        &nbsp; · &nbsp; &copy; {new Date().getFullYear()} &mdash; Handcrafted by
-        Annie Yining Wang with ❤{" "}
+        &nbsp; · &nbsp; &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted by
+        Annie Yining Wang with ❤{" "} using Gatsby x Netlify
       </footer>
     </div>
   )
