@@ -175,11 +175,11 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                    I'm a Lead UX designer based in Montreal with 6+ years of
-                    experience. With a curious mind, I embrace challenges and
-                    enjoy finding solutions. I am precise, passionate and
-                    perseverance. I am keen on applying new experiences through
-                    research, design process and prototypes.
+                    As a Lead UX Designer and Manager in Canada, I have nearly 9 years of experience under my belt. 
+                    Driven by curiosity, I thrive on overcoming challenges and devising innovative solutions. 
+                    My work is marked by precision, passion, and perseverance. 
+                    I am deeply committed to applying new ideas through diligent research, 
+                    thoughtful design processes, and the development of prototypes.
                   </h6>
                 </div>
               </div>
@@ -267,8 +267,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>UX Design</h3>
                   <p>
-                    With 6+ years of UX experience, I currently work as the Lead
-                    UX designer at Zoocasa, a Canadian startup.
+                    With 8+ years of UX experience, I currently work as the Lead
+                    UX | Manager at Zoocasa x eXpRealty.
                   </p>
                 </div>
               </div>
@@ -321,8 +321,7 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Front-End</h3>
                   <p>
-                    I enjoy learning new technology and code my own designs with
-                    modern HTML5, (S)CSS3 and vanilla Javascript.
+                  I embrace new technologies, code my own designs and implement innovative UX using AI.
                   </p>
                 </div>
               </div>
@@ -440,8 +439,8 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Mentorship</h3>
                   <p>
-                    I give presentations and mentorship to junior designers and
-                    students in design workshops, hackathons, and universities.
+                    I provide mentorshipand deliver speeches to UX designers and
+                    design students during workshops, hackathons, and university settings.
                   </p>
                 </div>
               </div>
@@ -459,7 +458,7 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2019 - 2022 &nbsp; UX Planet - UX / UI writer
+          2019 - 2023 &nbsp; UX Planet - UX / UI writer
           <br />
           2019
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -490,7 +489,7 @@ const AboutPage = ({ data }, location) => {
           <p>
             <br />
             <h5 id="dynamic-styles">Educational background</h5>
-            2014 - 2016 &nbsp; National Chiao Tung University - Global MBA{" "}
+            2014 - 2016 &nbsp; Bobson Colleage &nbsp; National Chiao Tung University - Global MBA{" "}
             &nbsp; (World's Top 100 in entrepreneurship)
             <br />
             2006 - 2010 &nbsp; National Cheng Chi University - Media and
@@ -529,7 +528,7 @@ const AboutPage = ({ data }, location) => {
               Messenger
             </a>{" "}
             or drop me an{" "}
-            <a href="mailto:simpleuiux@gmail.com" target="_blank">
+            <a href="mailto:annieynwang@gmail.com" target="_blank">
               Email.
             </a>{" "}
           </h1>
