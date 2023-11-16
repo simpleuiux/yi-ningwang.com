@@ -487,8 +487,8 @@ const AboutPage = ({ data }, location) => {
             <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>.
           </p>
           <p>
-          I also hold the role of Co-founder of a Canada/Japan-based Tech design studio  -{" "}
-            <a href="https://sassy.technology">SassyTech</a>, which I engage in for my personal fulfillment.​​​​​​​
+          I also hold the role of Co-founder of a Canada/Japan-based tech design studio  -{" "}
+            <a href="https://sassy.technology">Sassy Technology</a>, which I engage in for my personal fulfillment.​​​​​​​
           </p>
           <p>
             <br />
@@ -512,7 +512,7 @@ const AboutPage = ({ data }, location) => {
             <h5 id="dynamic-styles">Design workshop</h5>
             2021 &nbsp; ComIT - How to work with UX designer
             <br/>
-            2020 &nbsp; UBC Sustainability Hacks
+            2020 &nbsp; UBC Sustainability Hacks - Design Mentor
             <br />
             2020 &nbsp; International Design Foundation
             <br />
