@@ -9,7 +9,7 @@ description: UX/UI Design, Data Visualization, Front-end
 
 When my partner Raphael, who is a back-end developer, reached me out and suggested that maybe we could make a fast prototyping of this influencer search function and show to the advertising agency we know in Tokyo. I was like, "Sure, it sounds cool!"
 
-I enjoyed the project a lot and walked through the whole phase of design, including UI/UX and front-end (HTML, CSS, JS), it was a super valuable and fun experience!
+I enjoyed the project a lot and walked through the whole phase of design, including UX/UI and front-end (HTML, CSS, JS), it was a super valuable and fun experience!
 
 #### Choose MVP wisely to test the market
 

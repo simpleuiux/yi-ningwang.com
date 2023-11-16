@@ -33,7 +33,7 @@ description: UI Design
 
 <div>
 
-#### Can't get enough? See more UI designs at [DRIBBBLE](https://dribbble.com/simpleuiux)
+#### Can't get enough? See more UI designs at [DRIBBBLE](https://dribbble.com/annieuxjourney)
 
 </div>
 
