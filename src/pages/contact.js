@@ -154,7 +154,7 @@ const ContactPage = ({ data }, location) => {
               Messenger
             </a>{" "}
             or drop me an{" "}
-            <a href="mailto:simpleuiux@gmail.com" target="_blank">
+            <a href="mailto:annieynwang@gmail.com" target="_blank">
               Email.
             </a>{" "}
           </h1>

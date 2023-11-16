@@ -117,7 +117,7 @@ const Layout = props => {
         </a>{" "}
         &nbsp; · &nbsp;
         <a
-          href="https://dribbble.com/simpleuiux"
+          href="https://dribbble.com/annieuxjourney"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -125,7 +125,7 @@ const Layout = props => {
         </a>
         &nbsp; · &nbsp;
         <a
-          href="https://medium.com/@simpleuiux"
+          href="https://medium.com/@annieuxjourney"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -141,7 +141,7 @@ const Layout = props => {
         </a>
         &nbsp; · &nbsp;
         <a
-          href="mailto:simpleuiux@gmail.com"
+          href="mailto:annieynwang@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
