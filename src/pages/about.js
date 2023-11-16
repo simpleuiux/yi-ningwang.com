@@ -384,10 +384,11 @@ const AboutPage = ({ data }, location) => {
                   <h3>Avid Reader</h3>
                   <p>
                     Current read on {""}
-                    <a href="https://www.goodreads.com/user/show/3607330-yining-wang">
+                    <a href="https://www.goodreads.com/user/show/3607330-yining-wang" target="_blank">
                       goodreads
                     </a>
-                    {""} - 'No Rules Rules: Netflix and the Culture of
+                    {""}
+                     - 'No Rules Rules: Netflix and the Culture of
                     Reinvention' by Reed Hastings, Erin Meyer.
                   </p>
                 </div>
