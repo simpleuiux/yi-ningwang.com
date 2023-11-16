@@ -143,9 +143,9 @@ const AboutPage = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="hi-im-yining-i-design-stuff">
             <br />
-            Hi! I'm <a href="/about">Yining</a>
-            {""}.<br />I <a href="/project">design</a>
-            {""} ideas.
+            Hi! I'm <a href="/about">Annie Yining Wang</a>
+            {""}.<br />I craft ideas into user-friendly<a href="/project">design</a>
+            {""}.
           </h1>
           <br />
           <br />
@@ -176,11 +176,11 @@ const AboutPage = ({ data }, location) => {
           <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             <br />
             Eye-catching, minimal, and smart UI/UX design. <br /> Look me up on{" "}
-            <a href="https://dribbble.com/simpleuiux" target="_blank">
+            <a href="https://dribbble.com/annieuxjourney" target="_blank">
               Dribbble
             </a>{" "}
             and{" "}
-            <a href="https://medium.com/@simpleuiux" target="_blank">
+            <a href="https://medium.com/@annieuxjourney" target="_blank">
               Medium.
             </a>{" "}
           </h1>

@@ -488,7 +488,7 @@ const AboutPage = ({ data }, location) => {
           </p>
           <p>
           I also hold the role of Co-founder of a Canada/Japan-based Tech design studio  -{" "}
-            <a href="https://sassy.technology">SassyTech, which I engage in for my personal fulfillment.</a> .​​​​​​​
+            <a href="https://sassy.technology">SassyTech</a>, which I engage in for my personal fulfillment.​​​​​​​
           </p>
           <p>
             <br />
@@ -497,7 +497,10 @@ const AboutPage = ({ data }, location) => {
             <br/> 
             Bobson Colleage MBA (Entrepreneurial Studies, Thoughts and Action)
             <br/>
-            National Chiao Tung University - Global MBA &nbsp; (World's Top 100 in entrepreneurship)
+            National Chiao Tung University - Global MBA
+            <br/> 
+            (World's Top 100 in entrepreneurship)
+            <br />
             <br />
             2006 - 2010 
             <br/>
