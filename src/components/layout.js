@@ -41,7 +41,7 @@ const Layout = props => {
                 to={`/`}
                 activeStyle={activeStyle}
               >
-                yining wang
+                annie yining wang
               </Link>
             </ul>
           </nav>
@@ -113,7 +113,7 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         <a href="/" rel="noopener noreferrer">
-          Yining Wang
+          Annie Yining Wang
         </a>{" "}
         &nbsp; · &nbsp;
         <a

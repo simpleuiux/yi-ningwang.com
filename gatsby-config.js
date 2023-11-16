@@ -3,7 +3,7 @@ const siteConfig = require("./siteConfig")
 
 module.exports = {
   siteMetadata: {
-    title: "YINING WANG",
+    title: "ANNIE YINING WANG",
     author: siteConfig.author,
     description: siteConfig.description,
     siteUrl: urljoin(siteConfig.url, siteConfig.prefix),
