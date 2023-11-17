@@ -174,6 +174,6 @@ The Final Design of Sage Foundation</h3>
 <div style=text-align-last:end>
   
 <a href='/JIN'>
-       <b>JAPANESE INFLUENCER NETWORK</b> &#8594; 
+       <b>JIN</b> &#8594; 
       </a>
 </div>

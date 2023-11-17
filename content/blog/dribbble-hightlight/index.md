@@ -45,7 +45,7 @@ description: UI Design
 
 <div style="text-align-last:start;">
   <a href='/JIN'>
-    <b>&#8592; JAPANESE INFLUENCER NETWORK</b>
+    <b>&#8592; JIN</b>
   </a>
 </div>
 
