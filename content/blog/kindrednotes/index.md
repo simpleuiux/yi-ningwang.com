@@ -2,7 +2,7 @@
 title: KINDREDNOTES
 date: "2019-05-07"
 thumbnail: ./kindrednotes-thumbnail-horizontal.png
-description: UX/UI Design
+description: UXR & UX Design
 ---
 
 > "I was extremely pleased with the results. I would recommend Annie (Yining) to anyone looking for UX/UI design services."

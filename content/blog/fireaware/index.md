@@ -2,7 +2,7 @@
 title: FIREAWARE
 date: "2020-02-08"
 thumbnail: ./fireaware-thumbnail-horizontal.png
-description: UX Design, Data Visualization
+description: UXR & UX Design, Data Viz, AI
 ---
 
 <h3 style="margin-top:100px; text-transform:uppercase">
