@@ -139,11 +139,11 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />A design, psychology, and travel enthusiast who {""}
+            <br />A design, psychology, and innovation enthusiast who {""}
             <a href="https://github.com/simpleuiux" target="_blank">
-              creates{""}
+            conceptualize{""}
             </a>{" "}
-            her own ideas.
+            new ideas.
           </h1>
           <br />
           <br />
@@ -175,11 +175,10 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                  As a Lead UX Designer and Manager in Canada with nearly 9 years of UX experience, 
-                  I lead with a servant-leadership mindset, fostering innovation and teamwork. 
-                  I am committed to leading by example, fostering collaboration, and valuing each team member's contribution. 
-                  My focus is on applying new ideas through thorough research, effective design processes, and centralize user feedback, 
-                  aiming for outstanding collective results.
+                  As a Lead UX Designer and Manager in Canada with nearly 9 years of experience, 
+                  I embrace servant leadership, fostering innovation, and teamwork. 
+                  I lead by example, value every team member's input, and focus on applying new ideas through research, 
+                  effective design processes, and user feedback for outstanding results.
                   </h6>
                 </div>
               </div>

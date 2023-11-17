@@ -54,14 +54,15 @@ const Layout = props => {
                 </Link>
               </li>
               <a
-                href={Resume}
-                aria-label="Resume"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                RESUME
-              </a>
+  href={Resume}
+  aria-label="Resume"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ fontSize: 'larger' }}
+>
+  {" "}
+  RESUME
+</a>
               {/* <li className="nav-project" role="menuitem">
                 <Link to={`/project`} activeStyle={activeStyle}>
                   PROJECTS
@@ -140,23 +141,7 @@ const Layout = props => {
           Linkedin
         </a>
         &nbsp; · &nbsp;
-        <a
-          href="mailto:annieynwang@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Email
-        </a>
-        &nbsp; · &nbsp;
-        <a
-          href="https://m.me/annieynwang"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Messenger
-        </a>
-        &nbsp; · &nbsp; &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted by
-        Annie Yining Wang with ❤{" "} using Gatsby x Netlify
+        &nbsp; · &nbsp; &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted with ❤{" "} by Annie using Gatsby x Netlify
       </footer>
     </div>
   )
