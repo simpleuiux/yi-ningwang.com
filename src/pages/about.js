@@ -458,7 +458,7 @@ const AboutPage = ({ data }, location) => {
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
           2022 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;
           ADPList Top 1% Mentor Worldwide
           <br/>
           2021 &nbsp; UX Planet - UX writer
@@ -466,7 +466,7 @@ const AboutPage = ({ data }, location) => {
           2020 &nbsp; UX Planet - UX writer
           <br />
           2019
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;
           Girls in Tech Hackathon -{" "}
           <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
             1st Place.
