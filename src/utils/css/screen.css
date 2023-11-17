@@ -281,7 +281,6 @@ body {
     display: block;
   }
   .site-head-container {
-    margin-top: 50px;
     flex-direction: column;
     justify-content: flex-start;
     height: 40px;
