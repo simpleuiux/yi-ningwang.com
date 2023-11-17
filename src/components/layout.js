@@ -49,23 +49,18 @@ const Layout = props => {
           <div className="site-head-left">
             <div className="social-links">
               <li className="nav-about" role="menuitem">
-              <Link
-  to={`/about`}
-  activeStyle={{ fontSize: 'larger' }}
-  style={{ fontSize: 'larger' }}
->
-  ABOUT
-</Link>
+              <Link to={`/about`} activeStyle={activeStyle}>
+                  ABOUT
+                </Link>
               </li>
               <a
-  href={Resume}
-  aria-label="Resume"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{ fontSize: 'larger' }}
->
-  {" "}
-  RESUME
+                href={Resume}
+                aria-label="Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                RESUME
 </a>
               {/* <li className="nav-project" role="menuitem">
                 <Link to={`/project`} activeStyle={activeStyle}>
