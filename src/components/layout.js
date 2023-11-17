@@ -49,9 +49,13 @@ const Layout = props => {
           <div className="site-head-left">
             <div className="social-links">
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`} activeStyle={activeStyle}>
-                  ABOUT
-                </Link>
+              <Link
+  to={`/about`}
+  activeStyle={{ fontSize: 'larger' }}
+  style={{ fontSize: 'larger' }}
+>
+  ABOUT
+</Link>
               </li>
               <a
   href={Resume}

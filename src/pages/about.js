@@ -142,8 +142,7 @@ const AboutPage = ({ data }, location) => {
             <br />A design, psychology, and innovation enthusiast who {""}
             <a href="https://github.com/simpleuiux" target="_blank">
             conceptualize{""}
-            </a>{" "}
-            new ideas.
+            </a>{" "} ideas.
           </h1>
           <br />
           <br />
