@@ -174,7 +174,7 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                  As a Lead UX Designer and Manager in Canada with nearly 9 years of experience, 
+                  As a Lead UX and UX Manager in Canada with nearly 9 years of experience, 
                   I embrace servant leadership, fostering innovation, and teamwork. 
                   I lead by example, value every team member's input, and focus on applying new ideas through research, 
                   effective design processes, and user feedback for outstanding results.
