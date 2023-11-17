@@ -461,7 +461,9 @@ const AboutPage = ({ data }, location) => {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           ADPList Top 1% Mentor Worldwide
           <br/>
-          2019 - 2023 &nbsp; UX Planet - User Exprience writer
+          2021 &nbsp; UX Planet - UX writer
+          <br />
+          2020 &nbsp; UX Planet - UX writer
           <br />
           2019
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
