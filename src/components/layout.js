@@ -145,7 +145,7 @@ const Layout = props => {
           Linkedin
         </a>
         &nbsp; · &nbsp;
-        &nbsp; · &nbsp; &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted with ❤{" "} by Annie using Gatsby x Netlify
+        &nbsp; &nbsp; &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted with ❤{" "} by Annie using Gatsby x Netlify
       </footer>
     </div>
   )
