@@ -265,8 +265,10 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>UX Generalist</h3>
                   <p>
-                    With extensive UX experience, I currently serve as the Lead
-                    UX | Manager at Zoocasa x eXp Realty.
+                    With extensive UX experience, I currently serve as the {""}
+            <a href="https://www.linkedin.com/in/annieyiningwang/" target="_blank">
+            Lead UX | UX Manager {""}
+            </a>{" "}  at Zoocasa x eXp Realty.
                   </p>
                 </div>
               </div>
@@ -318,7 +320,10 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Creative Technologist</h3>
                   <p>
-                  I am passionate about sharing new technologies and integrating innovative UX solutions using AI.
+                  I am enthusiastic about {""}
+            <a href="https://www.linkedin.com/in/annieyiningwang/" target="_blank">
+            sharing new technologies {""}
+            </a>{" "} and integrating innovative UX solutions using AI.
                  </p>
                 </div>
               </div>
@@ -437,7 +442,11 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Mentorship</h3>
                   <p>
-                    I provide mentorship and deliver speeches to UX designers and
+                    I provide {""}
+                    <a href="https://www.goodreads.com/user/show/3607330-yining-wang" target="_blank">
+                      mentorship
+                    </a>
+                    {""} and deliver speeches to UX designers and
                     design students during workshops, hackathons, and university settings.
                   </p>
                 </div>
