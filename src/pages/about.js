@@ -139,7 +139,7 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />Passionate about design, psychology,and {""}
+            <br />Passionate about design, psychology, and {""}
             <a href="https://github.com/simpleuiux" target="_blank">
             bringing{""}
             </a>{" "} ideas to life.
@@ -263,7 +263,7 @@ const AboutPage = ({ data }, location) => {
                       </g>
                     </svg>
                   </div>
-                  <h3>UX Design</h3>
+                  <h3>UX Generalist</h3>
                   <p>
                     With extensive UX experience, I currently serve as the Lead
                     UX | Manager at Zoocasa x eXp Realty.
