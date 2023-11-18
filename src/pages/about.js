@@ -139,10 +139,10 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />A design, psychology, and innovation enthusiast who {""}
+            <br />Passionate about design, psychology adn innovation, skilled in {""}
             <a href="https://github.com/simpleuiux" target="_blank">
-            conceptualize{""}
-            </a>{" "} ideas.
+            bringing{""}
+            </a>{" "} ideas to life.
           </h1>
           <br />
           <br />
