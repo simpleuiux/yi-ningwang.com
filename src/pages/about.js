@@ -480,21 +480,16 @@ const AboutPage = ({ data }, location) => {
           <br />
           <h5 id="dynamic-styles">Experience</h5>
           <p>
-            I started my career as an international journalist, a research
-            strategist and a UX designer. I have travelled to 40+ countries and
-            collaborated with people from North America, Africa, Europe, and
-            Asia.
+            
+I began my professional journey as an international journalist and research strategist, traversing over 40 countries and collaborating with individuals from North America, Africa, Europe, and Asia.
           </p>
           <p>
-            In 2015, I worked for UBS, a swiss bank, and dived into the UX
-            world. Since then, I have been growing as a UX designer. I have
-            provided systematic and precise researches and designs for
-            industries from <b>Consultancy</b>, <b>Financial Services</b>,{" "}
-            <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>.
+          After graduating from MBA program in 2015, I transitioned to the UX domain while working with UBS, a Swiss bank. Since then, my growth as a UX professional has been continuous. I've contributed systematic and precise research and designs across diverse industries, including <b>Consultancy</b>, <b>Financial Services</b>,{" "}
+            <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>, spanning both B2B and B2C domains.
           </p>
           <p>
-          I also hold the role of Co-founder of a Canada/Japan-based tech design studio  -{" "}
-            <a href="https://sassy.technology">Sassy Technology</a>, which I engage in for my personal fulfillment.​​​​​​​
+          Additionally, I hold the role of Co-founder at   -{" "}
+            <a href="https://sassy.technology">Sassy Technology</a>, a tech design studio based in Canada and Japan. Engaging with this venture adds a personal fulfillment dimension to my professional journey.​
           </p>
           <p>
             <br />
