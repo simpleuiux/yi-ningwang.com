@@ -321,7 +321,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>Creative Technologist</h3>
                   <p>
                   I am enthusiastic about {""}
-            <a href="https://www.linkedin.com/in/annieyiningwang/" target="_blank">
+            <a href="https://twitter.com/annieuxjourney" target="_blank">
             sharing new technologies {""}
             </a>{" "} and integrating innovative UX solutions using AI.
                  </p>
@@ -443,7 +443,7 @@ const AboutPage = ({ data }, location) => {
                   <h3>Mentorship</h3>
                   <p>
                     I provide {""}
-                    <a href="https://www.goodreads.com/user/show/3607330-yining-wang" target="_blank">
+                    <a href="https://adplist.org/mentors/annie-yining-wang" target="_blank">
                       mentorship
                     </a>
                     {""} and deliver speeches to UX designers and
