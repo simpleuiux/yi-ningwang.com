@@ -145,7 +145,15 @@ const Layout = props => {
           Linkedin
         </a>
         &nbsp; · &nbsp;
-        &nbsp; &nbsp; &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted with ❤{" "} by Annie using Gatsby x Netlify
+        <a
+          href="https://twitter.com/annieuxjourney"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          X
+        </a>
+        <br/>
+        &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted with ❤{" "} by Annie using Gatsby x Netlify
       </footer>
     </div>
   )
