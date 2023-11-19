@@ -115,7 +115,7 @@ logo process </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 Embrace the Dynamic Essence of Femininity.</h3>
 
-<br/>
+<br/><br/>
 
 <p style=" margin-bottom:-50px"></p>
 I want to make a dynamic logo with feminine gestures. There are several variations in the logo design. We can reorganize the elements of logo that changed in several ways, make it a changable and adaptable.
