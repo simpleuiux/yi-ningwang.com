@@ -466,19 +466,19 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2022 &nbsp; ADPList Top 1% Mentor Worldwide
+          2022 &nbsp;
           {" "}
           <a href="https://www.linkedin.com/in/annieyiningwang/recent-activity/all/">
           ADPList Top 1% Mentor Worldwide
           </a>{" "}
           <br/>
-          2021 &nbsp; UX Planet - UX writer 
+          2021 &nbsp; UX Planet - UX writer -
           {" "}
           <a href="https://medium.com/ux-planet/better-procurement-experience-happier-users-73d0d822e7b6">
             Better Procurement. Happier Users! (B2B)
           </a>{" "}
           <br />
-          2020 &nbsp; UX Planet - UX writer
+          2020 &nbsp; UX Planet - UX writer -
           {" "}
           <a href="https://uxplanet.org/how-spreading-kindness-can-prevent-loneliness-an-ui-ux-case-study-19762319f7ce">
           Kindness in Design: Beating Loneliness
