@@ -478,7 +478,7 @@ const AboutPage = ({ data }, location) => {
             Better Procurement. Happier Users! (B2B)
           </a>{" "}
           <br />
-          2020 &nbsp; UX Planet - UX writer -
+          2020 &nbsp; UX Planet - UX writer
           <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
           <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
