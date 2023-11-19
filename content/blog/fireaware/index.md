@@ -113,6 +113,8 @@ Lisa is in search of a fire alert app that can provide her with essential inform
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Information Architecture</h6>
 
+<br/>
+
 #### The structure provides visualization map, fire alerts, educational info and user settings
 
 <div class="kg-card kg-image-card kg-width-full">
@@ -124,6 +126,8 @@ Information Architecture</h6>
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 user flow</h6>
 
+<br/>
+
 #### Seamless experience to get the first-hand information
 
 <div class="kg-card kg-image-card kg-width-full">
@@ -134,6 +138,8 @@ user flow</h6>
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 VISUALIZATION MAP</h6>
+
+<br/>
 
 #### Locate the wildfires timely to act accordingly
 
@@ -148,6 +154,8 @@ This visualized fire data is derived from NASA's satellite imagery. Users can se
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Low-Fi wireframes</h6>
 
+<br/>
+
 #### Start bringing it to life
 
 My approach involves sketching and whiteboarding ideas and processes in collaboration with my teammates. Given my prior experience with various existing designs, transitioning into high-fidelity designs at a later stage was a seamless process.
@@ -160,6 +168,8 @@ My approach involves sketching and whiteboarding ideas and processes in collabor
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Final design</h6>
+
+<br/>
 
 #### The below shows some of the app designs for FIREAWARE.
 
