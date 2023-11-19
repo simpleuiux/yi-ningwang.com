@@ -77,6 +77,8 @@ Wildfires have become a global concern, particularly in 2019, reaching a pandemi
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Target User 1</h6>
 
+<br/>
+
 <h4 style="margin-bottom:20px">
 Firefighters need more information to allocate resources efficiently and effectively</h4>
 
@@ -92,6 +94,8 @@ Tom is actively searching for an alert system or app that can provide valuable i
 
 <h6 style=" font-size: 16px; margin-bottom:-30px; margin-top:60px; text-transform:uppercase">
 Target User 2</h6>
+
+<br/>
 
 <h4 style="margin-bottom:20px">
 Campers don't have enough knowledge to camp safely</h4>
