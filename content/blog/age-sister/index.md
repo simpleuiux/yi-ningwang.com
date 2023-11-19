@@ -95,10 +95,11 @@ empathize the users' needs and likings </h3>
 <h6 style=" font-size: 16px; text-transform:uppercase">
 mood board </h6>
 
-<p style=" margin-bottom:-50px">
+<p style=" margin-bottom:-50px"></p>
+
 There are two mood boards for the client. The brownish-yellow colours help the whole website pop up visually with <b>a vibrant atmosphere</b> while the blue version on the right <b>conveyed a resilient feeling</b>. </br>
 Age Sister would like to present a happy and revitalized vibe to gladden users. Therefore, the brownish-yellow serve as the final decision.
-</p>
+
 <div class="kg-card kg-image-card">
 
 ![Mood board](https://miro.medium.com/max/1440/1*YgJ5A9wEzvW9Nl8GWIca4w.png)
@@ -113,9 +114,9 @@ logo process </h6>
 <h3 style="margin-bottom:20px; text-transform:uppercase">
 embody the dynamic and fluidity of femininity </h3>
 
-<p style=" margin-bottom:-50px">
+<p style=" margin-bottom:-50px"></p>
 I want to make a dynamic logo with feminine gestures. There are several variations in the logo design. We can reorganize the elements of logo that changed in several ways, make it a changable and adaptable.
-</p>
+
 
 <div class="kg-card kg-image-card kg-width-wide">
 
