@@ -479,10 +479,6 @@ const AboutPage = ({ data }, location) => {
           </a>{" "}
           <br />
           2020 &nbsp; UX Planet - UX writer -
-          {" "}
-          <a href="https://uxplanet.org/how-spreading-kindness-can-prevent-loneliness-an-ui-ux-case-study-19762319f7ce">
-          Kindness in Design: Beating Loneliness
-          </a>{" "}
           <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
           <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
