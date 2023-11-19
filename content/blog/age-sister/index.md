@@ -92,15 +92,16 @@ design Process </h6>
 <h3 style="margin-bottom:70px; text-transform:uppercase">
 empathize the users' needs and likings </h3>
 
-<h6 style=" font-size: 16px; text-transform:uppercase">
-mood board </h6>
-
 <p style=" margin-bottom:-50px"></p>
 
 There are two mood boards for the client. The brownish-yellow colours help the whole website pop up visually with <b>a vibrant atmosphere</b> while the blue version on the right <b>conveyed a resilient feeling</b>. </br>
 Age Sister would like to present a happy and revitalized vibe to gladden users. Therefore, the brownish-yellow serve as the final decision.
 
 <div class="kg-card kg-image-card">
+
+
+<h6 style=" font-size: 16px; text-transform:uppercase">
+mood board </h6>
 
 ![Mood board](https://miro.medium.com/max/1440/1*YgJ5A9wEzvW9Nl8GWIca4w.png)
 
@@ -112,7 +113,7 @@ Age Sister would like to present a happy and revitalized vibe to gladden users. 
 logo process </h6>
 
 <h3 style="margin-bottom:20px; text-transform:uppercase">
-embody the dynamic and fluidity of femininity </h3>
+Embrace the Dynamic Essence of Femininity.</h3>
 
 <p style=" margin-bottom:-50px"></p>
 I want to make a dynamic logo with feminine gestures. There are several variations in the logo design. We can reorganize the elements of logo that changed in several ways, make it a changable and adaptable.
@@ -128,7 +129,7 @@ I want to make a dynamic logo with feminine gestures. There are several variatio
 style tile</h6>
 
 <h3 style="margin-bottom:20px; text-transform:uppercase">
-a good branding is its consistency</h3>
+Consistency is Key to Effective Branding.</h3>
 
 <p style=" margin-bottom:-50px">
 <b>Colours</b> | Teal, brownish and yellow colour palette provides a energetic and healthy tone. </br>
