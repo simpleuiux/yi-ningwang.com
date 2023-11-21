@@ -508,6 +508,7 @@ I began my professional journey as an international journalist and research stra
             <br/>
             (#1 for Best MBA in Entrepreneurship - Worldwide)
             <br/>
+            <br/>
             National Chiao Tung University - Global MBA
             <br/> 
             (Top 100 in Entrepreneurship - Worldwide)
