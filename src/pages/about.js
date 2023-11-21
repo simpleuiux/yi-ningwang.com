@@ -504,7 +504,7 @@ I began my professional journey as an international journalist and research stra
             <h5 id="dynamic-styles">Educational background</h5>
             2014 - 2016
             <br/> 
-            Bobson Colleage MBA (Entrepreneurial Studies, Thoughts and Action)
+            Babson Colleage MBA (Entrepreneurial Studies, Thoughts and Action)
             <br/>
             National Chiao Tung University - Global MBA
             <br/> 
