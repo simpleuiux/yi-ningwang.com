@@ -504,18 +504,20 @@ I began my professional journey as an international journalist and research stra
             <h5 id="dynamic-styles">Educational background</h5>
             2014 - 2016
             <br/> 
-            Babson Colleage MBA (Entrepreneurial Studies, Thoughts and Action)
+            Babson Colleage - MBA course (Entrepreneurial Thought & Action) 
+            <br/>
+            (#1 for Best MBA in Entrepreneurship - Worldwide)
             <br/>
             National Chiao Tung University - Global MBA
             <br/> 
-            (World's Top 100 in entrepreneurship)
+            (Top 100 in Entrepreneurship - Worldwide)
             <br />
             <br />
             2006 - 2010 
             <br/>
-            National Cheng Chi University - Media and Communication 
+            National Chengchi University - Media and Communication 
             <br/> 
-            (Top 1 Nation-wide in Communication and Digital Media)
+            (#1 Best in Communication and Digital Media - Nationwide)
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>
