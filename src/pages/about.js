@@ -471,7 +471,7 @@ const AboutPage = ({ data }, location) => {
           UX Writer </a>{" "}
           {" "}
           <a href="https://uxdesign.cc/">
-          @UX Collective|Bootcamp</a>{" "} 
+          @UX Collective</a>{" "} 
           <br/>
           2022 &nbsp;
           {" "}
