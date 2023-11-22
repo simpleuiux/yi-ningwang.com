@@ -466,19 +466,26 @@ const AboutPage = ({ data }, location) => {
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
+          2023 &nbsp;  {" "}
+          <a href="https://medium.com/@annieuxjourney"> 
+          UX Writer </a>{" "}
+          @UX Collective - Bootcamp
+          <br/>
           2022 &nbsp;
           {" "}
           <a href="https://www.linkedin.com/in/annieyiningwang/recent-activity/all/">
           ADPList Top 1% Mentor Worldwide
           </a>{" "}
           <br/>
-          2021 &nbsp; UX Planet - UX writer -
-          {" "}
-          <a href="https://medium.com/ux-planet/better-procurement-experience-happier-users-73d0d822e7b6">
-            Better Procurement. Happier Users! (B2B)
-          </a>{" "}
+          2021 &nbsp;  {" "}
+          <a href="https://medium.com/@annieuxjourney"> 
+          UX Writer </a>{" "} 
+          @UX Planet
           <br />
-          2020 &nbsp; UX Planet - UX writer
+          2020 &nbsp;  {" "}
+          <a href="https://medium.com/@annieuxjourney"> 
+          UX Writer </a>{" "} 
+          @UX Planet
           <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
           <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
