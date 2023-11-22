@@ -467,15 +467,15 @@ const AboutPage = ({ data }, location) => {
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
           2023 &nbsp;  {" "}
-          <a href="https://medium.com/@annieuxjourney"> 
+          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
           UX Writer </a>{" "}
           {" "}
-          <a href="https://uxdesign.cc/">
+          <a href="https://uxdesign.cc/" target="_blank">
           @UX Collective</a>{" "} 
           <br/>
           2022 &nbsp;
           {" "}
-          <a href="https://www.linkedin.com/in/annieyiningwang/recent-activity/all/">
+          <a href="https://www.linkedin.com/in/annieyiningwang/recent-activity/all/" target="_blank">
           ADPList Top 1% Mentor Worldwide
           </a>{" "}
           
@@ -483,21 +483,21 @@ const AboutPage = ({ data }, location) => {
 
           <br/>
           2021 &nbsp;  {" "}
-          <a href="https://medium.com/@annieuxjourney"> 
+          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
           UX Writer </a>{" "} 
           {" "}
-          <a href="https://uxplanet.org/">
+          <a href="https://uxplanet.org/" target="_blank">
           @UX Planet</a>{" "} 
           <br />
           2020 &nbsp;  {" "}
-          <a href="https://medium.com/@annieuxjourney"> 
+          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
           UX Writer </a>{" "} 
           {" "}
-          <a href="https://uxplanet.org/">
+          <a href="https://uxplanet.org/" target="_blank">
           @UX Planet</a>{" "} 
           <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
-          <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
+          <a href="https://devpost.com/software/girls_in_tech_vancouver#updates" target="_blank">
             1st Place.
           </a>{" "}
           <br />
