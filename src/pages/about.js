@@ -469,7 +469,9 @@ const AboutPage = ({ data }, location) => {
           2023 &nbsp;  {" "}
           <a href="https://medium.com/@annieuxjourney"> 
           UX Writer </a>{" "}
-          @UX Collective - Bootcamp
+          {" "}
+          <a href="https://uxdesign.cc/">
+          @UX Collective|Bootcamp</a>{" "} 
           <br/>
           2022 &nbsp;
           {" "}
@@ -480,12 +482,16 @@ const AboutPage = ({ data }, location) => {
           2021 &nbsp;  {" "}
           <a href="https://medium.com/@annieuxjourney"> 
           UX Writer </a>{" "} 
-          @UX Planet
+          {" "}
+          <a href="https://uxplanet.org/">
+          @UX Planet</a>{" "} 
           <br />
           2020 &nbsp;  {" "}
           <a href="https://medium.com/@annieuxjourney"> 
           UX Writer </a>{" "} 
-          @UX Planet
+          {" "}
+          <a href="https://uxplanet.org/">
+          @UX Planet</a>{" "} 
           <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
           <a href="https://devpost.com/software/girls_in_tech_vancouver#updates">
