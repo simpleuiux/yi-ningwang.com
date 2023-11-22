@@ -475,12 +475,9 @@ const AboutPage = ({ data }, location) => {
           <br/>
           2022 &nbsp;
           {" "}
-          <a href="https://www.linkedin.com/in/annieyiningwang/recent-activity/all/" target="_blank">
+          <a href="https://www.linkedin.com/posts/annieyiningwang_mentorship-mentoring-leadership-activity-6937447528208482304-UOOP?utm_source=share&utm_medium=member_desktop" target="_blank">
           ADPList Top 1% Mentor Worldwide
           </a>{" "}
-          
-          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6937447526815981568" height="802" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
           <br/>
           2021 &nbsp;  {" "}
           <a href="https://medium.com/@annieuxjourney" target="_blank"> 
