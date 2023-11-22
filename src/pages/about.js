@@ -478,6 +478,9 @@ const AboutPage = ({ data }, location) => {
           <a href="https://www.linkedin.com/in/annieyiningwang/recent-activity/all/">
           ADPList Top 1% Mentor Worldwide
           </a>{" "}
+          
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6937447526815981568" height="802" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
           <br/>
           2021 &nbsp;  {" "}
           <a href="https://medium.com/@annieuxjourney"> 
