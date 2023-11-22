@@ -493,6 +493,13 @@ const AboutPage = ({ data }, location) => {
           <a href="https://uxplanet.org/" target="_blank">
           @UX Planet</a>{" "} 
           <br />
+          2019 &nbsp;  {" "}
+          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
+          UX Writer </a>{" "} 
+          {" "}
+          <a href="https://uxplanet.org/" target="_blank">
+          @UX Planet</a>{" "} 
+          <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
           <a href="https://devpost.com/software/girls_in_tech_vancouver#updates" target="_blank">
             1st Place.
