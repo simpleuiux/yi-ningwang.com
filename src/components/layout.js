@@ -30,7 +30,7 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-right">
+          <nav id="swup" className="site-head-right">
             <ul className="nav" role="menu">
               {/* <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Project</Link>
@@ -49,24 +49,24 @@ const Layout = props => {
           <div className="site-head-left">
             <div className="social-links">
               <li className="nav-about" role="menuitem">
-              <Link
-  to={`/about`}
-  activeStyle={{ fontSize: 'larger' }}
-  style={{ fontSize: 'larger' }}
->
-  ABOUT
-</Link>
+                <Link
+                  to={`/about`}
+                  activeStyle={{ fontSize: "larger" }}
+                  style={{ fontSize: "larger" }}
+                >
+                  ABOUT
+                </Link>
               </li>
               <a
-  href={Resume}
-  aria-label="Resume"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{ fontSize: 'larger' }}
->
-  {" "}
-  RESUME
-</a>
+                href={Resume}
+                aria-label="Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: "larger" }}
+              >
+                {" "}
+                RESUME
+              </a>
               {/* <li className="nav-project" role="menuitem">
                 <Link to={`/project`} activeStyle={activeStyle}>
                   PROJECTS
@@ -152,8 +152,9 @@ const Layout = props => {
         >
           X
         </a>
-        <br/>
-        &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted with ❤{" "} by Annie using Gatsby x Netlify
+        <br />
+        &copy; {new Date().getFullYear()} All right reserved &mdash; Handcrafted
+        with ❤ by Annie using Gatsby x Netlify
       </footer>
     </div>
   )
