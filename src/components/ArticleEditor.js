@@ -114,10 +114,10 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
               </div>
               <Link
                 to="/admin"
-                className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
+                className="inline-flex items-center px-8 py-4 border border-gray-300 shadow-sm text-2xl font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
               >
                 <svg
-                  className="w-4 h-4 mr-2"
+                  className="w-8 h-8 mr-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -296,10 +296,13 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <button
               type="submit"
               disabled={saving}
-              className={`inline-flex items-center px-7 py-3 border border-transparent text-2xl font-medium rounded-lg text-white shadow-lg transition-all duration-200 ${
+              className={`inline-flex items-center px-7 py-3 border border-transparent text-2xl font-medium rounded-lg shadow-lg transition-all duration-200 ${
                 saving ? "bg-gray-400 cursor-not-allowed" : "hover:shadow-xl"
               }`}
-              style={{ backgroundColor: saving ? "#9ca3af" : "#26a8ed" }}
+              style={{
+                backgroundColor: saving ? "#9ca3af" : "#26a8ed",
+                color: "#ffffff",
+              }}
             >
               {saving ? (
                 <>
