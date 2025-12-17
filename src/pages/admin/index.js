@@ -372,7 +372,7 @@ const AdminDashboard = ({ data }) => {
             <nav className="flex space-x-8">
               <button
                 onClick={() => setActiveTab("all")}
-                className={`pb-4 px-1 text-2xl font-medium transition-all duration-200 ${
+                className={`pb-4 px-4 text-2xl font-medium transition-all duration-200 ${
                   activeTab === "all"
                     ? "border-b-4 text-blue-600"
                     : "border-b-4 border-transparent text-gray-500 hover:text-gray-700"
@@ -385,7 +385,7 @@ const AdminDashboard = ({ data }) => {
               </button>
               <button
                 onClick={() => setActiveTab("case-study")}
-                className={`pb-4 px-1 text-2xl font-medium transition-all duration-200 ${
+                className={`pb-4 px-4 text-2xl font-medium transition-all duration-200 ${
                   activeTab === "case-study"
                     ? "border-b-4 text-blue-600"
                     : "border-b-4 border-transparent text-gray-500 hover:text-gray-700"
@@ -399,7 +399,7 @@ const AdminDashboard = ({ data }) => {
               </button>
               <button
                 onClick={() => setActiveTab("article")}
-                className={`pb-4 px-1 text-2xl font-medium transition-all duration-200 ${
+                className={`pb-4 px-4 text-2xl font-medium transition-all duration-200 ${
                   activeTab === "article"
                     ? "border-b-4 text-blue-600"
                     : "border-b-4 border-transparent text-gray-500 hover:text-gray-700"
@@ -437,10 +437,18 @@ const AdminDashboard = ({ data }) => {
                 </svg>
               </div>
               <h3 className="text-3xl font-medium text-gray-900 mb-2">
-                No case studies yet
+                {activeTab === "article"
+                  ? "No articles yet"
+                  : activeTab === "case-study"
+                    ? "No case studies yet"
+                    : "No content yet"}
               </h3>
               <p className="text-xl text-gray-500 mb-6">
-                Get started by creating your first portfolio case study.
+                {activeTab === "article"
+                  ? "Get started by creating your first article."
+                  : activeTab === "case-study"
+                    ? "Get started by creating your first portfolio case study."
+                    : "Get started by creating your first case study or article."}
               </p>
               <Link
                 to="/admin/new"
@@ -460,7 +468,9 @@ const AdminDashboard = ({ data }) => {
                     d="M12 4v16m8-8H4"
                   />
                 </svg>
-                Create Your First Case Study
+                {activeTab === "article"
+                  ? "Create Your First Article"
+                  : "Create Your First Case Study"}
               </Link>
             </div>
           ) : (
