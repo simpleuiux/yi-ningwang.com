@@ -452,11 +452,11 @@ const AdminDashboard = ({ data }) => {
               </p>
               <Link
                 to="/admin/new"
-                className="inline-flex items-center px-14 py-8 text-2xl font-medium text-white rounded-lg shadow-sm transition-all duration-200 hover:shadow-md"
+                className="inline-flex items-center px-4 py-8 text-2xl font-medium text-white rounded-lg shadow-sm transition-all duration-200 hover:shadow-md"
                 style={{ backgroundColor: "#26a8ed" }}
               >
                 <svg
-                  className="w-14 h-14 mr-4"
+                  className="w-5 h-5 mr-4"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
