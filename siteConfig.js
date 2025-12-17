@@ -5,5 +5,7 @@ module.exports = {
   url: "https://yi-ningwang.com", // Domain of your site without prefix!
   prefix: "/",
   author: "Annie Yining Wang",
+  email: "annieynwang@gmail.com",
   twitter: "annieyxjourney",
+  github: "yi-ningwang.com",
 }

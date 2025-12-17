@@ -58,6 +58,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+// Disable ESLint plugin to avoid minimatch compatibility issues
+exports.onCreateWebpackConfig = ({ actions, stage, getConfig }) => {
+  if (stage === "develop") {
+    const config = getConfig()
+    const eslintRuleIndex = config.module.rules.findIndex(
+      (rule) => rule.enforce === "pre"
+    )
+    if (eslintRuleIndex !== -1) {
+      config.module.rules.splice(eslintRuleIndex, 1)
+    }
+    actions.replaceWebpackConfig(config)
+  }
+}
+
 // Create API endpoint to serve markdown content in development
 exports.onCreateDevServer = ({ app }) => {
   const fs = require("fs")

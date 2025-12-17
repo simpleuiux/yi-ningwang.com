@@ -103,10 +103,10 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-4xl font-bold text-gray-900">
+                <h1 className="text-8xl font-bold text-gray-900">
                   {existingSlug ? "Edit Article" : "New Article"}
                 </h1>
-                <p className="mt-2 text-lg text-gray-600">
+                <p className="mt-2 text-2xl text-gray-600">
                   {existingSlug
                     ? "Update your article content"
                     : "Create a new portfolio article"}
@@ -114,7 +114,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
               </div>
               <Link
                 to="/admin"
-                className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
+                className="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
               >
                 <svg
                   className="w-4 h-4 mr-2"
@@ -146,7 +146,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <div>
               <label
                 htmlFor="title"
-                className="block text-lg font-semibold text-gray-700 mb-2"
+                className="block text-2xl font-semibold text-gray-700 mb-2"
               >
                 Title <span className="text-red-500">*</span>
               </label>
@@ -156,7 +156,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 value={title}
                 onChange={handleTitleChange}
                 required
-                className="block w-full px-5 py-4 text-lg border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 transition-all duration-200"
+                className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 transition-all duration-200"
                 style={{
                   focusRingColor: "#26a8ed",
                 }}
@@ -170,7 +170,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <div>
               <label
                 htmlFor="slug"
-                className="block text-lg font-semibold text-gray-700 mb-2"
+                className="block text-2xl font-semibold text-gray-700 mb-2"
               >
                 Slug <span className="text-red-500">*</span>
               </label>
@@ -181,7 +181,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 onChange={(e) => setSlug(e.target.value)}
                 required
                 disabled={!!existingSlug}
-                className={`block w-full px-5 py-4 text-lg border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200 ${
+                className={`block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200 ${
                   existingSlug ? "bg-gray-50 cursor-not-allowed" : ""
                 }`}
                 onFocus={(e) =>
@@ -191,7 +191,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 placeholder="article-slug"
               />
               {existingSlug && (
-                <p className="mt-2 text-sm text-gray-500">
+                <p className="mt-2 text-base text-gray-500">
                   Slug cannot be changed after creation
                 </p>
               )}
@@ -202,7 +202,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
               <div>
                 <label
                   htmlFor="date"
-                  className="block text-lg font-semibold text-gray-700 mb-2"
+                  className="block text-2xl font-semibold text-gray-700 mb-2"
                 >
                   Date <span className="text-red-500">*</span>
                 </label>
@@ -212,7 +212,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                   value={date}
                   onChange={(e) => setDate(e.target.value)}
                   required
-                  className="block w-full px-5 py-4 text-lg border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 transition-all duration-200"
+                  className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 transition-all duration-200"
                   onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
                   onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
                 />
@@ -222,7 +222,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
               <div>
                 <label
                   htmlFor="thumbnail"
-                  className="block text-lg font-semibold text-gray-700 mb-2"
+                  className="block text-2xl font-semibold text-gray-700 mb-2"
                 >
                   Thumbnail
                 </label>
@@ -232,7 +232,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                   value={thumbnail}
                   onChange={(e) => setThumbnail(e.target.value)}
                   placeholder="./thumbnail.png"
-                  className="block w-full px-5 py-4 text-lg border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200"
+                  className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200"
                   onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
                   onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
                 />
@@ -243,7 +243,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <div>
               <label
                 htmlFor="description"
-                className="block text-lg font-semibold text-gray-700 mb-2"
+                className="block text-2xl font-semibold text-gray-700 mb-2"
               >
                 Description
               </label>
@@ -252,7 +252,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 id="description"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                className="block w-full px-5 py-4 text-lg border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 transition-all duration-200"
+                className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 transition-all duration-200"
                 onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
                 onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
                 placeholder="Brief description of the article"
@@ -263,7 +263,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <div>
               <label
                 htmlFor="content"
-                className="block text-lg font-semibold text-gray-700 mb-2"
+                className="block text-2xl font-semibold text-gray-700 mb-2"
               >
                 Content (Markdown) <span className="text-red-500">*</span>
               </label>
@@ -273,7 +273,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 onChange={(e) => setContent(e.target.value)}
                 required
                 rows={24}
-                className="block w-full px-5 py-4 text-lg border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200"
+                className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200"
                 style={{ resize: "vertical" }}
                 onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
                 onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
@@ -289,14 +289,14 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
           >
             <Link
               to="/admin"
-              className="px-6 py-3 border border-gray-300 shadow-sm text-lg font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
+              className="px-6 py-3 border border-gray-300 shadow-sm text-2xl font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
             >
               Cancel
             </Link>
             <button
               type="submit"
               disabled={saving}
-              className={`inline-flex items-center px-7 py-3 border border-transparent text-lg font-medium rounded-lg text-white shadow-lg transition-all duration-200 ${
+              className={`inline-flex items-center px-7 py-3 border border-transparent text-2xl font-medium rounded-lg text-white shadow-lg transition-all duration-200 ${
                 saving ? "bg-gray-400 cursor-not-allowed" : "hover:shadow-xl"
               }`}
               style={{ backgroundColor: saving ? "#9ca3af" : "#26a8ed" }}
