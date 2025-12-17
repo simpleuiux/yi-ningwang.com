@@ -64,3 +64,27 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+// Create API endpoint to serve markdown content in development
+exports.onCreateDevServer = ({ app }) => {
+  const fs = require("fs")
+  const path = require("path")
+
+  app.get("/api/article-content/:slug", (req, res) => {
+    try {
+      const slug = req.params.slug
+      const blogRoot = path.join(process.cwd(), "content", "blog")
+      const articlePath = path.join(blogRoot, slug, "index.md")
+
+      if (fs.existsSync(articlePath)) {
+        const content = fs.readFileSync(articlePath, "utf8")
+        res.json({ content })
+      } else {
+        res.status(404).json({ error: "Article not found" })
+      }
+    } catch (error) {
+      console.error("Error reading article:", error)
+      res.status(500).json({ error: "Internal server error" })
+    }
+  })
+}

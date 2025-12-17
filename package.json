@@ -35,6 +35,7 @@
     "react-helmet": "^5.2.1",
     "react-particles-js": "^2.7.0",
     "react-pdf": "^4.1.0",
+    "source-map": "^0.7.6",
     "typeface-alegreya": "^0.0.69",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
@@ -48,7 +49,8 @@
     "postcss-custom-properties": "^8.0.10",
     "postcss-easy-import": "^3.0.0",
     "prettier": "^1.17.0",
-    "pretty-quick": "^1.10.0"
+    "pretty-quick": "^1.10.0",
+    "tailwindcss": "^1.9.6"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -67,6 +69,7 @@
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build",
     "develop": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop",
+    "dev": "npx netlify-cli dev",
     "format": "prettier --write src/**/*.{js,jsx}",
     "new:article": "node scripts/new-article.js",
     "start": "npm run develop",
