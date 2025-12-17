@@ -296,43 +296,45 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <button
               type="submit"
               disabled={saving}
-              className={`inline-flex items-center px-7 py-3 border border-transparent text-2xl font-medium rounded-lg shadow-lg transition-all duration-200 ${
+              className={`inline-flex items-center px-7 py-3 border border-transparent text-2xl rounded-lg shadow-lg transition-all duration-200 ${
                 saving ? "bg-gray-400 cursor-not-allowed" : "hover:shadow-xl"
               }`}
               style={{
                 backgroundColor: saving ? "#9ca3af" : "#26a8ed",
                 color: "#ffffff",
+                fontWeight: 500,
               }}
             >
               {saving ? (
                 <>
                   <svg
-                    className="animate-spin -ml-1 mr-2 h-4 w-4 text-white"
+                    className="animate-spin -ml-1 mr-2 h-4 w-4"
                     fill="none"
                     viewBox="0 0 24 24"
+                    stroke="#ffffff"
                   >
                     <circle
                       className="opacity-25"
                       cx="12"
                       cy="12"
                       r="10"
-                      stroke="currentColor"
+                      stroke="#ffffff"
                       strokeWidth="4"
                     ></circle>
                     <path
                       className="opacity-75"
-                      fill="currentColor"
+                      fill="#ffffff"
                       d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                     ></path>
                   </svg>
-                  Saving...
+                  <span style={{ color: "#fff" }}>Saving...</span>
                 </>
               ) : (
                 <>
                   <svg
                     className="w-4 h-4 mr-2"
                     fill="none"
-                    stroke="currentColor"
+                    stroke="#ffffff"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -342,7 +344,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  Save Article
+                  <span style={{ color: "#fff" }}>Save Article</span>
                 </>
               )}
             </button>
