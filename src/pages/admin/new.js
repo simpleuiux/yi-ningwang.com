@@ -17,7 +17,7 @@ const NewArticlePage = () => {
   if (loading) {
     return (
       <Layout>
-        <SEO title="New Article" />
+        <SEO title="New Case Study" />
         <div style={{ padding: "2rem", textAlign: "center" }}>
           <p>Loading...</p>
         </div>

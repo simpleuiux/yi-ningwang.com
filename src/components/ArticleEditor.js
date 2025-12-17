@@ -11,6 +11,9 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
   const [content, setContent] = useState("")
   const [slug, setSlug] = useState("")
   const [saving, setSaving] = useState(false)
+  const [isDragging, setIsDragging] = useState(false)
+  const [uploading, setUploading] = useState(false)
+  const contentRef = React.useRef(null)
 
   useEffect(() => {
     if (article) {
@@ -39,6 +42,81 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
     setTitle(newTitle)
     if (!existingSlug) {
       setSlug(generateSlug(newTitle))
+    }
+  }
+
+  const handleDragOver = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsDragging(true)
+  }
+
+  const handleDragLeave = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsDragging(false)
+  }
+
+  const handleDrop = async (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsDragging(false)
+
+    const files = Array.from(e.dataTransfer.files)
+    const imageFiles = files.filter((file) => file.type.startsWith("image/"))
+
+    if (imageFiles.length === 0) {
+      alert("Please drop image files only")
+      return
+    }
+
+    for (const file of imageFiles) {
+      await handleImageUpload(file)
+    }
+  }
+
+  const handleImageUpload = async (file) => {
+    setUploading(true)
+
+    try {
+      // Convert image to base64 data URL
+      const reader = new FileReader()
+      reader.onload = (e) => {
+        const dataUrl = e.target.result
+
+        // Get cursor position
+        const textarea = contentRef.current
+        const cursorPos = textarea ? textarea.selectionStart : content.length
+
+        // Create markdown image syntax
+        const imageName = file.name.replace(/\.[^/.]+$/, "")
+        const imageMarkdown = `\n\n![${imageName}](${file.name})\n\n`
+
+        // Insert at cursor position
+        const newContent =
+          content.substring(0, cursorPos) +
+          imageMarkdown +
+          content.substring(cursorPos)
+
+        setContent(newContent)
+        setUploading(false)
+
+        // Show message about manual upload
+        alert(
+          `Image "${file.name}" markdown added!\n\nNote: Please manually upload "${file.name}" to your case study folder after saving.`
+        )
+      }
+
+      reader.onerror = () => {
+        setUploading(false)
+        alert("Error reading image file")
+      }
+
+      reader.readAsDataURL(file)
+    } catch (error) {
+      console.error("Error uploading image:", error)
+      setUploading(false)
+      alert("Failed to process image")
     }
   }
 
@@ -104,12 +182,12 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-8xl font-bold text-gray-900">
-                  {existingSlug ? "Edit Article" : "New Article"}
+                  {existingSlug ? "Edit Case Study" : "New Case Study"}
                 </h1>
                 <p className="mt-2 text-2xl text-gray-600">
                   {existingSlug
-                    ? "Update your article content"
-                    : "Create a new portfolio article"}
+                    ? "Update your case study content"
+                    : "Create a new portfolio case study"}
                 </p>
               </div>
               <Link
@@ -162,7 +240,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 }}
                 onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
                 onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
-                placeholder="Enter article title"
+                placeholder="Enter case study title"
               />
             </div>
 
@@ -188,7 +266,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                   !existingSlug && (e.target.style.borderColor = "#26a8ed")
                 }
                 onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
-                placeholder="article-slug"
+                placeholder="case-study-slug"
               />
               {existingSlug && (
                 <p className="mt-2 text-base text-gray-500">
@@ -255,7 +333,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 transition-all duration-200"
                 onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
                 onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
-                placeholder="Brief description of the article"
+                placeholder="Brief description of the case study"
               />
             </div>
 
@@ -266,19 +344,65 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                 className="block text-2xl font-semibold text-gray-700 mb-2"
               >
                 Content (Markdown) <span className="text-red-500">*</span>
+                {uploading && (
+                  <span className="ml-3 text-blue-500 text-lg">
+                    Processing image...
+                  </span>
+                )}
               </label>
-              <textarea
-                id="content"
-                value={content}
-                onChange={(e) => setContent(e.target.value)}
-                required
-                rows={24}
-                className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200"
-                style={{ resize: "vertical" }}
-                onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
-                onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
-                placeholder="Write your article content in Markdown..."
-              />
+              <div className="relative">
+                <textarea
+                  ref={contentRef}
+                  id="content"
+                  value={content}
+                  onChange={(e) => setContent(e.target.value)}
+                  onDragOver={handleDragOver}
+                  onDragLeave={handleDragLeave}
+                  onDrop={handleDrop}
+                  required
+                  rows={24}
+                  className={`block w-full px-5 py-4 text-2xl border rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200 ${
+                    isDragging
+                      ? "border-blue-500 bg-blue-50 border-4"
+                      : "border-gray-300"
+                  }`}
+                  style={{ resize: "vertical" }}
+                  onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
+                  onBlur={(e) =>
+                    !isDragging && (e.target.style.borderColor = "#d1d5db")
+                  }
+                  placeholder="Write your case study content in Markdown... (You can drag & drop images here!)"
+                />
+                {isDragging && (
+                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-blue-50 bg-opacity-90 rounded-lg border-4 border-blue-500 border-dashed">
+                    <div className="text-center">
+                      <svg
+                        className="mx-auto h-16 w-16 text-blue-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                        />
+                      </svg>
+                      <p className="mt-2 text-2xl font-semibold text-blue-600">
+                        Drop images here
+                      </p>
+                      <p className="text-lg text-blue-500">
+                        Images will be inserted at cursor position
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+              <p className="mt-2 text-lg text-gray-500">
+                💡 Tip: Drag and drop images into the editor to insert them at
+                your cursor position
+              </p>
             </div>
           </div>
 
@@ -344,7 +468,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span style={{ color: "#fff" }}>Save Article</span>
+                  <span style={{ color: "#fff" }}>Save Case Study</span>
                 </>
               )}
             </button>

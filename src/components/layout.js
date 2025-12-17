@@ -7,7 +7,7 @@ const activeStyle = {
   fontWeight: 700,
 }
 
-const Layout = props => {
+const Layout = (props) => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
   return (
@@ -55,6 +55,15 @@ const Layout = props => {
                   style={{ fontSize: "larger" }}
                 >
                   ABOUT
+                </Link>
+              </li>
+              <li className="nav-writing" role="menuitem">
+                <Link
+                  to={`/project`}
+                  activeStyle={{ fontSize: "larger" }}
+                  style={{ fontSize: "larger" }}
+                >
+                  WRITING
                 </Link>
               </li>
               <a

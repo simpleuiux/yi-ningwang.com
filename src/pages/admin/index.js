@@ -284,7 +284,7 @@ const AdminDashboard = ({ data }) => {
                     />
                   </svg>
                   <p className="text-xl font-medium text-yellow-800">
-                    Article "{deletedArticles[0].title}" was deleted.
+                    Case Study "{deletedArticles[0].title}" was deleted.
                   </p>
                 </div>
                 <button
@@ -305,10 +305,10 @@ const AdminDashboard = ({ data }) => {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h1 className="text-6xl font-bold text-gray-900 mb-3">
-                Articles
+                Case Studies
               </h1>
               <p className="text-2xl text-gray-500">
-                Manage your portfolio articles
+                Manage your portfolio case studies
               </p>
             </div>
             <div className="flex items-center space-x-4">
@@ -349,7 +349,7 @@ const AdminDashboard = ({ data }) => {
                     d="M12 4v16m8-8H4"
                   />
                 </svg>
-                New Article
+                New Case Study
               </Link>
               <button
                 onClick={logout}
@@ -383,10 +383,10 @@ const AdminDashboard = ({ data }) => {
                 </svg>
               </div>
               <h3 className="text-3xl font-medium text-gray-900 mb-2">
-                No articles yet
+                No case studies yet
               </h3>
               <p className="text-xl text-gray-500 mb-6">
-                Get started by creating your first portfolio article.
+                Get started by creating your first portfolio case study.
               </p>
               <Link
                 to="/admin/new"
@@ -406,7 +406,7 @@ const AdminDashboard = ({ data }) => {
                     d="M12 4v16m8-8H4"
                   />
                 </svg>
-                Create Your First Article
+                Create Your First Case Study
               </Link>
             </div>
           ) : (
