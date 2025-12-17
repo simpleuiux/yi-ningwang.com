@@ -1,6 +1,15 @@
 import React, { useState, useEffect } from "react"
 import { navigate, Link } from "gatsby"
 import { useAuth } from "../contexts/AuthContext"
+import TurndownService from "turndown"
+import { marked } from "marked"
+
+// Dynamically import ReactQuill to avoid SSR issues with Gatsby
+let ReactQuill = null
+if (typeof window !== "undefined") {
+  ReactQuill = require("react-quill").default
+  require("react-quill/dist/quill.snow.css")
+}
 
 const ArticleEditor = ({ article, slug: existingSlug }) => {
   const { logout, getAuthToken } = useAuth()
@@ -14,7 +23,19 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
   const [saving, setSaving] = useState(false)
   const [isDragging, setIsDragging] = useState(false)
   const [uploading, setUploading] = useState(false)
+  const [editorMode, setEditorMode] = useState("markdown") // "markdown" or "richtext"
   const contentRef = React.useRef(null)
+
+  // Initialize turndown service for HTML to Markdown conversion
+  const turndownService = React.useMemo(() => {
+    if (typeof window !== "undefined") {
+      return new TurndownService({
+        headingStyle: "atx",
+        codeBlockStyle: "fenced",
+      })
+    }
+    return null
+  }, [])
 
   useEffect(() => {
     if (article) {
@@ -127,12 +148,18 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
     setSaving(true)
 
     try {
+      // Convert HTML to Markdown if in rich text mode
+      let finalContent = content
+      if (editorMode === "richtext" && turndownService) {
+        finalContent = turndownService.turndown(content)
+      }
+
       const articleData = {
         title,
         description,
         date,
         thumbnail,
-        content,
+        content: finalContent,
         slug: slug || generateSlug(title),
         type,
       }
@@ -369,70 +396,154 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
 
             {/* Content */}
             <div>
-              <label
-                htmlFor="content"
-                className="block text-2xl font-semibold text-gray-700 mb-2"
-              >
-                Content (Markdown) <span className="text-red-500">*</span>
-                {uploading && (
-                  <span className="ml-3 text-blue-500 text-lg">
-                    Processing image...
-                  </span>
-                )}
-              </label>
-              <div className="relative">
-                <textarea
-                  ref={contentRef}
-                  id="content"
-                  value={content}
-                  onChange={(e) => setContent(e.target.value)}
-                  onDragOver={handleDragOver}
-                  onDragLeave={handleDragLeave}
-                  onDrop={handleDrop}
-                  required
-                  rows={24}
-                  className={`block w-full px-5 py-4 text-2xl border rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200 ${
-                    isDragging
-                      ? "border-blue-500 bg-blue-50 border-4"
-                      : "border-gray-300"
-                  }`}
-                  style={{ resize: "vertical" }}
-                  onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
-                  onBlur={(e) =>
-                    !isDragging && (e.target.style.borderColor = "#d1d5db")
-                  }
-                  placeholder="Write your case study content in Markdown... (You can drag & drop images here!)"
-                />
-                {isDragging && (
-                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-blue-50 bg-opacity-90 rounded-lg border-4 border-blue-500 border-dashed">
-                    <div className="text-center">
-                      <svg
-                        className="mx-auto h-16 w-16 text-blue-500"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
-                        />
-                      </svg>
-                      <p className="mt-2 text-2xl font-semibold text-blue-600">
-                        Drop images here
-                      </p>
-                      <p className="text-lg text-blue-500">
-                        Images will be inserted at cursor position
-                      </p>
-                    </div>
-                  </div>
-                )}
+              <div className="flex items-center justify-between mb-2">
+                <label
+                  htmlFor="content"
+                  className="block text-2xl font-semibold text-gray-700"
+                >
+                  Content <span className="text-red-500">*</span>
+                  {uploading && (
+                    <span className="ml-3 text-blue-500 text-lg">
+                      Processing image...
+                    </span>
+                  )}
+                </label>
+                <div className="flex rounded-lg overflow-hidden border border-gray-300">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (editorMode === "richtext" && turndownService) {
+                        // Convert HTML to Markdown
+                        const markdown = turndownService.turndown(content)
+                        setContent(markdown)
+                      }
+                      setEditorMode("markdown")
+                    }}
+                    className={`px-6 py-2 text-lg font-medium transition-colors ${
+                      editorMode === "markdown"
+                        ? "bg-blue-500 text-white"
+                        : "bg-white text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    ✍️ Markdown
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (editorMode === "markdown") {
+                        // Convert Markdown to HTML
+                        const html = marked(content || "")
+                        setContent(html)
+                      }
+                      setEditorMode("richtext")
+                    }}
+                    className={`px-6 py-2 text-lg font-medium transition-colors border-l border-gray-300 ${
+                      editorMode === "richtext"
+                        ? "bg-blue-500 text-white"
+                        : "bg-white text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    📝 Rich Text
+                  </button>
+                </div>
               </div>
-              <p className="mt-2 text-lg text-gray-500">
-                💡 Tip: Drag and drop images into the editor to insert them at
-                your cursor position
-              </p>
+
+              {editorMode === "markdown" ? (
+                <div className="relative">
+                  <textarea
+                    ref={contentRef}
+                    id="content"
+                    value={content}
+                    onChange={(e) => setContent(e.target.value)}
+                    onDragOver={handleDragOver}
+                    onDragLeave={handleDragLeave}
+                    onDrop={handleDrop}
+                    required
+                    rows={24}
+                    className={`block w-full px-5 py-4 text-2xl border rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 font-mono transition-all duration-200 ${
+                      isDragging
+                        ? "border-blue-500 bg-blue-50 border-4"
+                        : "border-gray-300"
+                    }`}
+                    style={{ resize: "vertical" }}
+                    onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
+                    onBlur={(e) =>
+                      !isDragging && (e.target.style.borderColor = "#d1d5db")
+                    }
+                    placeholder="Write your case study content in Markdown... (You can drag & drop images here!)"
+                  />
+                  {isDragging && (
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none bg-blue-50 bg-opacity-90 rounded-lg border-4 border-blue-500 border-dashed">
+                      <div className="text-center">
+                        <svg
+                          className="mx-auto h-16 w-16 text-blue-500"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                          />
+                        </svg>
+                        <p className="mt-2 text-2xl font-semibold text-blue-600">
+                          Drop images here
+                        </p>
+                        <p className="text-lg text-blue-500">
+                          Images will be inserted at cursor position
+                        </p>
+                      </div>
+                    </div>
+                  )}
+                  <p className="mt-2 text-lg text-gray-500">
+                    💡 Tip: Drag and drop images into the editor to insert them
+                    at your cursor position
+                  </p>
+                </div>
+              ) : (
+                ReactQuill && (
+                  <div className="rich-text-editor">
+                    <ReactQuill
+                      value={content}
+                      onChange={setContent}
+                      modules={{
+                        toolbar: [
+                          [{ header: [1, 2, 3, false] }],
+                          ["bold", "italic", "underline", "strike"],
+                          [{ list: "ordered" }, { list: "bullet" }],
+                          ["blockquote", "code-block"],
+                          ["link", "image"],
+                          [{ align: [] }],
+                          ["clean"],
+                        ],
+                      }}
+                      formats={[
+                        "header",
+                        "bold",
+                        "italic",
+                        "underline",
+                        "strike",
+                        "list",
+                        "bullet",
+                        "blockquote",
+                        "code-block",
+                        "link",
+                        "image",
+                        "align",
+                      ]}
+                      placeholder="Start writing your content... Just like Medium!"
+                      theme="snow"
+                      style={{ height: "600px", marginBottom: "60px" }}
+                    />
+                    <p className="mt-2 text-lg text-gray-500">
+                      💡 Tip: Use the toolbar above to format your text. Switch
+                      to Markdown mode to see the raw markdown.
+                    </p>
+                  </div>
+                )
+              )}
             </div>
           </div>
 
@@ -505,6 +616,36 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
           </div>
         </form>
       </div>
+
+      {/* Custom Styles for Rich Text Editor */}
+      <style jsx>{`
+        :global(.rich-text-editor .ql-container) {
+          font-size: 18px;
+          font-family:
+            -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+            "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+            sans-serif;
+        }
+
+        :global(.rich-text-editor .ql-editor) {
+          min-height: 500px;
+          padding: 20px;
+        }
+
+        :global(.rich-text-editor .ql-toolbar) {
+          border-radius: 8px 8px 0 0;
+          background: #f9fafb;
+        }
+
+        :global(.rich-text-editor .ql-container) {
+          border-radius: 0 0 8px 8px;
+        }
+
+        :global(.rich-text-editor .ql-editor.ql-blank::before) {
+          color: #9ca3af;
+          font-style: normal;
+        }
+      `}</style>
     </div>
   )
 }
