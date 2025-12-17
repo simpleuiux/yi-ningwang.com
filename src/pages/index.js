@@ -12,6 +12,11 @@ import Particles from "react-particles-js"
 const AboutPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  // Filter to show case studies on homepage (or all posts if no type specified)
+  const caseStudies = posts.filter(
+    ({ node }) =>
+      node.frontmatter.type === "case-study" || !node.frontmatter.type
+  )
   let postCounter = 0
 
   return (
@@ -157,7 +162,7 @@ const AboutPage = ({ data }, location) => {
       <br />
       <br />
       <div className="post-feed">
-        {posts.map(({ node }) => {
+        {caseStudies.map(({ node }) => {
           postCounter++
           return (
             <PostCard
@@ -208,6 +213,7 @@ const indexQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            type
             thumbnail {
               childImageSharp {
                 gatsbyImageData(width: 1360, layout: CONSTRAINED)

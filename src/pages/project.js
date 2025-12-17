@@ -14,13 +14,17 @@ import Particles from "react-particles-js"
 const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  // Filter to show only articles in the Writing section
+  const articles = posts.filter(
+    ({ node }) => node.frontmatter.type === "article" || !node.frontmatter.type
+  )
   let postCounter = 0
 
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="PROJECT"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        title="WRITING"
+        keywords={[`blog`, `writing`, `articles`, `thoughts`]}
       />
 
       <Particles
@@ -148,14 +152,13 @@ const BlogIndex = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             <br />
-            Eye-catching, minimal, and smart UX/UI design. <br /> Explore more
-            on{" "}
-            <a href="https://dribbble.com/annieuxjourney" target="_blank">
-              Dribbble
-            </a>{" "}
-            and{" "}
+            Thoughts, insights, and stories. <br /> Read more on{" "}
             <a href="https://medium.com/@annieuxjourney" target="_blank">
-              Medium.
+              Medium
+            </a>{" "}
+            and follow me on{" "}
+            <a href="https://dribbble.com/annieuxjourney" target="_blank">
+              Dribbble.
             </a>{" "}
           </h1>
         </div>
@@ -165,17 +168,26 @@ const BlogIndex = ({ data }, location) => {
       <br />
       <br />
       <div className="post-feed">
-        {posts.map(({ node }) => {
-          postCounter++
-          return (
-            <PostCard
-              key={node.fields.slug}
-              count={postCounter}
-              node={node}
-              postClass={`post`}
-            />
-          )
-        })}
+        {articles.length === 0 ? (
+          <div className="text-center py-12">
+            <h3 className="text-3xl text-gray-600">No articles yet</h3>
+            <p className="text-xl text-gray-500 mt-2">
+              Check back soon for new writing!
+            </p>
+          </div>
+        ) : (
+          articles.map(({ node }) => {
+            postCounter++
+            return (
+              <PostCard
+                key={node.fields.slug}
+                count={postCounter}
+                node={node}
+                postClass={`post`}
+              />
+            )
+          })
+        )}
       </div>
     </Layout>
   )
@@ -200,6 +212,7 @@ const indexQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            type
             thumbnail {
               childImageSharp {
                 gatsbyImageData(width: 1360, layout: CONSTRAINED)

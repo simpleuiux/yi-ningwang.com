@@ -10,6 +10,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
   const [thumbnail, setThumbnail] = useState("")
   const [content, setContent] = useState("")
   const [slug, setSlug] = useState("")
+  const [type, setType] = useState("case-study")
   const [saving, setSaving] = useState(false)
   const [isDragging, setIsDragging] = useState(false)
   const [uploading, setUploading] = useState(false)
@@ -23,6 +24,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
       setThumbnail(article.thumbnail || "")
       setContent(article.content || "")
       setSlug(existingSlug || "")
+      setType(article.type || "case-study")
     } else {
       setDate(new Date().toISOString().slice(0, 10))
     }
@@ -132,6 +134,7 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
         thumbnail,
         content,
         slug: slug || generateSlug(title),
+        type,
       }
 
       const url = existingSlug
@@ -273,6 +276,33 @@ const ArticleEditor = ({ article, slug: existingSlug }) => {
                   Slug cannot be changed after creation
                 </p>
               )}
+            </div>
+
+            {/* Type */}
+            <div>
+              <label
+                htmlFor="type"
+                className="block text-2xl font-semibold text-gray-700 mb-2"
+              >
+                Type <span className="text-red-500">*</span>
+              </label>
+              <select
+                id="type"
+                value={type}
+                onChange={(e) => setType(e.target.value)}
+                required
+                className="block w-full px-5 py-4 text-2xl border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 transition-all duration-200"
+                style={{ cursor: "pointer" }}
+                onFocus={(e) => (e.target.style.borderColor = "#26a8ed")}
+                onBlur={(e) => (e.target.style.borderColor = "#d1d5db")}
+              >
+                <option value="case-study">Case Study (Portfolio Work)</option>
+                <option value="article">Article (Blog/Writing)</option>
+              </select>
+              <p className="mt-2 text-lg text-gray-500">
+                💡 Case Studies appear in your portfolio, Articles appear in the
+                Writing section
+              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

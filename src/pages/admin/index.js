@@ -52,6 +52,7 @@ const AdminDashboard = ({ data }) => {
         title: node.frontmatter.title || "",
         date: node.frontmatter.date || "",
         description: node.frontmatter.description || "",
+        type: node.frontmatter.type || "case-study",
         thumbnail:
           node.frontmatter.thumbnail?.publicURL ||
           node.frontmatter.thumbnail ||
@@ -257,7 +258,13 @@ const AdminDashboard = ({ data }) => {
     return null
   }
 
-  const filteredArticles = activeTab === "all" ? articles : articles
+  const filteredArticles =
+    activeTab === "all"
+      ? articles
+      : articles.filter((article) => {
+          const articleType = article.type || "case-study"
+          return articleType === activeTab
+        })
 
   return (
     <Layout>
@@ -305,10 +312,10 @@ const AdminDashboard = ({ data }) => {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h1 className="text-6xl font-bold text-gray-900 mb-3">
-                Case Studies
+                Content Manager
               </h1>
               <p className="text-2xl text-gray-500">
-                Manage your portfolio case studies
+                Manage your case studies and articles
               </p>
             </div>
             <div className="flex items-center space-x-4">
@@ -358,6 +365,53 @@ const AdminDashboard = ({ data }) => {
                 Logout
               </button>
             </div>
+          </div>
+
+          {/* Filter Tabs */}
+          <div className="mb-8 border-b border-gray-200">
+            <nav className="flex space-x-8">
+              <button
+                onClick={() => setActiveTab("all")}
+                className={`pb-4 px-1 text-2xl font-medium transition-all duration-200 ${
+                  activeTab === "all"
+                    ? "border-b-4 text-blue-600"
+                    : "border-b-4 border-transparent text-gray-500 hover:text-gray-700"
+                }`}
+                style={{
+                  borderColor: activeTab === "all" ? "#26a8ed" : "transparent",
+                }}
+              >
+                All
+              </button>
+              <button
+                onClick={() => setActiveTab("case-study")}
+                className={`pb-4 px-1 text-2xl font-medium transition-all duration-200 ${
+                  activeTab === "case-study"
+                    ? "border-b-4 text-blue-600"
+                    : "border-b-4 border-transparent text-gray-500 hover:text-gray-700"
+                }`}
+                style={{
+                  borderColor:
+                    activeTab === "case-study" ? "#26a8ed" : "transparent",
+                }}
+              >
+                Case Studies
+              </button>
+              <button
+                onClick={() => setActiveTab("article")}
+                className={`pb-4 px-1 text-2xl font-medium transition-all duration-200 ${
+                  activeTab === "article"
+                    ? "border-b-4 text-blue-600"
+                    : "border-b-4 border-transparent text-gray-500 hover:text-gray-700"
+                }`}
+                style={{
+                  borderColor:
+                    activeTab === "article" ? "#26a8ed" : "transparent",
+                }}
+              >
+                Articles
+              </button>
+            </nav>
           </div>
 
           {/* Articles List */}
@@ -465,6 +519,20 @@ const AdminDashboard = ({ data }) => {
 
                       {/* Content */}
                       <div className="flex-1 flex flex-col">
+                        {/* Type Badge */}
+                        <div className="mb-3">
+                          <span
+                            className={`inline-block px-4 py-2 text-base font-medium rounded-full ${
+                              (article.type || "case-study") === "article"
+                                ? "bg-purple-100 text-purple-700"
+                                : "bg-blue-100 text-blue-700"
+                            }`}
+                          >
+                            {(article.type || "case-study") === "article"
+                              ? "📝 Article"
+                              : "💼 Case Study"}
+                          </span>
+                        </div>
                         <Link
                           to={article.slug}
                           className="text-4xl font-semibold text-gray-900 hover:underline mb-3 block"
@@ -615,6 +683,7 @@ export const query = graphql`
             title
             date
             description
+            type
             thumbnail {
               publicURL
             }

@@ -33,7 +33,7 @@ exports.handler = async (event, context) => {
 
   try {
     const body = JSON.parse(event.body)
-    const { title, description, date, thumbnail, content, oldSlug } = body
+    const { title, description, date, thumbnail, content, oldSlug, type } = body
 
     if (!title || !content || !oldSlug) {
       return {
@@ -60,6 +60,7 @@ exports.handler = async (event, context) => {
       "---",
       `title: ${yamlString(title)}`,
       `date: ${yamlString(date || new Date().toISOString().slice(0, 10))}`,
+      `type: ${yamlString(type || "case-study")}`,
     ]
 
     if (description && description.trim()) {
