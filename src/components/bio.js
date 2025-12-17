@@ -7,25 +7,26 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
-      render={data => {
+      render={(data) => {
         const { author, social } = data.site.siteMetadata
         return (
           <section>
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
+            <GatsbyImage
+              image={data.avatar.childImageSharp.gatsbyImageData}
               alt={author}
               imgStyle={{
                 borderRadius: `50%`,
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Vancouver building useful things.
+              Written by <strong>{author}</strong> who lives and works in
+              Vancouver building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow her on Twitter
@@ -42,9 +43,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(width: 50, height: 50, layout: FIXED)
       }
     }
     site {

@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
 import PostCard from "../components/postCard"
 
 import Layout from "../components/layout"
@@ -198,7 +197,7 @@ const indexQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           excerpt
@@ -211,9 +210,7 @@ const indexQuery = graphql`
             description
             thumbnail {
               childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 1360, layout: CONSTRAINED)
               }
             }
           }
@@ -223,10 +220,10 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+export default (props) => (
   <StaticQuery
     query={indexQuery}
-    render={data => (
+    render={(data) => (
       <AboutPage location={props.location} data={data} {...props} />
     )}
   />

@@ -148,7 +148,8 @@ const BlogIndex = ({ data }, location) => {
         <div className="post-content-body">
           <h1 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             <br />
-            Eye-catching, minimal, and smart UX/UI design. <br /> Explore more on{" "}
+            Eye-catching, minimal, and smart UX/UI design. <br /> Explore more
+            on{" "}
             <a href="https://dribbble.com/annieuxjourney" target="_blank">
               Dribbble
             </a>{" "}
@@ -188,7 +189,7 @@ const indexQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           excerpt
@@ -201,9 +202,7 @@ const indexQuery = graphql`
             description
             thumbnail {
               childImageSharp {
-                fluid(maxWidth: 1360) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 1360, layout: CONSTRAINED)
               }
             }
           }
@@ -213,10 +212,10 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+export default (props) => (
   <StaticQuery
     query={indexQuery}
-    render={data => (
+    render={(data) => (
       <BlogIndex location={props.location} props data={data} {...props} />
     )}
   />

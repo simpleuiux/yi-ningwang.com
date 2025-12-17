@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -139,10 +138,12 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h1 id="about-me-titles">
-            <br />Passionate about design, psychology, and {""}
+            <br />
+            Passionate about design, psychology, and {""}
             <a href="https://github.com/simpleuiux" target="_blank">
-            bringing{""}
-            </a>{" "} ideas to life.
+              bringing{""}
+            </a>{" "}
+            ideas to life.
           </h1>
           <br />
           <br />
@@ -174,10 +175,12 @@ const AboutPage = ({ data }, location) => {
               >
                 <div class="skill">
                   <h6>
-                  As a Lead UX and UX Manager in Canada with nearly 9 years of experience, 
-                  I embrace servant leadership, fostering innovation, and teamwork. 
-                  I lead by example, value every team member's input, and focus on applying new ideas through research, 
-                  effective design processes, and user feedback for outstanding results.
+                    As a Lead UX and UX Manager in Canada with nearly 9 years of
+                    experience, I embrace servant leadership, fostering
+                    innovation, and teamwork. I lead by example, value every
+                    team member's input, and focus on applying new ideas through
+                    research, effective design processes, and user feedback for
+                    outstanding results.
                   </h6>
                 </div>
               </div>
@@ -266,9 +269,13 @@ const AboutPage = ({ data }, location) => {
                   <h3>UX Generalist</h3>
                   <p>
                     With extensive UX experience, I currently serve as the {""}
-            <a href="https://www.linkedin.com/in/annieyiningwang/" target="_blank">
-            Lead UX | UX Manager {""}
-            </a>{" "}  at Zoocasa x eXp Realty.
+                    <a
+                      href="https://www.linkedin.com/in/annieyiningwang/"
+                      target="_blank"
+                    >
+                      Lead UX | UX Manager {""}
+                    </a>{" "}
+                    at Zoocasa x eXp Realty.
                   </p>
                 </div>
               </div>
@@ -320,11 +327,15 @@ const AboutPage = ({ data }, location) => {
                   </div>
                   <h3>Creative Technologist</h3>
                   <p>
-                  I am enthusiastic about {""}
-            <a href="https://twitter.com/annieuxjourney" target="_blank">
-            sharing new technologies {""}
-            </a>{" "} and integrating innovative UX solutions using AI.
-                 </p>
+                    I am enthusiastic about {""}
+                    <a
+                      href="https://twitter.com/annieuxjourney"
+                      target="_blank"
+                    >
+                      sharing new technologies {""}
+                    </a>{" "}
+                    and integrating innovative UX solutions using AI.
+                  </p>
                 </div>
               </div>
             </div>
@@ -346,7 +357,6 @@ const AboutPage = ({ data }, location) => {
                       viewBox="0 0 52 48"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                  
                       xlink="http://www.w3.org/1999/xlink"
                       id="skill-teacher-icon"
                     >
@@ -387,11 +397,13 @@ const AboutPage = ({ data }, location) => {
                   <h3>Avid Reader</h3>
                   <p>
                     Current read on {""}
-                    <a href="https://www.goodreads.com/user/show/3607330-yining-wang" target="_blank">
+                    <a
+                      href="https://www.goodreads.com/user/show/3607330-yining-wang"
+                      target="_blank"
+                    >
                       goodreads
                     </a>
-                    {""}
-                     - 'No Rules Rules: Netflix and the Culture of
+                    {""}- 'No Rules Rules: Netflix and the Culture of
                     Reinvention' by Reed Hastings, Erin Meyer.
                   </p>
                 </div>
@@ -413,7 +425,6 @@ const AboutPage = ({ data }, location) => {
                       viewBox="0 0 49 40"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
-                  
                       xlink="http://www.w3.org/1999/xlink"
                       id="skill-speaker-icon"
                     >
@@ -443,11 +454,15 @@ const AboutPage = ({ data }, location) => {
                   <h3>Mentorship</h3>
                   <p>
                     I provide {""}
-                    <a href="https://adplist.org/mentors/annie-yining-wang" target="_blank">
+                    <a
+                      href="https://adplist.org/mentors/annie-yining-wang"
+                      target="_blank"
+                    >
                       mentorship
                     </a>
-                    {""} and deliver speeches to UX designers and
-                    design students during workshops, hackathons, and university settings.
+                    {""} and deliver speeches to UX designers and design
+                    students during workshops, hackathons, and university
+                    settings.
                   </p>
                 </div>
               </div>
@@ -455,88 +470,109 @@ const AboutPage = ({ data }, location) => {
           </div>
           <br />
           <br />
-          <h5 id="dynamic-styles">Leading with Empathy: Shaping the Future of User-Centric Digital Innovation</h5>
+          <h5 id="dynamic-styles">
+            Leading with Empathy: Shaping the Future of User-Centric Digital
+            Innovation
+          </h5>
           <p>
-            In crafting digital products, my diverse background in <b>design, communication, 
-            and strategy</b> guides me to not only make products that are sensible but also communidate effectively. 
-            With a <b>servant leadership approach</b>, I prioritize empathy and collaboration, 
-            ensuring our team's collective wisdom shapes each product. 
-            This approach not only meets user needs but also <b>drives business success</b> through <b>satisfied users</b>.
+            In crafting digital products, my diverse background in{" "}
+            <b>design, communication, and strategy</b> guides me to not only
+            make products that are sensible but also communidate effectively.
+            With a <b>servant leadership approach</b>, I prioritize empathy and
+            collaboration, ensuring our team's collective wisdom shapes each
+            product. This approach not only meets user needs but also{" "}
+            <b>drives business success</b> through <b>satisfied users</b>.
           </p>
           <br />
           <br />
           <h5 id="dynamic-styles">Recognition</h5>
-          2023 &nbsp;  {" "}
-          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
-          UX Writer </a>{" "}
-          {" "}
-          <a href="https://uxdesign.cc/" target="_blank">
-          @UX Collective</a>{" "} 
-          <br/>
-          2022 &nbsp;
-          {" "}
-          <a href="https://www.linkedin.com/posts/annieyiningwang_mentorship-mentoring-leadership-activity-6937447528208482304-UOOP?utm_source=share&utm_medium=member_desktop" target="_blank">
-          ADPList Top 1% Mentor Worldwide
+          2023 &nbsp;{" "}
+          <a href="https://medium.com/@annieuxjourney" target="_blank">
+            UX Writer{" "}
           </a>{" "}
-          <br/>
-          2021 &nbsp;  {" "}
-          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
-          UX Writer </a>{" "} 
-          {" "}
-          <a href="https://uxplanet.org/" target="_blank">
-          @UX Planet</a>{" "} 
+          <a href="https://uxdesign.cc/" target="_blank">
+            @UX Collective
+          </a>{" "}
           <br />
-          2020 &nbsp;  {" "}
-          <a href="https://medium.com/@annieuxjourney" target="_blank"> 
-          UX Writer </a>{" "} 
-          {" "}
+          2022 &nbsp;{" "}
+          <a
+            href="https://www.linkedin.com/posts/annieyiningwang_mentorship-mentoring-leadership-activity-6937447528208482304-UOOP?utm_source=share&utm_medium=member_desktop"
+            target="_blank"
+          >
+            ADPList Top 1% Mentor Worldwide
+          </a>{" "}
+          <br />
+          2021 &nbsp;{" "}
+          <a href="https://medium.com/@annieuxjourney" target="_blank">
+            UX Writer{" "}
+          </a>{" "}
           <a href="https://uxplanet.org/" target="_blank">
-          @UX Planet</a>{" "} 
+            @UX Planet
+          </a>{" "}
+          <br />
+          2020 &nbsp;{" "}
+          <a href="https://medium.com/@annieuxjourney" target="_blank">
+            UX Writer{" "}
+          </a>{" "}
+          <a href="https://uxplanet.org/" target="_blank">
+            @UX Planet
+          </a>{" "}
           <br />
           2019 &nbsp; Girls in Tech Hackathon -{" "}
-          <a href="https://devpost.com/software/girls_in_tech_vancouver#updates" target="_blank">
+          <a
+            href="https://devpost.com/software/girls_in_tech_vancouver#updates"
+            target="_blank"
+          >
             1st Place.
           </a>{" "}
           <br />
           <br />
           <h5 id="dynamic-styles">Experience</h5>
           <p>
-            
-I began my professional journey as an international journalist and research strategist, traversing over 40 countries and collaborating with individuals from North America, Africa, Europe, and Asia.
+            I began my professional journey as an international journalist and
+            research strategist, traversing over 40 countries and collaborating
+            with individuals from North America, Africa, Europe, and Asia.
           </p>
           <p>
-          After graduating from MBA program in 2015, I transitioned to the UX domain while working with UBS, a Swiss bank. Since then, my growth as a UX professional has been continuous. I've contributed systematic and precise research and designs across diverse industries, including <b>Consultancy</b>, <b>Financial Services</b>,{" "}
-            <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>, spanning both B2B and B2C domains.
+            After graduating from MBA program in 2015, I transitioned to the UX
+            domain while working with UBS, a Swiss bank. Since then, my growth
+            as a UX professional has been continuous. I've contributed
+            systematic and precise research and designs across diverse
+            industries, including <b>Consultancy</b>, <b>Financial Services</b>,{" "}
+            <b>Healthcare</b>, <b>Construction</b>, to <b>Real Estate</b>,
+            spanning both B2B and B2C domains.
           </p>
           <p>
-          Additionally, I hold the role of Co-founder at   -{" "}
-            <a href="https://sassy.technology">Sassy Technology</a>, a tech design studio based in Canada and Japan. Engaging with this venture adds a personal fulfillment dimension to my professional journey.​
+            Additionally, I hold the role of Co-founder at -{" "}
+            <a href="https://sassy.technology">Sassy Technology</a>, a tech
+            design studio based in Canada and Japan. Engaging with this venture
+            adds a personal fulfillment dimension to my professional journey.​
           </p>
           <p>
             <br />
             <h5 id="dynamic-styles">Educational background</h5>
             2014 - 2016
-            <br/> 
-            Babson Colleage (Entrepreneurial Thought & Action) 
-            <br/>
+            <br />
+            Babson Colleage (Entrepreneurial Thought & Action)
+            <br />
             (#1 for Best MBA in Entrepreneurship - Worldwide)
-            <br/>
-            <br/>
+            <br />
+            <br />
             National Chiao Tung University - Global MBA
-            <br/> 
+            <br />
             (Top 100 in Entrepreneurship - Worldwide)
             <br />
             <br />
-            2006 - 2010 
-            <br/>
-            National Chengchi University - Media and Communication 
-            <br/> 
+            2006 - 2010
+            <br />
+            National Chengchi University - Media and Communication
+            <br />
             (#1 Best in Communication and Digital Media - Nationwide)
             <br />
             <br />
             <h5 id="dynamic-styles">Design workshop</h5>
             2021 &nbsp; ComIT - How to work with UX designer
-            <br/>
+            <br />
             2020 &nbsp; UBC Sustainability Hacks - Design Mentor
             <br />
             2020 &nbsp; International Design Foundation
@@ -544,8 +580,7 @@ I began my professional journey as an international journalist and research stra
             2017 &nbsp; World's Top 50 Thinkers workshop - Hermann Simon
             (Branding)
             <br />
-            2016 &nbsp; World's Top 50 Thinkers workshop - Alex
-            Osterwalder (UX)
+            2016 &nbsp; World's Top 50 Thinkers workshop - Alex Osterwalder (UX)
             <br />
           </p>
         </div>
@@ -596,10 +631,10 @@ const indexQuery = graphql`
   }
 `
 
-export default props => (
+export default (props) => (
   <StaticQuery
     query={indexQuery}
-    render={data => (
+    render={(data) => (
       <AboutPage location={props.location} data={data} {...props} />
     )}
   />
