@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Resume from "../../content/assets/UX Lead & UX Manager_Annie Yining Wang.pdf"
 
 const activeStyle = {
   color: "rgb(38, 168, 237)",
@@ -66,16 +65,6 @@ const Layout = (props) => {
                   WRITING
                 </Link>
               </li>
-              <a
-                href={Resume}
-                aria-label="Resume"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontSize: "larger" }}
-              >
-                {" "}
-                RESUME
-              </a>
               {/* <li className="nav-project" role="menuitem">
                 <Link to={`/project`} activeStyle={activeStyle}>
                   PROJECTS
