@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+// Navigation layout
 const activeStyle = {
   color: "rgb(38, 168, 237)",
   fontWeight: 700,
